@@ -1,0 +1,543 @@
+
+
+*{padding:0;margin:0;}
+
+.clear{
+	clear:both;
+}
+/* 功能列表 title */
+.APP_title_words{
+	text-align:center;
+	line-height:20px;
+	font-size:18px;
+}
+.APP_title{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.APP_title_words:before,.APP_title_words:after{
+	content:"";
+	position:absolute;
+	top: 50%;
+	background-color:#B3B4B5;
+	height:1px;
+	width:44%;
+}
+.APP_title_words:before{
+	left:0px;
+}
+.APP_title_words:after{
+	right:0px;
+}
+/* 行動應用 第一塊 */
+.APP_container{
+	color:#293E53;
+}
+.APP_application_introduce{
+	margin:0 auto;
+	width:800px;
+}
+.APP_application_introduce_right{
+	float:right;
+	width:350px;
+}
+.APP_application_introduce_right h1{
+	font-size:29px;
+	margin-top:30%;
+	font-weight:300;
+}
+.APP_application_introduce_right p{
+	font-size:15px;
+}
+.APP_application_introduce_right span{
+	line-height:30px;
+	display:block;
+	font-size:15px;
+}
+.APP_application_introduce_left img{
+	width:400px;
+	height:400px
+}
+
+/* 行動應用 第二塊 功能列表 */
+.APP_application_list_up{
+	width:43.5em;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+.APP_application_list_up a{
+	display:inline-block;
+	color:#293E53;
+	border:solid 1px #B6B6C1;
+	padding:12px 0px;
+	width:9.5em;
+	margin:9.5px 8px;
+	background-color:#ffffff;
+	text-align:center;
+	border-radius:5px;
+}
+.APP_application_list_up a:hover{
+	background-color:#293E53;
+	color:#ffffff;
+	text-decoration:none;
+	transition:all 0.5s;
+}
+.APP_application_list_up a:active{
+	background-color:#293E53;
+	color:#ffffff;
+}
+
+/* 功能列輪播示意圖 */
+.APP_application_list_down{
+	background-color:#293E53;
+	margin-bottom: 50px;
+}
+.APP_list_down_right,.APP_list_down_left{
+	display:inline-block;
+}
+.APP_list_down_right{
+	color:#ffffff;
+	float:right;
+	margin-top:76px;
+	width:45%;
+}
+.APP_list_down_right h4{
+	margin-bottom:18px
+}
+.APP_list_down_right a{
+	display:block;
+	border:solid 1px #ffffff;
+	padding:8px;
+	margin-top:10px;
+	background-color:#293E53;
+	width:7.3em;
+	color:#ffffff;
+	text-decoration:none;
+}
+.APP_list_down_right a:hover{
+
+}
+.APP_list_down_inside{
+	width:550px;
+	margin:0 auto;
+	padding:50px 0;
+}
+
+
+
+
+/* 下載安裝 */
+.APP_download_img{
+	background:url("../img/APP_download.jpg") no-repeat;
+	width:100%;
+	padding:40px 0;
+}
+.APP_download_whiteback{
+	background-color:rgba(255,255,255,.8);
+	padding:40px 0;
+}
+.APP_download_whiteback_inside{
+	width:506px;
+	margin:auto;
+}
+.APP_download_whiteback_inside span{
+	display:inline-block;
+	vertical-align:bottom;
+	padding:0 10px;
+}
+.APP_download_whiteback_inside span p{
+	font-size:12px;
+}
+.APP_download_QRcord img{
+	width:100px;
+}
+.APP_download_google img,.APP_download_apple img{
+	width:130px
+}
+.APP_download_google{
+	padding-bottom:10px
+}
+.APP_download_words{
+	margin-bottom:15px;
+	padding:0;
+	width:32%;
+	color:#21243B;
+}
+
+/* 登入註冊 */
+.APP_signin{
+	width:100%;
+	text-align:center;
+}
+.APP_signin_box{
+	width:27%;
+	border:solid 2px #59A3A1;
+	text-align:center;
+	display:inline-block;
+	margin:0 15px;
+}
+.APP_signin_box_top{
+	background-color:#59A3A1;
+	color:#ffffff;
+	padding:10px 0;
+	font-weight:200;
+}
+.APP_signin_box_top h4{
+	font-size:20px;
+	font-weight:400;
+	line-height:30px
+}
+.APP_signin_box_top p{
+	font-size:15px;
+	line-height:13px;
+}
+.APP_signin_box_down{
+	color:#59A3A1;
+	font-size:15px;
+	padding:10px 0;
+}
+.APP_signin_box_down p{
+	line-height:13px;
+	font-size:15px;
+}
+.APP_signin_box_down img{
+	width:200px;
+	padding:20px 0;
+}
+.APP_signin_box_down_space p{
+	padding-top:23px
+}
+
+/* 介面說明 */
+/* 套別人的css！ */
+.APP_interface .tabs {
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left:21%;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.APP_interface .tab {
+  display: inline-block;
+  z-index: 1000;
+  padding: 3px 8%;
+  font-size:14px;
+  cursor: pointer;  
+}
+/* tabs buttom */
+.APP_interface .tab.active{
+  transition:background 1s ease;
+}
+.APP_interface .tabImg{ 
+  display:block;
+  width:100%;
+}
+.APP_interface .tabCaption{
+  padding-top:3em;
+  z-index:999999;
+  text-align:center;
+}
+.APP_interface .biruTab {
+  position: relative;
+  padding-top: 2em;
+  width: 100%;
+  overflow: auto;
+  margin: 0 auto;
+}
+.APP_interface .biruTab ul,
+.APP_interface .biruTab ol {
+  margin: 0;
+  padding:0;
+}
+.APP_interface .biruTab ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+.APP_interface .biruTab ul li {
+  position:relative;
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;   
+  padding: 0; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+/* 修改他的樣式 */
+.APP_interface .tabs li{
+	border:solid 1px #E2E2E2;
+}
+.APP_interface .tab.active{
+  background:#427cad;
+  color: #ffffff;
+}
+#APP_interface_width{
+	width:100%;margin: 2%;
+}
+.APP_interface_img,.APP_interface_words{
+	display:inline-block;
+}
+.APP_interface_words{
+	text-align:left;
+	padding-left:15px;
+}
+.APP_interface .shareMe{
+	display:none;
+}
+
+@media(max-width:768px){
+/* body{
+	margin:-297px;
+} */
+.APP_application_introduce_right h1{
+	margin-top:20px;
+}
+.APP_application_introduce_right{
+	float:none;
+	width:auto;
+}
+.APP_application_introduce{
+	width:auto;
+	text-align:center;
+}
+
+.APP_title_words:before, .APP_title_words:after{
+	width:32%;
+}
+.APP_application_list_up{
+	width:auto;
+	text-align: center;
+}
+
+.APP_list_down_right{
+	float:none;
+	margin-top:0px;
+	width:auto;
+}
+.APP_list_down_right, .APP_list_down_left{
+	display:block;
+}
+.APP_list_down_inside{
+	width:auto;
+	padding:20px 0;
+}
+.APP_application_list_down{
+	text-align:center;
+}
+.APP_list_down_right a{
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+.APP_download_whiteback_inside span{
+	display:block;
+}
+.APP_download_whiteback_inside{
+	width:auto;
+}
+.APP_download_whiteback{
+	padding:23px 0;
+	text-align: center;
+}
+.APP_download_words{
+	width:auto;
+}
+.APP_download_QRcord{
+	display:none;
+}
+
+/* 登入註冊 RWD */
+.APP_signin_box{
+	width:100%;
+	margin:8px 0;
+}
+
+
+.APP_interface .tabs{
+	text-align:center;
+	left:0%;
+}
+.APP_interface .tabCaption{
+	padding-top:1em;
+	margin: 1em;
+	margin-bottom: 2em;
+}
+.APP_interface_words{
+	padding-top:13px;
+}
+}
+
+
+*{
+	padding:0; margin:0;
+}
+.clear{
+	clear:both;
+}
+
+.client_banner{
+	text-align:center;
+	background-image:url("../img/client_banner.svg");
+}
+.client_banner h4{
+	font-weight:400;
+	color:#293E53;
+	padding:90px 0;
+	font-size:30px;
+	margin-bottom:30px;
+	margin-top:0px
+}
+
+.client_inside{
+	max-width:1280px;
+	text-align:center;
+}
+.client_inside span{
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+
+.client_left{
+	margin-right:18px;
+	width: calc(30% - 20px);
+}
+.client_left h3{
+	color:#043E79;
+	font-size:23px;
+	font-weight:400;
+	margin-bottom:10px;
+	margin-top: 0;
+}
+.client_left p{
+	font-size:16px;
+	font-weight:400;
+	padding:9px 0px;
+	margin:0;
+}
+.client_left p span{
+	color: #656565;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.client_left .client_left_last_p{
+	border-bottom:solid 1px #e4e4e4;
+}
+.client_right{
+	width: calc(70% - 20px);
+	margin-left:18px;
+}
+.client_right_title{
+	color:#293E53;
+	font-size:16px;
+	font-weight:400;
+	position:relative;
+	top:7px;
+	margin-right:6px
+}
+.client_right_box input,.client_right_box textarea{
+	width: calc(100% - 4.5em);
+	outline: none;
+    border: solid 1px #d4d4d4;
+    /* box-shadow: 0 0 3px gainsboro; */
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    resize: none;
+}
+.client_right_box textarea{
+	margin-bottom:5px;
+}
+.client_input_1{
+	width:230px;
+}
+.client_input_2{
+	width:140px
+}
+.client_input_3{
+	width:150px;
+}
+.client_input_4{
+	width:200px
+}
+.client_input_5{
+	width:230px;
+	height:150px;
+}
+/* 控制輸入格裡字的顏色粗細 */
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+	color:#999;
+	font-weight:400;
+	font-size:14px;
+}
+input::-moz-placeholder,textarea::-moz-placeholder{
+	color:#999;
+	font-weight:400;
+	font-size:14px
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+	color:#999;
+	font-weight:400;
+	font-size:14px
+}
+/* 送出按鈕 */
+.client_submit{
+	background-color:#20b3d4;
+	color:#ffffff;
+	border: 0;
+	border-radius:3px;
+	padding:1em 6em;
+	font-weight:400;
+	outline:none; /* 去掉點擊會出現的藍框 */
+	width: calc(100% - 4em);
+	float: right;
+	margin-bottom: 2em;
+	font-size: 16px;
+}
+.client_submit_box{
+	text-align:center;
+	margin-bottom:15px;
+}
+.client_submit:hover{
+	background-color:#043E79;
+	transition:all .3s
+}
+.client_submit:active{
+	background-color:#043E79;
+}
+.client_left img{
+	width:15px
+}
+.client_right img{
+	width:13px;
+	position:relative;
+	bottom:2px;
+}
+
+@media(max-width:768px){
+	.client_banner h4{
+		margin-bottom:15px;
+	}
+	.client_right{
+		width: 100%;
+		margin-top:15px;
+		margin-left:0px;
+	}
+	.client_left{
+		margin-right:18px;
+		width: 100%;
+	}
+}
+
