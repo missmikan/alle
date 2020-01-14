@@ -5,10 +5,8 @@
 .clear{
 	clear:both;
 }
-<<<<<<< HEAD
 img{
-	max-width:1024px;
-=======
+	max-width:1024px;}
 .contact_form{
 	padding: 15px 0;
 	font-size: 16px;
@@ -40,7 +38,6 @@ img{
 }
 .APP_title_words:after{
 	right:0px;
->>>>>>> 914f97c735abc4a184cc04052a2f403d7bd527ef
 }
 /* 設計理念 */
 .APP_banner_img{
@@ -74,16 +71,12 @@ img{
 	color:#909090;
 	font-weight:300;
 }
-<<<<<<< HEAD
 .all_product_title_underline{
 	background-color:#E3E3E3;
 	height:1px;
 	width:100%;
 	margin:15px 0;
 }
-=======
->>>>>>> 914f97c735abc4a184cc04052a2f403d7bd527ef
-
 
 /* 應用功能 */
 .APP_application_list_up{
