@@ -32,7 +32,7 @@
 .APP_title_words:after{
 	right:0px;
 }
-/* 行動應用 第一塊 */
+/* 設計理念 */
 .APP_container{
 	color:#293E53;
 }
@@ -40,27 +40,34 @@
 	margin:0 auto;
 	width:800px;
 }
-.APP_application_introduce_right{
-	float:right;
-	width:350px;
+.APP_banner_img img{
+	max-width:auto;
 }
-.APP_application_introduce_right h1{
-	font-size:29px;
-	margin-top:30%;
+.APP_designconcept{
+	color:#797979;
+	font-size:16px;
 	font-weight:300;
 }
-.APP_application_introduce_right p{
-	font-size:15px;
+/* 大標題 */
+.all_product_title{
+	margin-top:28px;
 }
-.APP_application_introduce_right span{
-	line-height:30px;
-	display:block;
-	font-size:15px;
+.all_product_title_big{
+	font-size:25px;
+	color:#293E53;
+	font-weight:500;
 }
-.APP_application_introduce_left img{
-	width:400px;
-	height:400px
+.all_product_title_smail{
+	font-size:14px;
+	color:#909090;
+	font-weight:300;
 }
+.all_product_title_underline{
+	background-color:#E3E3E3;
+	height:1px;
+	width:100%;
+}
+
 
 /* 行動應用 第二塊 功能列表 */
 .APP_application_list_up{
@@ -304,17 +311,8 @@
 /* body{
 	margin:-297px;
 } */
-.APP_application_introduce_right h1{
-	margin-top:20px;
-}
-.APP_application_introduce_right{
-	float:none;
-	width:auto;
-}
-.APP_application_introduce{
-	width:auto;
-	text-align:center;
-}
+
+
 
 .APP_title_words:before, .APP_title_words:after{
 	width:32%;
