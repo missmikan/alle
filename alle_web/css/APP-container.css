@@ -5,11 +5,6 @@
 .clear{
 	clear:both;
 }
-.contact_form{
-	padding: 15px 0;
-	font-size: 16px;
-	margin-bottom: 15px;
-}
 /* 功能列表 title */
 .APP_title_words{
 	text-align:center;
@@ -166,8 +161,6 @@
 	margin:0 auto;
 	padding:50px 0;
 }
-
-
 
 
 /* 下載安裝 */
@@ -342,7 +335,9 @@
 	margin:-297px;
 } */
 
-
+.APP_application_list_up a {
+	width: calc(50% - 8px);
+}
 
 .APP_title_words:before, .APP_title_words:after{
 	width:32%;
