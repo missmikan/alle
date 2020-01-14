@@ -461,7 +461,7 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: #293E53;
+  background: #307fce;
   z-index: 9;
 }
 .menu .main-menu ul.navbar-nav li a {
@@ -791,7 +791,7 @@ div#preloader {
 /* 2.1. Stick menu
 /*--------------------------------*/
 .menu.stick {
-  background-color: #293E53;
+  background-color: #10467b;
   height: 70px;
   position: fixed;
   top: 0;
@@ -2157,7 +2157,7 @@ div#preloader {
 
 .footer-area {
   padding: 25px 0;
-  background: #2A2D2F;
+  background: #307fce;
 }
 .footer-area-bottom {
   background: #f1f1f1 none repeat scroll 0 0;
@@ -2175,7 +2175,7 @@ div#preloader {
 
 .copyright>p {
   margin-bottom: 0;
-  color: #a5a5a5;
+  color: #b0dbff;
 }
 
 .copyright a, .credits a {
@@ -2195,7 +2195,7 @@ div#preloader {
 }
 .f_company_area .top{
   padding: 15px 0;
-  border-top: 1px solid #707070;
+  border-top: 1px solid #b0dbff;
   font-size: 1.2em;
 }
 .f_menu ul{
