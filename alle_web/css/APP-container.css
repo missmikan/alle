@@ -12,33 +12,6 @@ img{
 	font-size: 16px;
 	margin-bottom: 15px;
 }
-/* 功能列表 title */
-.APP_title_words{
-	text-align:center;
-	line-height:20px;
-	font-size:18px;
-}
-.APP_title{
-	position:relative;
-	text-align:center;
-	width:100%;
-	margin-top:50px;
-	margin-bottom:30px;
-}
-.APP_title_words:before,.APP_title_words:after{
-	content:"";
-	position:absolute;
-	top: 50%;
-	background-color:#B3B4B5;
-	height:1px;
-	width:44%;
-}
-.APP_title_words:before{
-	left:0px;
-}
-.APP_title_words:after{
-	right:0px;
-}
 /* 設計理念 */
 .APP_banner_img{
 	margin-bottom:40px;
@@ -183,9 +156,19 @@ img{
 	top:-3px;
 	margin-right:5px;
 }
+<<<<<<< HEAD
+
+
+/* 下載安裝 */
+.APP_download_img{
+	background:url("../img/APP_download.jpg") no-repeat;
+	width:100%;
+	padding:40px 0;
+=======
 .APP_customer_container span:after{
 	content: "";
 	margin-right:93px;
+>>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
 }
 .APP_customer_bottom{
 	text-align:center;
@@ -224,6 +207,16 @@ img{
 }
 
 @media(max-width:768px){
+<<<<<<< HEAD
+/* body{
+	margin:-297px;
+} */
+
+.APP_application_list_up a {
+	width: calc(50% - 8px);
+}
+=======
+>>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
 
 .APP_application_list_up{
 	width:auto;
