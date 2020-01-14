@@ -5,6 +5,11 @@
 .clear{
 	clear:both;
 }
+.contact_form{
+	padding: 15px 0;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
 /* 功能列表 title */
 .APP_title_words{
 	text-align:center;
@@ -49,23 +54,21 @@
 	font-weight:300;
 }
 /* 大標題 */
-.all_product_title{
-	margin-top:28px;
+.section_title{
+	margin:10px 0;
+	border-bottom: 1px solid #E3E3E3;
 }
-.all_product_title_big{
+.section_title_bg{
 	font-size:25px;
 	color:#293E53;
 	font-weight:500;
+	display: inline-block;
+	padding: 15px 0;
 }
-.all_product_title_smail{
+.section_title_sm{
 	font-size:14px;
 	color:#909090;
 	font-weight:300;
-}
-.all_product_title_underline{
-	background-color:#E3E3E3;
-	height:1px;
-	width:100%;
 }
 
 
