@@ -298,6 +298,49 @@ body {
   color: #504C4C;
 }
 
+/* ------------------------------------
+    團隊介紹
+--------------------------------------*/
+
+.section{
+  padding: 15px;
+  display: flex;
+}
+.section.reverse{
+  flex-direction:row-reverse;
+  background-color: #FAFAFA;
+}
+.section .texts{
+  width: 60%;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section .texts .img{
+  width: 40%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.section .texts .pkg{
+  max-width: 90%;
+}
+.section .img img{
+  max-width: 90%
+}
+
+@media screen and (max-width: 768px){
+  .section{
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  .section .texts,.section .img{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 /* popover */
 .ProductList{
   display: none;
