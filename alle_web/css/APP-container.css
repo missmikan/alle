@@ -156,7 +156,6 @@ img{
 	top:-3px;
 	margin-right:5px;
 }
-<<<<<<< HEAD
 
 
 /* 下載安裝 */
@@ -164,11 +163,10 @@ img{
 	background:url("../img/APP_download.jpg") no-repeat;
 	width:100%;
 	padding:40px 0;
-=======
+}
 .APP_customer_container span:after{
 	content: "";
 	margin-right:93px;
->>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
 }
 .APP_customer_bottom{
 	text-align:center;
