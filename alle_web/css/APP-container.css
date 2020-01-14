@@ -71,12 +71,6 @@ img{
 	color:#909090;
 	font-weight:300;
 }
-.all_product_title_underline{
-	background-color:#E3E3E3;
-	height:1px;
-	width:100%;
-	margin:15px 0;
-}
 
 /* 應用功能 */
 .APP_application_list_up{
@@ -136,6 +130,25 @@ img{
 	background-color:#293E53;
 	color:#ffffff;
 }
+ /* 應用功能彈出視窗 */
+ .APP_application_list_class{
+ 	background-color:#293E53;
+ 	
+ }
+ .APP_application_list_class div{
+ 	display:inline-block;
+ 	color:#ffffff;
+ 	margin:20px 20px;
+ }
+ .APP_application_list_class div h4{
+ 	font-size:23px;
+ 	font-weight:400;
+ 	margin-bottom:20px;
+ }
+ .APP_application_list_class div p{
+ 	font-size:16px;
+ 	font-weight:300;
+ }
 
 /* 客戶實例 */
 .APP_customer_picture{
@@ -198,29 +211,16 @@ img{
 }
 
 /* 聯繫我們 */
-.APP_contact_container{
-	color:#504C4C;
-	font-size:18px;
-	margin-right:150px;
-	display:inline-block;
-	margin-top: 15px;
-}
-.APP_contact_word{
-	font-size:14px;
-}
-.APP_contact_word:before{
-	content:"詢價請洽";
-	color:#7D7A7A;
-	padding:0 5px;
-}
-.APP_contact_bottom{
+.APP_contact_down{
 	color:#5A5A5A;
 	font-size:16px;
 	text-align:center;
 	background-color:#EDF8FF;
 	padding:10px 0;
 	font-weight:300;
-	margin: 30px 0;
+	margin: 20px 0;
+	display:inline-block;
+	width:100%;
 }
 
 @media(max-width:768px){
