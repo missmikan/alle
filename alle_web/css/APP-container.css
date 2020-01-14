@@ -106,12 +106,14 @@ img{
  /* 應用功能彈出視窗 */
  .APP_application_list_class{
  	background-color:#293E53;
- 	
+ 	text-align:center;
+ 	position:relative;
  }
  .APP_application_list_class div{
  	display:inline-block;
  	color:#ffffff;
  	margin:20px 20px;
+ 	text-align:left;
  }
  .APP_application_list_class div h4{
  	font-size:23px;
@@ -122,6 +124,26 @@ img{
  	font-size:16px;
  	font-weight:300;
  }
+ .APP_application_class_words{
+ 	vertical-align:top;
+ 	padding-top:100px;
+ }
+/*  .APP_application_triangle{
+ 	display:inline-block;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent #FFAA46 transparent transparent;
+    position: absolute;
+    top:0px;
+    right:0px;
+ } */
+.APP_application_triangle{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+ 
 
 /* 客戶實例 */
 .APP_customer_picture{
