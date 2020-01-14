@@ -64,20 +64,24 @@
 
 /* 行動應用 第二塊 功能列表 */
 .APP_application_list_up{
-	width:43.5em;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin:0 auto;
 	padding-bottom:30px;
+
 }
 .APP_application_list_up a{
 	display:inline-block;
 	color:#293E53;
 	border:solid 1px #B6B6C1;
 	padding:12px 0px;
-	width:9.5em;
-	margin:9.5px 8px;
+	width:calc(20% - 20px);
+	margin:15px 0px;
 	background-color:#ffffff;
 	text-align:center;
-	border-radius:5px;
+	border-radius:0px;
 }
 .APP_application_list_up a:hover{
 	background-color:#293E53;
