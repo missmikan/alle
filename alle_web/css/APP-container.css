@@ -5,48 +5,27 @@
 .clear{
 	clear:both;
 }
-/* 功能列表 title */
-.APP_title_words{
-	text-align:center;
-	line-height:20px;
-	font-size:18px;
-}
-.APP_title{
-	position:relative;
-	text-align:center;
-	width:100%;
-	margin-top:50px;
-	margin-bottom:30px;
-}
-.APP_title_words:before,.APP_title_words:after{
-	content:"";
-	position:absolute;
-	top: 50%;
-	background-color:#B3B4B5;
-	height:1px;
-	width:44%;
-}
-.APP_title_words:before{
-	left:0px;
-}
-.APP_title_words:after{
-	right:0px;
+img{
+	max-width:1024px;}
+.contact_form{
+	padding: 15px 0;
+	font-size: 16px;
+	margin-bottom: 15px;
 }
 /* 設計理念 */
+.APP_banner_img{
+	margin-bottom:40px;
+}
 .APP_container{
 	color:#293E53;
 }
-.APP_application_introduce{
-	margin:0 auto;
-	width:800px;
-}
-.APP_banner_img img{
-	max-width:auto;
-}
 .APP_designconcept{
 	color:#797979;
-	font-size:16px;
-	font-weight:300;
+	font-size:15px;
+	margin-bottom:30px;
+}
+.APP_application_introduce{
+	margin-bottom:50px;
 }
 /* 大標題 */
 .section_title{
@@ -65,9 +44,14 @@
 	color:#909090;
 	font-weight:300;
 }
+.all_product_title_underline{
+	background-color:#E3E3E3;
+	height:1px;
+	width:100%;
+	margin:15px 0;
+}
 
-
-/* 行動應用 第二塊 功能列表 */
+/* 應用功能 */
 .APP_application_list_up{
 	width:100%;
 	display: flex;
@@ -126,41 +110,40 @@
 	color:#ffffff;
 }
 
-/* 功能列輪播示意圖 */
-.APP_application_list_down{
-	background-color:#293E53;
-	margin-bottom: 50px;
-}
-.APP_list_down_right,.APP_list_down_left{
-	display:inline-block;
-}
-.APP_list_down_right{
-	color:#ffffff;
-	float:right;
-	margin-top:76px;
-	width:45%;
-}
-.APP_list_down_right h4{
-	margin-bottom:18px
-}
-.APP_list_down_right a{
-	display:block;
-	border:solid 1px #ffffff;
-	padding:8px;
-	margin-top:10px;
-	background-color:#293E53;
-	width:7.3em;
-	color:#ffffff;
-	text-decoration:none;
-}
-.APP_list_down_right a:hover{
-
-}
-.APP_list_down_inside{
-	width:550px;
-	margin:0 auto;
+/* 客戶實例 */
+.APP_customer_picture{
+	background-image:url('../img/APP_customer.png');
+	background-repeat:no-repeat;
 	padding:50px 0;
 }
+.APP_customer_picture_bgc{
+	background-color:rgba(0,0,0,.3);
+	text-align:center;
+	padding:30px 0;
+}
+.APP_customer_picture_bgc span{
+	color:#ffffff;
+	font-size:32px;
+	font-weight:300;
+}
+.APP_customer_container span{
+	color:#333333;
+	font-size:15px;
+	font-weight:300;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.APP_customer_container span:before{
+	content:"";
+	width:4px;
+	height: 4px;
+	background-color:#707070;
+	display:inline-block;
+	position:relative;
+	top:-3px;
+	margin-right:5px;
+}
+<<<<<<< HEAD
 
 
 /* 下載安裝 */
@@ -168,169 +151,63 @@
 	background:url("../img/APP_download.jpg") no-repeat;
 	width:100%;
 	padding:40px 0;
+=======
+.APP_customer_container span:after{
+	content: "";
+	margin-right:93px;
+>>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
 }
-.APP_download_whiteback{
-	background-color:rgba(255,255,255,.8);
-	padding:40px 0;
+.APP_customer_bottom{
+	text-align:center;
+	background-color:#F4F4F4;
+	width:100%;
+	padding:20px;
+	margin-top: 12px;
 }
-.APP_download_whiteback_inside{
-	width:506px;
-	margin:auto;
+.APP_customer_bottom span{
+	color:#504C4C;
+	font-size:18px;
+	font-weight:normal;
 }
-.APP_download_whiteback_inside span{
+.APP_customer_word:before{
+	content:"130";
+	color:#504C4C;
+	font-size:29px;
+	font-weight:bold;
 	display:inline-block;
-	vertical-align:bottom;
+	position:relative;
+	top:3px;
 	padding:0 10px;
 }
-.APP_download_whiteback_inside span p{
-	font-size:12px;
-}
-.APP_download_QRcord img{
-	width:100px;
-}
-.APP_download_google img,.APP_download_apple img{
-	width:130px
-}
-.APP_download_google{
-	padding-bottom:10px
-}
-.APP_download_words{
-	margin-bottom:15px;
-	padding:0;
-	width:32%;
-	color:#21243B;
-}
 
-/* 登入註冊 */
-.APP_signin{
-	width:100%;
-	text-align:center;
-}
-.APP_signin_box{
-	width:27%;
-	border:solid 2px #59A3A1;
-	text-align:center;
+/* 聯繫我們 */
+.APP_contact_container{
+	color:#504C4C;
+	font-size:18px;
+	margin-right:150px;
 	display:inline-block;
-	margin:0 15px;
+	margin-top: 15px;
 }
-.APP_signin_box_top{
-	background-color:#59A3A1;
-	color:#ffffff;
+.APP_contact_word{
+	font-size:14px;
+}
+.APP_contact_word:before{
+	content:"詢價請洽";
+	color:#7D7A7A;
+	padding:0 5px;
+}
+.APP_contact_bottom{
+	color:#5A5A5A;
+	font-size:16px;
+	text-align:center;
+	background-color:#EDF8FF;
 	padding:10px 0;
-	font-weight:200;
-}
-.APP_signin_box_top h4{
-	font-size:20px;
-	font-weight:400;
-	line-height:30px
-}
-.APP_signin_box_top p{
-	font-size:15px;
-	line-height:13px;
-}
-.APP_signin_box_down{
-	color:#59A3A1;
-	font-size:15px;
-	padding:10px 0;
-}
-.APP_signin_box_down p{
-	line-height:13px;
-	font-size:15px;
-}
-.APP_signin_box_down img{
-	width:200px;
-	padding:20px 0;
-}
-.APP_signin_box_down_space p{
-	padding-top:23px
-}
-
-/* 介面說明 */
-/* 套別人的css！ */
-.APP_interface .tabs {
-  text-align: center;
-  list-style: none;
-  position: absolute;
-  top: 0;
-  left:21%;
-  display: block;
-  width: 100%;
-  text-align: left;
-}
-
-.APP_interface .tab {
-  display: inline-block;
-  z-index: 1000;
-  padding: 3px 8%;
-  font-size:14px;
-  cursor: pointer;  
-}
-/* tabs buttom */
-.APP_interface .tab.active{
-  transition:background 1s ease;
-}
-.APP_interface .tabImg{ 
-  display:block;
-  width:100%;
-}
-.APP_interface .tabCaption{
-  padding-top:3em;
-  z-index:999999;
-  text-align:center;
-}
-.APP_interface .biruTab {
-  position: relative;
-  padding-top: 2em;
-  width: 100%;
-  overflow: auto;
-  margin: 0 auto;
-}
-.APP_interface .biruTab ul,
-.APP_interface .biruTab ol {
-  margin: 0;
-  padding:0;
-}
-.APP_interface .biruTab ul {
-  list-style: none;
-  width: 100%;
-  height: 100%;
-}
-.APP_interface .biruTab ul li {
-  position:relative;
-  display: block;
-  float: left;
-  width: 100%;
-  height: auto;   
-  padding: 0; 
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -ms-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-}
-/* 修改他的樣式 */
-.APP_interface .tabs li{
-	border:solid 1px #E2E2E2;
-}
-.APP_interface .tab.active{
-  background:#427cad;
-  color: #ffffff;
-}
-#APP_interface_width{
-	width:100%;margin: 2%;
-}
-.APP_interface_img,.APP_interface_words{
-	display:inline-block;
-}
-.APP_interface_words{
-	text-align:left;
-	padding-left:15px;
-}
-.APP_interface .shareMe{
-	display:none;
+	font-weight:300;
+	margin: 30px 0;
 }
 
 @media(max-width:768px){
+<<<<<<< HEAD
 /* body{
 	margin:-297px;
 } */
@@ -338,71 +215,14 @@
 .APP_application_list_up a {
 	width: calc(50% - 8px);
 }
+=======
+>>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
 
-.APP_title_words:before, .APP_title_words:after{
-	width:32%;
-}
 .APP_application_list_up{
 	width:auto;
 	text-align: center;
 }
 
-.APP_list_down_right{
-	float:none;
-	margin-top:0px;
-	width:auto;
-}
-.APP_list_down_right, .APP_list_down_left{
-	display:block;
-}
-.APP_list_down_inside{
-	width:auto;
-	padding:20px 0;
-}
-.APP_application_list_down{
-	text-align:center;
-}
-.APP_list_down_right a{
-	display:inline-block;
-	margin-bottom:10px;
-}
-
-.APP_download_whiteback_inside span{
-	display:block;
-}
-.APP_download_whiteback_inside{
-	width:auto;
-}
-.APP_download_whiteback{
-	padding:23px 0;
-	text-align: center;
-}
-.APP_download_words{
-	width:auto;
-}
-.APP_download_QRcord{
-	display:none;
-}
-
-/* 登入註冊 RWD */
-.APP_signin_box{
-	width:100%;
-	margin:8px 0;
-}
-
-
-.APP_interface .tabs{
-	text-align:center;
-	left:0%;
-}
-.APP_interface .tabCaption{
-	padding-top:1em;
-	margin: 1em;
-	margin-bottom: 2em;
-}
-.APP_interface_words{
-	padding-top:13px;
-}
 }
 
 
