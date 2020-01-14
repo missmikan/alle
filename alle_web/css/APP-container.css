@@ -5,8 +5,42 @@
 .clear{
 	clear:both;
 }
+<<<<<<< HEAD
 img{
 	max-width:1024px;
+=======
+.contact_form{
+	padding: 15px 0;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+/* 功能列表 title */
+.APP_title_words{
+	text-align:center;
+	line-height:20px;
+	font-size:18px;
+}
+.APP_title{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.APP_title_words:before,.APP_title_words:after{
+	content:"";
+	position:absolute;
+	top: 50%;
+	background-color:#B3B4B5;
+	height:1px;
+	width:44%;
+}
+.APP_title_words:before{
+	left:0px;
+}
+.APP_title_words:after{
+	right:0px;
+>>>>>>> 914f97c735abc4a184cc04052a2f403d7bd527ef
 }
 /* 設計理念 */
 .APP_banner_img{
@@ -24,25 +58,31 @@ img{
 	margin-bottom:50px;
 }
 /* 大標題 */
-.all_product_title{
-	margin-top:28px;
+.section_title{
+	margin:10px 0;
+	border-bottom: 1px solid #E3E3E3;
 }
-.all_product_title_big{
+.section_title_bg{
 	font-size:25px;
 	color:#293E53;
 	font-weight:500;
+	display: inline-block;
+	padding: 15px 0;
 }
-.all_product_title_smail{
+.section_title_sm{
 	font-size:14px;
 	color:#909090;
 	font-weight:300;
 }
+<<<<<<< HEAD
 .all_product_title_underline{
 	background-color:#E3E3E3;
 	height:1px;
 	width:100%;
 	margin:15px 0;
 }
+=======
+>>>>>>> 914f97c735abc4a184cc04052a2f403d7bd527ef
 
 
 /* 應用功能 */
