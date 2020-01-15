@@ -1,36 +1,4 @@
-/*
-  Theme Name: eBusiness
-  Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*-----------------------------------------------------------------------------------
-   CSS INDEX
-  ===================
-
-  1. Theme Default CSS (body, link color, section etc)
-  2. Header Area
-   2.1 Stick menu Area
-  3. About Area
-  4.Services Area
-  5.Skill Area
-  6.Faq Area
-  7.Wellcome Area
-  8.Team Area
-  9.Review Area
-  10.Portfolio Area
-  11. Pricing Table
-  12. Testimonials area
-  13. Review Area
-  14. Quote area
-  15.Footer Area
-  16.Home Page-2 Area
-  17.Home Page 3  CSS
-  18.Blog CSS
-  17.Blog Details CSS
-
------------------------------------------------------------------------------------*/
+@charset 'UTF-8';
 
 /*----------------------------------------*/
 /*  1.  Theme default CSS
@@ -100,6 +68,19 @@ html, body {
   position: relative;
   bottom: 9px;
 }
+.download_btn{
+  border: 1px solid #305CB1;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #305CB1;
+  font-weight: 500;
+}
+.download_btn:hover{
+  border: 1px solid #305CB1;
+  background-color: #305CB1;
+  color: #FFF;
+  transition: 0.3s;
+}
 .white-btn{
   margin-top: 20px;
   display: inline-block;
@@ -119,58 +100,40 @@ html, body {
 .floatleft {
   float: left;
 }
-
 .floatright {
   float: right;
 }
-
+.center{
+  text-align: center;
+}
 .alignleft {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
 }
-
 .alignright {
   float: right;
   margin-left: 15px;
   margin-bottom: 15px;
 }
-
 .aligncenter {
   display: block;
   margin: 0 auto 15px;
 }
-
 a:focus {
   outline: 0px solid;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 .fix {
   overflow: hidden;
 }
-
-/* p {
-  margin: 0 0 15px;
-  color: #444;
-} */
-
-/* h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-  margin: 0 0 15px;
-  color: #444;
-  font-weight: 500;
-} */
-
 h1 {
   font-size: 48px;
   line-height: 50px;
 }
-
 h2 {
   font-size: 38px;
   line-height: 40px;
@@ -301,7 +264,6 @@ body {
 /* ------------------------------------
     團隊介紹
 --------------------------------------*/
-
 .section{
   padding: 15px;
   display: flex;
@@ -345,24 +307,18 @@ body {
   }
 }
 
-/* popover */
-.ProductList{
-  display: none;
-  width: 100%;
-  position: absolute;
-  top: 70px;
-  z-index: 999;
-  border-radius: 0;
-  background-color: rgba(255, 255, 255, 1);
-  border-top: 4px solid #293E53;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-  padding: 2em;
-  animation: colorChange 15s ease-in-out 0s infinite backwards;
-}
-
 /* ------------------------------------
     產品頁 - 校務行政
 --------------------------------------*/
+.header_img{
+  margin-bottom:40px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .features_list{
   display: flex;
   padding: 15px 0;
@@ -380,7 +336,115 @@ body {
   font-size: 18px;
   padding-bottom: 5px;
 }
+.bg_title{
+  background-color: #394260;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0.8em;
+  line-height: 1.1em;
+  text-align: center;
+}
+.bg_title small{
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+.section_img{
+  margin-bottom: 2em;
+}
+.section_img img{
+  max-width: 100%;
+}
+.mods{
+  display: flex;
+  flex-wrap: wrap;
+  color: #444;
+  font-size: 15px;
+}
+.mod_item{
+  margin-bottom: 3em;
+}
+.mod_item .title{
+  font-size: 1.4em;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.mod_item .title:before{
+  content: "";
+  width: 10px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+.mods .mod_item:nth-child(1) .title:before{
+  background-color: #5877B1;
+}
+.mods .mod_item:nth-child(2) .title:before{
+  background-color: #58B16D;
+}
+.mods .mod_item:nth-child(3) .title:before{
+  background-color: #772060;
+}
+.mods .mod_item:nth-child(4) .title:before{
+  background-color: #FFC860;
+}
+.mods .mod_item:nth-child(5) .title:before{
+  background-color: #C184ED;
+}
+.mods .mod_item:nth-child(6) .title:before{
+  background-color: #0DB2A5;
+}
+.mods .mod_item:nth-child(7) .title:before{
+  background-color: #3C88BF;
+}
+.mods .mod_item:nth-child(8) .title:before{
+  background-color: #009D1E;
+}
+.mods .mod_item:nth-child(9) .title:before{
+  background-color: #F563C8;
+}
+.mods .mod_item:nth-child(10) .title:before{
+  background-color: #F45400;
+}
+.mods .mod_item:nth-child(11) .title:before{
+  background-color: #333;
+}
+.mod_item .mod_list{
+  background-color: #FAFAFA;
+  padding: 1em 1em 0;
+  height: 100%;
+}
+.mod_list ul{
+  list-style-type: square;
+  padding-left:30px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.mod_list ul li{
+  width: 50%;
+  padding: 2px 0;
+}
 
+/* ------------------------------------
+    產品列表彈出
+--------------------------------------*/
+.ProductList{
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  z-index: 999;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-top: 4px solid #293E53;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  padding: 2em;
+  animation: colorChange 15s ease-in-out 0s infinite backwards;
+}
 @keyframes colorChange{
   0%{
     border-top: 4px solid #15acce;
@@ -395,8 +459,6 @@ body {
     border-top: 4px solid #15acce;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .btn-lg{
@@ -626,7 +688,9 @@ div#preloader {
 .menu .holes>a.arrow.icon-larrS {
     left: 2%;
 }
-/* -------MENU手機版------- */
+/*--------------------------------
+   MENU手機版
+--------------------------------*/
 @media screen and (max-width:768px){
   .nivoSlider {
       height: auto;
@@ -2349,7 +2413,7 @@ div#preloader {
  Main
  ----------------------------------------- */
 .main.container{
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -2369,6 +2433,8 @@ div#preloader {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   font-weight: 600;
 }
+
+
 
 /* -----------------------------------------
  頁面底部工具列
@@ -2402,6 +2468,10 @@ div#preloader {
   color: #FFF;
 }
 @media screen and ( max-width: 768px ){
+  .main.container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
   .pagebar{
     padding: 10px;
   }

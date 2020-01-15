@@ -1,12 +1,11 @@
-
-
-*{padding:0;margin:0;}
-
+@charset 'UTF-8';
+*{
+	padding:0;
+	margin:0;
+}
 .clear{
 	clear:both;
 }
-img{
-	max-width:1024px;}
 .contact_form{
 	padding: 15px 0;
 	font-size: 16px;
@@ -235,32 +234,20 @@ img{
 }
 
 @media(max-width:768px){
-<<<<<<< HEAD
-/* body{
-	margin:-297px;
-} */
-
-.APP_application_list_up a {
-	width: calc(50% - 8px);
+	.APP_application_list_up a{
+		width: calc(50% - 8px);
+	}
+	.APP_application_list_up{
+		width:auto;
+		text-align: center;
+	}
 }
-=======
->>>>>>> b46bcf4339d776822019455c47bb93e5cd7e63aa
-
-.APP_application_list_up{
-	width:auto;
-	text-align: center;
-}
-
-}
-
-
 *{
 	padding:0; margin:0;
 }
 .clear{
 	clear:both;
 }
-
 .client_banner{
 	text-align:center;
 	background-image:url("../img/client_banner.svg");
@@ -273,7 +260,6 @@ img{
 	margin-bottom:30px;
 	margin-top:0px
 }
-
 .client_inside{
 	max-width:1280px;
 	text-align:center;
@@ -283,7 +269,6 @@ img{
 	vertical-align:top;
 	text-align:left;
 }
-
 .client_left{
 	margin-right:18px;
 	width: calc(30% - 20px);
@@ -400,7 +385,6 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	position:relative;
 	bottom:2px;
 }
-
 @media(max-width:768px){
 	.client_banner h4{
 		margin-bottom:15px;
@@ -415,4 +399,3 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		width: 100%;
 	}
 }
-
