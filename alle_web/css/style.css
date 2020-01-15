@@ -325,6 +325,10 @@ body {
 .section .texts .pkg{
   max-width: 90%;
 }
+.section .texts .content{
+  color: #666;
+  font-size: 15px;
+}
 .section .img img{
   max-width: 90%
 }
@@ -354,6 +358,27 @@ body {
   box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
   padding: 2em;
   animation: colorChange 15s ease-in-out 0s infinite backwards;
+}
+
+/* ------------------------------------
+    產品頁 - 校務行政
+--------------------------------------*/
+.features_list{
+  display: flex;
+  padding: 15px 0;
+}
+.features_list .img{
+  width: 170px;
+  height: 170px;
+}
+.features_list .right_text{
+  width: calc(100% - 170px);
+}
+.features_list .right_text .title{
+  color: #0553A0;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 
 @keyframes colorChange{
@@ -394,14 +419,8 @@ body {
     padding: 10vh 0px 0px;
     box-sizing: border-box;
   }
-  .right_text .title{
-    font-size: 1.8em;
-    color:orange;
-    line-height: 1.4em;
-  }
-  .right_text .text{
-    font-size: 1em;
-    color:gray;
+  .features_list{
+    padding: 15px 0;
   }
 }
 
@@ -2331,6 +2350,7 @@ div#preloader {
  ----------------------------------------- */
 .main.container{
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 /* -----------------------------------------

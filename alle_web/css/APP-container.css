@@ -191,26 +191,34 @@ img{
 	margin-right:93px;
 }
 .APP_customer_bottom{
-	text-align:center;
 	background-color:#F4F4F4;
 	width:100%;
 	padding:20px;
 	margin-top: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.APP_customer_bottom span{
-	color:#504C4C;
-	font-size:18px;
-	font-weight:normal;
-}
-.APP_customer_word:before{
-	content:"130";
+.APP_customer_word{
 	color:#504C4C;
 	font-size:29px;
 	font-weight:bold;
+}
+.APP_customer_word:after{
+	content:"所學校正在使用";
+	color:#504C4C;
+	font-size:16px;
 	display:inline-block;
-	position:relative;
-	top:3px;
 	padding:0 10px;
+	font-weight: 400;
+}
+.APP_customer_word:before{
+	content:"共";
+	color:#504C4C;
+	font-size:15px;
+	display:inline-block;
+	padding:0 16px;
+	font-weight: 400;
 }
 
 /* 聯繫我們 */
