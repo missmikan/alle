@@ -1,15 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_641" data-name="Rectangle 641" width="31" height="31" transform="translate(688 1726)" fill="#fff" stroke="#707070" stroke-width="1"/>
+      <rect id="Rectangle_655" data-name="Rectangle 655" width="21" height="21" transform="translate(665 1731)" fill="#ccc" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Mask_Group_52" data-name="Mask Group 52" transform="translate(-688 -1726)" clip-path="url(#clip-path)">
-    <g id="check" transform="translate(688 1726)">
-      <path id="Path_338" data-name="Path 338" d="M20.39,3.764H3.095A3.1,3.1,0,0,0,0,6.859V24.154a3.1,3.1,0,0,0,3.095,3.095H20.39a3.1,3.1,0,0,0,3.095-3.095V6.859A3.1,3.1,0,0,0,20.39,3.764Z" fill="#b4bbcc"/>
-      <path id="Path_339" data-name="Path 339" d="M18.975,6.9H4.51A1.376,1.376,0,0,0,3.134,8.274V22.739A1.376,1.376,0,0,0,4.51,24.115H18.975a1.376,1.376,0,0,0,1.376-1.376V8.274A1.376,1.376,0,0,0,18.975,6.9Z" fill="#fff"/>
-      <path id="Path_340" data-name="Path 340" d="M4.52,9.66A1.376,1.376,0,0,1,5.9,8.284H20.351v-.01A1.376,1.376,0,0,0,18.975,6.9H4.51A1.376,1.376,0,0,0,3.134,8.274V22.739A1.376,1.376,0,0,0,4.51,24.115h.01Z" opacity="0.1"/>
-      <path id="Path_341" data-name="Path 341" d="M14.346,22.483a2.154,2.154,0,0,1-1.5-.612L5.771,14.979a2.154,2.154,0,0,1,3.008-3.086l5.169,5.039A49.131,49.131,0,0,1,27.684,4.091,2.154,2.154,0,0,1,30.007,7.72c-9.87,6.319-13.714,13.533-13.751,13.605a2.154,2.154,0,0,1-1.91,1.157Z" fill="#a5eb78"/>
+  <g id="Mask_Group_65" data-name="Mask Group 65" transform="translate(-665 -1731)" clip-path="url(#clip-path)">
+    <g id="check-box" transform="translate(665 1731)">
+      <path id="Path_402" data-name="Path 402" d="M20.25,0H.75A.75.75,0,0,0,0,.75v19.5A.75.75,0,0,0,.75,21h19.5a.75.75,0,0,0,.75-.75V.75A.75.75,0,0,0,20.25,0ZM19.5,19.5H1.5V1.5h18v18Z" fill="#ccc"/>
+      <path id="Path_403" data-name="Path 403" d="M16.28,8.03,15.22,6.97,9,13.189,5.78,9.97,4.72,11.03,9,15.311Z" fill="#ccc"/>
     </g>
   </g>
 </svg>
