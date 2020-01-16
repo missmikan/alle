@@ -324,10 +324,11 @@
 	content:"";
 	background-image:url('../img/library/system_checkbox.svg');
 	display:inline-block;
-	width:31px;
-	height:31px;
+	width:21px;
+	height:21px;
 	position:relative;
-	top:8px;
+	top:4px;
+	margin-right: 5px;
 }
 .Library_system_down_words,.Library_system_down_img{
 	width:48%;
@@ -335,34 +336,41 @@
     vertical-align: top;
 }
 .Library_system_down_words h4{
-	font-size:24px;
-	line-height:48px;
+	font-size:20px;
+	line-height:1px;
 	color:#363636;
+	margin-bottom: 39px;
 }
 .Library_system_down_words p{
-	color:#2085EB;
-	font-size:20px;
-	line-height:42px;
+	color:#686d73;
+	font-size:16px;
+	margin-top: 9px;
 }
 .Library_system_down_words{
-	padding:20px;
+	padding:42px;
 }
 .Library_system_down{
 	background-color:#F3F4F5;
 }
-.Library_screen_big,.Library_screen_small{
+.Library_screen_picture{
 	text-align:center;
 }
-.Library_screen_small{
-	display:none;
+.Library_screen_picture img{
+	margin-bottom: 30px;
+}
+.Library_screen_picture span{
+	color:#293E53;
+	font-size:16px;
+	margin:10px 0;
+	display:block;
 }
 
 /* 租賃方案 */
 .Library_money_box{
 	display:inline-block;
 	border:solid 1px #DBDBDB;
-	margin-right:20px;
-	width:355px;
+	margin-right:2%;
+	width:30%;
 	text-align:center;
 	padding-bottom:25px;
 }
@@ -385,6 +393,7 @@
 }
 .Library_money_box_down{
 	display:inline-block;
+	padding-left: 10px;
 }
 .Library_money_box_down h5,.Library_money_box_down h6,.Library_money_box_down p{
 	text-align:left;
@@ -411,7 +420,7 @@
 	font-size:18px;
 }
 .Library_money_outside{
-	width:97%;
+	width:94%;
 	text-align:right;
 	margin-top: 15px;
 }
@@ -440,21 +449,40 @@
 	.Library_system_down_words{
 		width:auto;
 	}
-	.Library_screen_big{
-		display:none;
+
+	.Library_money_box_top h4{
+		font-size:20px;
+		margin-bottom: 0;
 	}
-	.Library_screen_small{
+	.Library_money_box_top h4:after{
+		content:" 本以下館藏";
 		display:block;
+		font-size:16px;
+		font-weight:300;
 	}
 	.Library_money_box{
-		margin-right:0px;
-		width: 93%;
-		margin:0 20px;
 		box-sizing:border-box;
 		margin-bottom:20px;
 	}
+	.Library_money_box_down h5{
+		font-size:17px;
+		line-height:25px;
+	}
+	.Library_money_box_down h6{
+		font-size:17px;
+		line-height:17px;
+		margin-bottom: 22px;
+	}
+	.Library_money_box_down p{
+		font-size:14px;
+		line-height:15px;
+	}
 	.Library_money_outside{
 		text-align:center;
+		margin-top: 0;
+	}
+	.Library_money_outside a{
+		font-size:16px;
 	}
 	/* 客戶服務頁 */
 
