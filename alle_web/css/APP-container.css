@@ -456,10 +456,7 @@
 	.Library_money_outside{
 		text-align:center;
 	}
-}
-
-
-/* 客戶服務頁 */
+	/* 客戶服務頁 */
 
 	.APP_application_list_up a{
 		width: calc(50% - 8px);
@@ -468,6 +465,9 @@
 		width:auto;
 		text-align: center;
 	}
+}
+
+
 
 *{
 	padding:0;
