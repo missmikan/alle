@@ -348,7 +348,7 @@
 	padding:20px;
 }
 .Library_system_down{
-	background-color:#F5F5F5;
+	background-color:#F3F4F5;
 }
 .Library_screen_big,.Library_screen_small{
 	text-align:center;
@@ -413,6 +413,7 @@
 .Library_money_outside{
 	width:97%;
 	text-align:right;
+	margin-top: 15px;
 }
 .Library_money_outside a:hover{
 	color:#152035;
