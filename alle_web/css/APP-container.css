@@ -414,6 +414,10 @@
 	width:97%;
 	text-align:right;
 }
+.Library_money_outside a:hover{
+	color:#152035;
+	border-bottom:solid 1px #152035;
+}
 
 @media(max-width:768px){
 	.main.container{
@@ -448,7 +452,11 @@
 		box-sizing:border-box;
 		margin-bottom:20px;
 	}
+	.Library_money_outside{
+		text-align:center;
+	}
 	/* 客戶服務頁 */
+
 	.APP_application_list_up a{
 		width: calc(50% - 8px);
 	}
@@ -457,6 +465,9 @@
 		text-align: center;
 	}
 }
+
+
+
 *{
 	padding:0;
 	margin:0;
