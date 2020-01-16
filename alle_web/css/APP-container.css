@@ -448,11 +448,7 @@
 		box-sizing:border-box;
 		margin-bottom:20px;
 	}
-}
-
-
-/* 客戶服務頁 */
-
+	/* 客戶服務頁 */
 	.APP_application_list_up a{
 		width: calc(50% - 8px);
 	}
@@ -460,7 +456,7 @@
 		width:auto;
 		text-align: center;
 	}
-
+}
 *{
 	padding:0;
 	margin:0;
