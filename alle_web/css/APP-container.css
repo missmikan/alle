@@ -275,11 +275,11 @@ body{
 .product_triangle{
 	display:inline-block;
 	border:solid 1px #DBDBDB;
-	padding:12px 0px;
+	padding:12px 20px;
 	margin:15px 0px;
 	margin-right:20px;
 	background-color:#ffffff;
-	text-align:center;
+/* 	text-align:center; */
 	position: relative;
 	font-size: 16px;
 	font-weight: 400;
@@ -308,7 +308,7 @@ body{
 	text-align:center;
 	display:inline-block;
 }
-.Library_system_container p{
+.Library_system_words span{
 	margin-bottom:3px;
 	text-align: left;
 	color:#707070;
@@ -342,9 +342,8 @@ body{
 }
 .Library_system_down_words h4{
 	font-size:20px;
-	line-height:1px;
 	color:#363636;
-	margin-bottom: 39px;
+	margin-bottom:2px;
 }
 .Library_system_down_words p{
 	color:#686d73;
@@ -377,36 +376,57 @@ body{
 	margin-right:2%;
 	width:30%;
 	text-align:center;
-	padding-bottom:25px;
+	padding-bottom:5px;
 }
 .Library_money_box:last-child{
 	margin-right:0px;
 }
 .Library_money_box_top{
-	background-color:#468bc5;
-	color:#ffffff;
+	color:#617298;
 	padding:15px;
 }
 .Library_money_box_top h4{
-	font-size:38px;
+	font-size:30px;
 }
 .Library_money_box_top h4:after{
 	content:" 本以下館藏";
 	display:inline;
-	font-size:20px;
+	font-size:16px;
 	font-weight:300;
 }
 .Library_money_box_down{
 	display:inline-block;
-	padding-left: 10px;
 }
 .Library_money_box_down h5,.Library_money_box_down h6,.Library_money_box_down p{
 	text-align:left;
+}
+.Library_money_box_down h5,.Library_money_box_down h6{
+	margin:0px;
+	text-align:center;
 }
 .Library_money_box_down h5{
 	font-size:28px;
 	color:#2085EB;
 	line-height:51px;
+}
+.Library_money_box_down h5:before{
+	content: "一年";
+    display: block;
+    font-size: 15px;
+    color: #2085EB;
+    position: relative;
+    left: -34px;
+    line-height:0px;
+}
+.Library_money_box_down h6:before{
+	content: "三年";
+    display: block;
+    font-size: 15px;
+    color: #FFAA46;
+    position: relative;
+    left: -34px;
+    line-height:0px;
+	margin: 15px 0;
 }
 .Library_money_box_down h6{
 	font-size:26px;
@@ -443,16 +463,33 @@ body{
 	}
 	.product_triangle{
 		width:100%;
-		height: 226px;
+		height:auto;
+		margin:3px 0;
+	}
+	.product_triangle div{
+		text-align:left;
+	}
+	.library_system_title{
+		margin-bottom: 14px;
+	}
+	.Library_system_container h4{
+		display:inline-block;
 	}
 	.product_triangle a{
 		display:block;
+	}
+	.Library_system_words span{
+		text-align:left;
+		display:inline-block;
 	}
 	.Library_system_down_img{
 		display:none;
 	}
 	.Library_system_down_words{
 		width:auto;
+	}
+	.Library_bookday a{
+		text-align:right;
 	}
 
 	.Library_money_box_top h4{
@@ -462,16 +499,28 @@ body{
 	.Library_money_box_top h4:after{
 		content:" 本以下館藏";
 		display:block;
-		font-size:16px;
+		font-size:14px;
 		font-weight:300;
 	}
 	.Library_money_box{
 		box-sizing:border-box;
 		margin-bottom:20px;
+		padding:0 3px;
+		padding-bottom: 20px;
 	}
 	.Library_money_box_down h5{
 		font-size:17px;
-		line-height:25px;
+		line-height:12px;
+		margin-bottom: 12px;
+	}
+	.Library_money_box_down h5:before{
+	    margin-bottom: 9px;
+	    left: -18px;
+	}
+	.Library_money_box_down h6:before{
+		margin-top:25px;
+		left: -20px;
+
 	}
 	.Library_money_box_down h6{
 		font-size:17px;
