@@ -324,6 +324,8 @@ body {
 .features_list{
   display: flex;
   padding: 15px 0;
+  font-size: 15px;
+  line-height: 1.8em;
 }
 .features_list .img{
   width: 170px;
@@ -374,45 +376,46 @@ body {
 }
 .mod_item .title:before{
   content: "";
-  width: 10px;
+  width: 5px;
   height: 18px;
   display: inline-block;
   margin-right: 5px;
   position: relative;
   top: 2px;
+  border-radius: 3px;
 }
 .mods .mod_item:nth-child(1) .mod_list{
-  border-top: 2px solid #5877B1;
+  border-top: 1px solid #5877B1;
 }
 .mods .mod_item:nth-child(2) .mod_list{
-  border-top: 2px solid #58B16D;
+  border-top: 1px solid #58B16D;
 }
 .mods .mod_item:nth-child(3) .mod_list{
-  border-top: 2px solid #772060;
+  border-top: 1px solid #772060;
 }
 .mods .mod_item:nth-child(4) .mod_list{
-  border-top: 2px solid #FFC860;
+  border-top: 1px solid #FFC860;
 }
 .mods .mod_item:nth-child(5) .mod_list{
-  border-top: 2px solid #C184ED;
+  border-top: 1px solid #C184ED;
 }
 .mods .mod_item:nth-child(6) .mod_list{
-  border-top: 2px solid #0DB2A5;
+  border-top: 1px solid #0DB2A5;
 }
 .mods .mod_item:nth-child(7) .mod_list{
-  border-top: 2px solid #3C88BF;
+  border-top: 1px solid #3C88BF;
 }
 .mods .mod_item:nth-child(8) .mod_list{
-  border-top: 2px solid #009D1E;
+  border-top: 1px solid #009D1E;
 }
 .mods .mod_item:nth-child(9) .mod_list{
-  border-top: 2px solid #F563C8;
+  border-top: 1px solid #F563C8;
 }
 .mods .mod_item:nth-child(10) .mod_list{
-  border-top: 2px solid #F45400;
+  border-top: 1px solid #F45400;
 }
 .mods .mod_item:nth-child(11) .mod_list{
-  border-top: 2px solid #333;
+  border-top: 1px solid #333;
 }
 
 
