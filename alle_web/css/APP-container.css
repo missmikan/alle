@@ -20,6 +20,9 @@ body{
 .product_banner_img{
 	margin-bottom:40px;
 }
+.product_banner_img img{
+	max-width:100%;
+}
 .product_designconcept{
 	color:#797979;
 	font-size:15px;
@@ -262,6 +265,9 @@ body{
 .library_banner_img{
 	position:relative;
 }
+.library_banner_img img{
+	max-width: 100%;
+}
 .library_banner_words{
 	position:absolute;
 	left:10px;
@@ -361,6 +367,7 @@ body{
 }
 .Library_screen_picture img{
 	margin-bottom: 30px;
+	max-width: 100%;
 }
 .Library_screen_picture span{
 	color:#293E53;
@@ -384,6 +391,9 @@ body{
 .Library_money_box_top{
 	color:#617298;
 	padding:15px;
+}
+.Library_money_box_top img{
+	max-width:100%;
 }
 .Library_money_box_top h4{
 	font-size:30px;
