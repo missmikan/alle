@@ -135,32 +135,33 @@
     </div>
     <!-- header end -->
     <!-- Start Slider Area -->
-    <div id="home" class="slider-area">
-      <div class="bend niceties preview-2">
-        <div id="ensign-nivoslider" class="slides">
-          <img src="img/slider/slider5.jpg" alt="" title="#slider-direction-1" />
-        </div>
-        <!-- direction 1 -->
-        <div id="slider-direction-1" class="slider-direction slider-one">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="slider-content">
-                  <!-- layer 1 -->
-                  <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
-                    <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
-                  </div>
-                  <!-- layer 2 -->
-                  <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                    <button class="btn-lg btn-white">預約聯繫</button>
-                    <button class="btn-lg btn-darkblue">型錄下載</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/slider/slider5.jpg" alt="..." class="hidden-xs">
+          <img src="img/slider/slider5_mobile.jpg" alt="..." class="visible-xs-block">
+          <div class="carousel-caption">
+            <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
+            <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+            <button class="btn-lg btn-darkblue" onclick="javascript:location.href='app.html'">產品介紹</button>
           </div>
         </div>
       </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
     <!-- 第二層MENU -->
     <div id="sticker" class="menu">
@@ -173,7 +174,7 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="glyphicon glyphicon-menu-down" style="color:white;"></span>
             </button>
-            <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+            <a class="navbar-brand page-scroll sticky-logo" href="app.html">
               <div class="product_Name">School<sup>+</sup> 校務APP</div>
             </a>
           </div>
@@ -394,7 +395,7 @@
               <li><a href="contact.html">客戶專區</a></li>
               <li><a href="price.html">使用方案</a></li>
               <!-- <li><a href="#">新知科技</a></li> -->
-              <li><a href="https://www.youtube.com/channel/UCYmvUkwwOgqtvbeTl7v9FRQ">Youtube</a></li>
+              <li><a href="https://www.youtube.com/channel/UCYmvUkwwOgqtvbeTl7v9FRQ" target="_blank">Youtube</a></li>
             </ul>
           </div>
           <div class="top">
