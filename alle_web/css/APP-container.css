@@ -743,6 +743,7 @@ body{
 	padding:50px 0;
 	background-image:url('../img/access_control/access_control_customer.jpg');
 	background-repeat: no-repeat;
+	width:100%;
 }
 @media(max-width:768px){
 	.accesscontrol_piclist_big{
@@ -776,6 +777,18 @@ body{
 	}
 	.access_during_pic{
 		width:49%;
+	}
+	.product_triangle_two{
+		width:100%;
+		height:auto;
+		margin:3px 0;
+	}
+	.product_triangle_two div{
+		text-align:left;
+	}
+	.product_triangle_two h4{
+		display: inline-block;
+		margin-left:5px;
 	}
 
 
