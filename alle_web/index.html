@@ -9,7 +9,6 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+TC&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Libraries CSS Files -->
@@ -21,13 +20,13 @@
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <!-- Nivo Slider Theme -->
   <link href="css/nivo-slider-theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Poppins&display=swap" rel="stylesheet">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <!-- Responsive Stylesheet File -->
   <link href="css/responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="css/APP-container.css">
 </head>
-<body data-spy="scroll" data-target="#navbar-example">
 <div id="preloader"></div>
 <header>
   <!-- header-area start -->
@@ -46,27 +45,27 @@
               <span class="icon-bar"></span>
               </button>
               <!-- Brand -->
-              <a class="navbar-brand page-scroll sticky-logo" onclick="changePage('main_slider')">
+              <a class="navbar-brand page-scroll sticky-logo" onclick="changePage('main_slider.html')">
                 <div class="company_Name">全誼資訊<span> ALLE</span></div>
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
               <ul class="nav navbar-nav navbar-right">
-                <li class="tab">
+                <li>
                   <a class="page-scroll" title="點選查看所有產品" id="ProductList" type="button">產品概覽</a>
                 </li>
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('price')">使用方案</a>
+                <li>
+                  <a class="page-scroll tab" onclick="changePage('price')">使用方案</a>
                 </li>
                 <!--  <li>
                   <a class="page-scroll" href="how_to_login.html">新知科技</a>
                 </li> -->
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('team')">關於全誼</a>
+                <li>
+                  <a class="page-scroll tab" onclick="changePage('team')">關於全誼</a>
                 </li>
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('contact')">客戶專區</a>
+                <li>
+                  <a class="page-scroll tab" onclick="changePage('contact')">客戶專區</a>
                 </li>
                 <li>
                   <a class="page-scroll" href="https://www.schoolsoft.com.tw/WebAuth.do" target="_blank">登入</a>
@@ -85,8 +84,7 @@
 <div class="ProductList" >
   <div class="container">
     <div class="row">
-      <div class="col-md-12 visible-xs-block" style="color:orange;"><h3>產品概覽</h3></div>
-       <div class="col-md-2 col-sm-4 col-xs-6 p_item" >
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item" >
         <div class="content" onclick="changePage('app')">
           <div class="pic"><img src="img/product_1.png" alt=""></div>
           <p>SCHOOL<sup>+</sup>校務APP</p>
@@ -165,7 +163,6 @@
       </div>
     </div>
   </div>
-
 </footer>
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <!-- JavaScript Libraries -->
@@ -199,4 +196,3 @@ $(".ProductList").slideUp();
 });
 });
 </script>
-</body>

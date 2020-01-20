@@ -8,9 +8,6 @@ body{
 	font-family: 'Noto Sans TC', sans-serif;
 	font-family: 'Poppins', sans-serif;
 }
-.container{
-	max-width:1024px;
-}
 .clear{
 	clear:both;
 }
@@ -200,7 +197,7 @@ body{
 }
 .APP_customer_container span:after{
 	content: "";
-	margin-right:56px;
+	margin-right:93px;
 }
 .APP_customer_bottom{
 	background-color:#F4F4F4;
@@ -288,13 +285,13 @@ body{
 	border:solid 1px #DBDBDB;
 	padding:12px 20px;
 	margin:15px 0px;
-	margin-right:5px;
+	margin-right:20px;
 	background-color:#ffffff;
 	text-align:center;
 	position: relative;
 	font-size: 16px;
 	font-weight: 400;
-	width:191px;
+	width:203px;
 	height:240px;
 	vertical-align:top;
 }
@@ -360,7 +357,6 @@ body{
 }
 .Library_system_down_words{
 	padding:42px;
-	margin-left: 30px;
 }
 .Library_system_down{
 	background-color:#F3F4F5;
@@ -586,7 +582,7 @@ body{
     position: relative;
     font-size: 16px;
     font-weight: 400;
-    width: 157px;
+    width: 180px;
     height: 240px;
     vertical-align: top;
 }
@@ -670,7 +666,7 @@ body{
 	border:solid 1px #E2E2E2;
 	display:inline-block;
 	padding:15px;
-	width: 237px;
+	width: 274px;
 	height: 476px;
 	margin: 8px 0;
     margin-right: 8px;
