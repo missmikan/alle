@@ -45,30 +45,30 @@
               <span class="icon-bar"></span>
               </button>
               <!-- Brand -->
-              <a class="navbar-brand page-scroll sticky-logo" onclick="changePage('main_slider')">
+              <a class="navbar-brand page-scroll sticky-logo" href="index.html">
                 <div class="company_Name">全誼資訊<span> ALLE</span></div>
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
               <ul class="nav navbar-nav navbar-right">
-                <li class="tab">
+                <li>
                   <a class="page-scroll" title="點選查看所有產品" id="ProductList" type="button">產品概覽</a>
                 </li>
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('price')">使用方案</a>
+                <li>
+                  <a class="page-scroll" href="price.html">使用方案</a>
                 </li>
                 <!--  <li>
                   <a class="page-scroll" href="how_to_login.html">新知科技</a>
                 </li> -->
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('team')">關於全誼</a>
-                </li>
-                <li class="tab">
-                  <a class="page-scroll" onclick="changePage('contact')">客戶專區</a>
+                <li>
+                  <a class="page-scroll" href="team.html">關於全誼</a>
                 </li>
                 <li>
-                  <a class="page-scroll" href="https://www.schoolsoft.com.tw/WebAuth.do" target="_blank">登入</a>
+                  <a class="page-scroll" href="contact.html">客戶專區</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="https://www.schoolsoft.com.tw/WebAuth.do">登入</a>
                 </li>
               </ul>
             </div>
@@ -86,25 +86,25 @@
     <div class="row">
       <div class="col-md-12 visible-xs-block" style="color:orange;"><h3>產品概覽</h3></div>
       <div class="col-md-2 col-sm-4 col-xs-6 p_item" >
-        <div class="content" onclick="changePage('app')">
+        <div class="content" onclick="javascript:location.href='app.html'">
           <div class="pic"><img src="img/product_1.png" alt=""></div>
           <p>SCHOOL<sup>+</sup>校務APP</p>
         </div>
       </div>
       <div class="col-md-2 col-sm-4 col-xs-6 p_item">
-        <div class="content" onclick="changePage('school_system')">
+        <div class="content" onclick="javascript:location.href='school_system.html'">
           <div class="pic"><img src="img/product_2.png" alt=""></div>
           <p>SCHOOL<sup>+</sup>校務</p>
         </div>
       </div>
       <div class="col-md-2 col-sm-4 col-xs-6 p_item">
-        <div class="content" onclick="changePage('access_control')">
+        <div class="content" onclick="javascript:location.href='access_control.html'">
           <div class="pic"><img src="img/product_3.png" alt=""></div>
           <p>SCHOOL<sup>+</sup>門禁</p>
         </div>
       </div>
       <div class="col-md-2 col-sm-4 col-xs-6 p_item">
-        <div class="content" onclick="changePage('library')">
+        <div class="content" onclick="javascript:location.href='library.html'">
           <div class="pic"><img src="img/product_4.png" alt=""></div>
           <p>SCHOOL<sup>+</sup>圖書</p>
         </div>
@@ -129,9 +129,110 @@
     </button>
   </div>
 </div>
-
-<div id="includedContent"></div>
-
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/slider/slider5.jpg" alt="..." class="hidden-xs">
+      <img src="img/slider/slider5_mobile.jpg" alt="..." class="visible-xs-block">
+      <div class="carousel-caption">
+        <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
+        <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+        <button class="btn-lg btn-darkblue" onclick="javascript:location.href='app.html'">產品介紹</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slider/slider5.jpg" alt="..." class="hidden-xs">
+      <img src="img/slider/slider5_mobile.jpg" alt="..." class="visible-xs-block">
+      <div class="carousel-caption">
+        <h2 class="title1">SCHOOL<sup>+</sup> 校務行政系統</h2>
+        <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+        <button class="btn-lg btn-darkblue" onclick="javascript:location.href='school_system.html'">產品介紹</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slider/slider_door_index.jpg" alt="..." class="hidden-xs">
+      <img src="img/slider/slider_door_mobile.jpg" alt="..." class="visible-xs-block">
+      <div class="carousel-caption">
+        <h2 class="title1">數位門禁系統</h2>
+        <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+        <button class="btn-lg btn-darkblue" onclick="javascript:location.href='access_control.html'">產品介紹</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slider/slider_library_index.jpg" alt="..." class="hidden-xs">
+      <img src="img/slider/slider_library_mobile.jpg" alt="..." class="visible-xs-block">
+      <div class="carousel-caption">
+        <h2 class="title1">圖書管理系統</h2>
+        <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+        <button class="btn-lg btn-darkblue" onclick="javascript:location.href='library.html'">產品介紹</button>
+      </div>
+    </div>
+  </div>
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+<!-- header end -->
+<!-- Start Slider Area -->
+<!-- <div id="home" class="slider-area">
+<div class="bend niceties preview-2">
+  <div id="ensign-nivoslider" class="slides">
+    <img src="img/slider/slider5.jpg" alt="" title="#slider-direction-1" />
+  </div>
+  <div id="ensign-nivoslider" class="slides">
+    <img src="img/slider/slider4.jpg" alt="" title="#slider-direction-2" />
+  </div>
+  <div id="slider-direction-1" class="slider-direction slider-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="slider-content">
+            
+            <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+              <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
+              
+              <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+                <button class="btn-lg btn-darkblue" onclick="javascript:location.href='app.html'">產品介紹</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="slider-direction-2" class="slider-direction slider-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="slider-content">
+            
+            <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+              <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
+              
+              <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                <button class="btn-lg btn-white" onclick="javascript:location.href='contact.html'">預約聯繫</button>
+                <button class="btn-lg btn-darkblue" onclick="javascript:location.href='app.html'">產品介紹</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>   -->
 <!-- Start Footer bottom Area -->
 <footer>
   <div class="footer-area">
