@@ -18,6 +18,34 @@
       }
       $("#includedContent").load("main_slider.html");
   });
+    var s = $("#sticker");
+  var pos = s.position();
+  $(window).on('scroll', function() {
+    var windowpos = $(window).scrollTop() > 300;
+    if (windowpos > pos.top) {
+      s.addClass("stick");
+    } else {
+      s.removeClass("stick");
+    }
+  });
+
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  // Get the navbar
+  var navbar = document.getElementById("sticker");
+
+  // Get the offset position of the navbar
+  var sticky = sticker.offsetTop;
+
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      sticker.classList.add("stick")
+    } else {
+      sticker.classList.remove("stick");
+    }
+  }
 
 (function($) {
   "use strict";
@@ -220,34 +248,7 @@
     /*---------------------
    TOP Menu Stick
   --------------------- */
-  var s = $("#sticker");
-  var pos = s.position();
-  $(window).on('scroll', function() {
-    var windowpos = $(window).scrollTop() > 300;
-    if (windowpos > pos.top) {
-      s.addClass("stick");
-    } else {
-      s.removeClass("stick");
-    }
-  });
 
-  // When the user scrolls the page, execute myFunction
-  window.onscroll = function() {myFunction()};
-
-  // Get the navbar
-  var navbar = document.getElementById("sticker");
-
-  // Get the offset position of the navbar
-  var sticky = sticker.offsetTop;
-
-  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      sticker.classList.add("stick")
-    } else {
-      sticker.classList.remove("stick");
-    }
-  }
 })(jQuery);
 $(document).ready(function(){
   $("#ProductList").click(function(){
