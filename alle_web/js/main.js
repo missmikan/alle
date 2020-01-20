@@ -1,7 +1,9 @@
   var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
-  $("#titleContent").text("--- " + page + " ---"); 
+  if(page === "app" || page === "school_system" || page === "access_control" || page === "library") {
+      $(".ProductList").slideUp();
+    }
 };
 
 $(function() {
