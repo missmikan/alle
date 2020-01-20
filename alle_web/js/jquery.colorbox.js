@@ -61,7 +61,7 @@
 		current: "image {current} of {total}",
 		previous: "previous",
 		next: "next",
-		close: "關閉",
+		close: "Ｘ",
 		xhrError: "This content failed to load.",
 		imgError: "This image failed to load.",
 

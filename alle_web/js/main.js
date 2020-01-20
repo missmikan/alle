@@ -249,7 +249,6 @@ $(function() {
     }
   }
 })(jQuery);
-
 $(document).ready(function(){
   $("#ProductList").click(function(){
   $(".ProductList").slideToggle();
