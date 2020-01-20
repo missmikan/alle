@@ -20,12 +20,6 @@
   //   main_menu.removeClass("active");
   //   $(this).addClass("active");
   // });
-    var changePage = function(page) {
-    console.log("page => ", page);
-    $("#includedContent").load(page + ".html"); 
-    $("#titleContent").text("--- " + page + " ---"); 
-  };
-
   $(function() {
     var tabs = document.getElementsByClassName("tab");
     console.log("tabs => ", tabs);
@@ -41,6 +35,11 @@
       $("#includedContent").load("main_slider.html");
   });
 
+  var changePage = function(page) {
+    console.log("page => ", page);
+    $("#includedContent").load(page + ".html"); 
+    $("#titleContent").text("--- " + page + " ---"); 
+  };
   /*----------------------------
    wow js active
   ------------------------------ */
