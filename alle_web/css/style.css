@@ -648,6 +648,7 @@ div#preloader {
 .company_Name{
   color: #293E53;
   font-size: 1.2em;
+  cursor: pointer;
 }
 .company_Name span{
   color: #949AA0;
