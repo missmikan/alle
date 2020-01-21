@@ -111,46 +111,54 @@ body{
 	color:#ffffff;
 }
  /* 應用功能彈出視窗 */
- .APP_application_list_class{
- 	background-color:#293E53;
- 	text-align:center;
- 	position:relative;
- }
- .APP_application_list_class div{
- 	display:inline-block;
- 	color:#ffffff;
- 	margin:20px 20px;
- 	text-align:left;
- }
- .APP_application_list_class div h4{
- 	font-size:23px;
- 	font-weight:400;
- 	margin-bottom:20px;
- }
- .APP_application_list_class div p{
- 	font-size:16px;
- 	font-weight:300;
- }
- .APP_application_class_words{
- 	vertical-align:top;
- 	padding-top:100px;
- }
-/*  .APP_application_triangle{
- 	display:inline-block;
-    border-style: solid;
-    border-width: 0 100px 100px 0;
-    border-color: transparent #FFAA46 transparent transparent;
-    position: absolute;
-    top:0px;
-    right:0px;
- } */
-.APP_application_triangle{
-	position:absolute;
-	top:0px;
-	right:0px;
+.APP_application_list_class{
+	width:50%;
+	margin:0 auto;
+}
+.APP_application_list_title{
+	background-color:#307FCE;
+	padding:10px;
+	margin:20px auto;
+}
+.APP_application_list_title_left{
+	float:left;
+}
+.APP_application_list_title_left h4{
+	color:#ffffff;
+	font-size:22px;
+	font-weight: 400;
+	padding-top:5px;
+}
+.APP_application_list_title_right{
+	float:right;
+}
+.APP_list_user{
+	display:inline-block;
+	padding:5px 15px;
+	border-radius:5px;
+	margin-left:3px;
+	color:#ffffff;
+	font-size:16px;
+}
+.APP_user_orange{
+	background-color:#DE9658;
+}
+.APP_user_green{
+	background-color:#7BA24C;
+}
+.APP_user_red{
+	background-color:#C96E6E;
 }
 
- 
+.APP_application_list_words{
+	color:#363636;
+	display:inline-block;
+	margin-bottom:20px;
+}
+.APP_list_pic_margin{
+	margin-right:80px;
+}
+
 
 /* 客戶實例 */
 .APP_customer_picture{
@@ -313,6 +321,8 @@ body{
 .Library_system_words{
 	text-align:left;
 	display:inline-block;
+	color:#707070;
+	font-size:16px;
 }
 .Library_system_words span{
 	margin-bottom:3px;
@@ -476,21 +486,8 @@ body{
 		height: 113px;
 	}
 	.product_triangle{
-		width:100%;
-		height:auto;
-		margin:3px 0;
-	}
-	.product_triangle div{
-		text-align:left;
-	}
-	.library_system_title{
-		margin-bottom: 14px;
-	}
-	.Library_system_container h4{
-		display:inline-block;
-	}
-	.product_triangle a{
-		display:block;
+		margin:5px 0;
+		margin-right: 10px;
 	}
 	.Library_system_words span{
 		text-align:left;
@@ -781,18 +778,9 @@ body{
 		width:49%;
 	}
 	.product_triangle_two{
-		width:100%;
-		height:auto;
-		margin:3px 0;
+		margin: 3px 0px;
+    	margin-right: 3px;
 	}
-	.product_triangle_two div{
-		text-align:left;
-	}
-	.product_triangle_two h4{
-		display: inline-block;
-		margin-left:5px;
-	}
-
 
 }
 
