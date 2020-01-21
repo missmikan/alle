@@ -12,7 +12,8 @@
       <div class="carousel-caption">
         <h2 class="title1">SCHOOL<sup>+</sup> 校務系統APP</h2>
         <button class="btn-lg btn-white" onclick="changePage('contact')">預約聯繫</button>
-        <button class="btn-lg btn-darkblue"  onclick="changePage('app')">型錄下載</button>
+        <!-- <button class="btn-lg btn-darkblue"  onclick="changePage('app')">型錄下載</button> -->
+        <a href="download/app.pdf" class="btn-lg btn-darkblue" download="全誼app系統型錄"><span class="glyphicon glyphicon-download-alt"></span> 型錄下載</a>
       </div>
     </div>
   </div>
@@ -32,7 +33,7 @@
     <nav class="navbar navbar-default">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <div class="pull-right visible-xs-block menu_status">設計說明</div>
+        <div class="pull-right visible-xs-block menu_status" id="navbarMenuTitle">設計說明</div>
         <!-- Brand -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-2" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -51,9 +52,9 @@
           <li>
             <a class="page-scroll" href="#two">功能特色</a>
           </li>
-          <li>
+          <!-- <li>
             <a class="page-scroll" href="#three">應用實例</a>
-          </li>
+          </li> -->
           <li>
             <a class="page-scroll" href="#four">與我聯繫</a>
           </li>
@@ -77,7 +78,7 @@
       <div class="section_title">
         <span class="section_title_bg">
           <span>School</span><sup>+</sup>
-          <span>設計理念</span>
+          <span>設計說明</span>
         </span>
         <span class="section_title_sm">
           <span>Design Concept</span>
@@ -95,7 +96,7 @@
       <div class="section_title">
         <span class="section_title_bg">
           <span>School</span><sup>+</sup>
-          <span>應用功能</span>
+          <span>功能特色</span>
         </span>
         <span class="section_title_sm">
           <span>Function List</span>
@@ -128,7 +129,7 @@
         </a>
       </div> -->
       <div class="APP_application_list_up">
-        <a class="iframe" href="APP_application_jumpwindow.html">公告推播</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('APP_application_jumpwindow')">公告推播</a>
         <a href="#">校園出入</a>
         <a href="#">行事曆</a>
         <a href="#">設備維修</a>
@@ -148,7 +149,7 @@
     </div>
     <div class="clear"></div>
     <!-- 客戶實例 -->
-    <div class="APP_customer" id="three">
+    <!--    <div class="APP_customer" id="three">
       <div class="APP_customer_picture APP_customer_picture_bg">
         <div class="APP_customer_picture_bgc">
           <span>實際使用的國中小</span>
@@ -164,7 +165,8 @@
       </div>
       <div class="APP_customer_container">
         <span>暫無資料</span>
-<!--         <span>新北市土城區頂埔國民小學</span>
+        <span>暫無資料</span>
+        <span>暫無資料</span>
         <span>新北市土城區頂埔國民小學</span>
         <span>新北市土城區頂埔國民小學</span>
         <span>新北市土城區頂埔國民小學</span>
@@ -176,34 +178,49 @@
         <span>新北市土城區頂埔國民小學</span>
         <span>新北市土城區頂埔國民小學</span>
         <span>新北市土城區頂埔國民小學</span>
-        <span>新北市土城區頂埔國民小學</span> -->
+        <span>新北市土城區頂埔國民小學</span>
+        <span>新北市土城區頂埔國民小學</span>
       </div>
       <div class="APP_customer_bottom">
         <span class="APP_customer_word">---</span>
       </div>
-    </div>
-    <!-- 聯繫我們 -->
-    <div class="APP_contact" id="four">
-      <div class="row">
+    </div> -->
+    <div class="row">
+      <div class="download_section" id="four">
         <div class="col-sm-12">
           <div class="section_title">
-            <span class="section_title_bg">聯繫我們</span>
-            <span class="section_title_sm">Contact us</span>
+            <span class="section_title_bg">型錄下載</span>
+            <span class="section_title_sm">Download</span>
           </div>
-          <div class="row contact_form">
-            <div class="col-sm-4 col-xs-12">
-              <span class="glyphicon glyphicon-earphone"></span>
-              <span> 0903-194-303</span>
-              <small>業務副總</small>
+          <div class="row center">
+            <a href="download/app.pdf" class="download_btn" download="全誼APP型錄"><span class="glyphicon glyphicon-download-alt"></span> APP型錄下載</a>
+            <div style="padding:15px 0">
+              <a onclick="changePage('contact')">> 點我瀏覽更多型錄</a>
             </div>
-            <div class="col-sm-4 col-xs-12">
-              <span class="glyphicon glyphicon-phone-alt"></span>
-              <span> (02)2264-2345 #691</span>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-              <span class="glyphicon glyphicon-envelope"></span>
-              <span><a href="mailto:steve@schoolsoft.com.tw">steve@schoolsoft.com.tw</a></span>
-            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 聯繫我們 -->
+    <div class="row" id="five">
+      <div class="col-sm-12">
+        <div class="section_title">
+          <span class="section_title_bg">與我聯繫</span>
+          <span class="section_title_sm">Contact us</span>
+        </div>
+        <div class="row contact_form">
+          <div class="col-sm-4 col-xs-12">
+            <span class="glyphicon glyphicon-earphone"></span>
+            <span> 0903-194-303</span>
+            <small>業務副總</small>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <span class="glyphicon glyphicon-phone-alt"></span>
+            <span> (02)2264-2345 #691</span>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <span><a href="mailto:steve@schoolsoft.com.tw">steve@schoolsoft.com.tw</a></span>
           </div>
         </div>
       </div>
@@ -211,3 +228,18 @@
     <span class="APP_contact_down">
       歡迎與我們聯繫，我們將提供最適合您的服務方案
     </span>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="app_modal_content"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

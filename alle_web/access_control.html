@@ -12,7 +12,8 @@
       <div class="carousel-caption">
         <h2 class="title1">數位門禁系統</h2>
         <button class="btn-lg btn-white" onclick="changePage('contact')">預約聯繫</button>
-        <button class="btn-lg btn-darkblue"  onclick="changePage('access_control')">型錄下載</button>
+        <!-- <button class="btn-lg btn-darkblue"  onclick="changePage('access_control')">型錄下載</button> -->
+        <a href="download/access_control.pdf" class="btn-lg btn-darkblue" download="全誼門禁系統型錄"><span class="glyphicon glyphicon-download-alt"></span> 型錄下載</a>
       </div>
     </div>
   </div>
@@ -32,7 +33,7 @@
     <nav class="navbar navbar-default">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <div class="pull-right visible-xs-block menu_status">設計說明</div>
+        <div class="pull-right visible-xs-block menu_status" id="navbarMenuTitle">設計說明</div>
         <!-- Brand -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-2" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -46,20 +47,21 @@
       <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-2 bs-example-js-navbar-scrollspy" id="navbar-example">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a class="page-scroll" href="#one">設計理念</a>
+            <a class="page-scroll" href="#one">設計說明</a>
           </li>
           <li>
-            <a class="page-scroll" href="#two">系統特色</a>
+            <a class="page-scroll" href="#two">功能特色</a>
           </li>
           <li>
-            <a class="page-scroll" href="#three">客戶實例</a>
+            <a class="page-scroll" href="#three">應用實例</a>
           </li>
           <li>
-            <a class="page-scroll" href="#four">與我聯繫</a>
+            <a class="page-scroll" href="#four">型錄下載</a>
           </li>
           <li>
-            <a class="page-scroll" href="#five">型錄下載</a>
+            <a class="page-scroll" href="#five">與我聯繫</a>
           </li>
+          
         </ul>
       </div>
       <!-- navbar-collapse -->
@@ -75,7 +77,7 @@
       </div>
       <div class="section_title">
         <span class="section_title_bg">
-          <span>設計理念</span>
+          <span>設計說明</span>
         </span>
         <span class="section_title_sm">
           <span>Design Concept</span>
@@ -100,7 +102,7 @@
     <div class="access_system" id="two">
       <div class="section_title">
         <span class="section_title_bg">
-          <span>應用功能</span>
+          <span>功能特色</span>
         </span>
         <span class="section_title_sm">
           <span>System Features</span>
@@ -507,11 +509,27 @@
       <span>台南市新進國小</span>
     </div>
   </div>
+  <div class="row">
+    <div class="download_section" id="four">
+      <div class="col-sm-12">
+        <div class="section_title">
+          <span class="section_title_bg">型錄下載</span>
+          <span class="section_title_sm">Download</span>
+        </div>
+        <div class="row center">
+          <a href="download/access_control.pdf" class="download_btn" download="全誼門禁系統型錄"><span class="glyphicon glyphicon-download-alt"></span> 門禁系統型錄下載</a>
+          <div style="padding:15px 0">
+            <a onclick="changePage('contact')">> 點我瀏覽更多型錄</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- 與我聯繫 -->
-  <div class="row" id="four">
+  <div class="row" id="five">
     <div class="col-sm-12">
       <div class="section_title">
-        <span class="section_title_bg">聯繫我們</span>
+        <span class="section_title_bg">與我聯繫</span>
         <span class="section_title_sm">Contact us</span>
       </div>
       <div class="row contact_form">

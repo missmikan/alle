@@ -173,9 +173,10 @@ body{
 .APP_customer_container span{
 	color:#333333;
 	font-size:15px;
-	font-weight:300;
+	/* font-weight:300; */
 	display:inline-block;
 	margin-bottom:10px;
+    width: 24%;
 }
 .APP_customer_container span:before{
 	content:"";
@@ -445,8 +446,9 @@ body{
 }
 .Library_money_box_down p{
 	font-size:15px;
-	color:#043E79;
 	line-height:20px;
+    color: #000000;
+    font-weight: 300;
 }
 .Library_money_p{
 	display:inline;

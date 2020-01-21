@@ -1,12 +1,15 @@
 
-
-
 var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
   if(page === "app" || page === "school_system" || page === "access_control" || page === "library") {
       $(".ProductList").slideUp();
     }
+};
+
+var appchangePage = function(page) {
+  console.log("page => ", page);
+  $("#app_modal_content").load(page + ".html"); 
 };
 
 $(function() {
@@ -24,7 +27,60 @@ $(function() {
     $("#includedContent").load("main_slider.html");
 });
 
+$(window).scroll(function() {
+  var navbar = document.getElementsByClassName("nav navbar-nav navbar-right");
+  if(navbar.length > 1) { // 第二條navbar才是需要偵測active的bar
+    var nav = navbar[1];
+    var lis = nav.getElementsByTagName("li");
+    
+    for(var i = 0; i < lis.length; i++) {
+      var li = lis[i];
+      if(li.className === "active") {
+        $("#navbarMenuTitle").text(li.innerText);
+        break;
+      }
+    }
+  }
+});
 
+var sendMail = function() {
+  var form = {
+    type : "request",
+    version : "1.0",
+    format : "json",
+    name : "function_name",
+    reserved : {}
+  };
+  
+  form.para = {
+    unit : document.getElementById('alle_form_unit').value,
+    name : document.getElementById('alle_form_name').value,
+    phone : document.getElementById('alle_form_phone').value,
+    mail : document.getElementById('alle_form_mail').value,
+    content : document.getElementById('alle_form_content').value
+  }
+  
+  $.ajax({
+    url:"/web-cms_portal/service/oauth_data/mail/insert",
+    type: "POST",
+    contentType: "application/json",
+    data: JSON.stringify(form),
+    success: function (response) {
+      var value = response.result.value;
+      if(value > 0) {
+        alert("發送成功");
+        document.getElementById('alle_form_unit').value = "";
+        document.getElementById('alle_form_name').value = "";
+        document.getElementById('alle_form_phone').value = "";
+        document.getElementById('alle_form_mail').value = "";
+        document.getElementById('alle_form_content').value = "";
+      }
+    },
+    error: function(error) {
+      alert(error.responseJSON.message);
+    }
+  });
+};
 
 
 (function($) {
@@ -62,19 +118,19 @@ $(function() {
   //---------------------------------------------
   //Nivo slider
   //---------------------------------------------
-  $('#ensign-nivoslider').nivoSlider({
-    effect: 'fade',
-    slices: 15,
-    boxCols: 12,
-    boxRows: 8,
-    animSpeed: 500,
-    pauseTime: 5000,
-    startSlide: 0,
-    directionNav: true,
-    controlNavThumbs: false,
-    pauseOnHover: true,
-    manualAdvance: false,
-  });
+  // $('#ensign-nivoslider').nivoSlider({
+  //   effect: 'fade',
+  //   slices: 15,
+  //   boxCols: 12,
+  //   boxRows: 8,
+  //   animSpeed: 500,
+  //   pauseTime: 5000,
+  //   startSlide: 0,
+  //   directionNav: true,
+  //   controlNavThumbs: false,
+  //   pauseOnHover: true,
+  //   manualAdvance: false,
+  // });
 
   /*----------------------------
    Scrollspy js
