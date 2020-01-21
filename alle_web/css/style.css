@@ -87,6 +87,7 @@ html, body {
   color: #305CB1;
   font-weight: 500;
   margin: 10px 0;
+  display: inline-block;
 }
 .download_btn:hover{
   border: 1px solid #305CB1;

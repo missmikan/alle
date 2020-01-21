@@ -65,7 +65,7 @@ body{
 .APP_application_list_up a{
 	display:inline-flex;
 	color:#363636;
-	border:solid 1px #B6B6C1;
+	border:solid 1px #d9d9dc;
 	padding:12px 0px;
 	width:calc(20% - 20px);
 	margin:15px 0px;
@@ -98,10 +98,11 @@ body{
 	right: 0;
 }
 .APP_application_list_up a:hover{
-	background-color:#293E53;
-	color:#ffffff;
-	text-decoration:none;
-	transition:all 0.5s;
+    background-color: #2ea5e7;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 0;
 }
 .APP_application_list_up a:hover:after{
 	border-color: transparent orange transparent transparent;
@@ -112,7 +113,7 @@ body{
 }
  /* 應用功能彈出視窗 */
 .APP_application_list_class{
-	width:50%;
+	width:90%;
 	margin:0 auto;
 }
 .APP_application_list_title{
