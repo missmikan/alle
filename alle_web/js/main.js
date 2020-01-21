@@ -21,6 +21,20 @@ $(function() {
     $("#includedContent").load("main_slider.html");
 });
 
+
+
+(function($) {
+  "use strict";
+
+  /*--------------------------
+  preloader
+  ---------------------------- */
+  $(window).on('load', function() {
+    var pre_loader = $('#preloader');
+    pre_loader.fadeOut('slow', function() {
+      $(this).remove();
+    });
+  });
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -38,22 +52,6 @@ function myFunction() {
     navbar.classList.remove("stick");
   }
 }
-
-
-
-(function($) {
-  "use strict";
-
-  /*--------------------------
-  preloader
-  ---------------------------- */
-  $(window).on('load', function() {
-    var pre_loader = $('#preloader');
-    pre_loader.fadeOut('slow', function() {
-      $(this).remove();
-    });
-  });
-
 
   /*----------------------------
    Navbar nav
