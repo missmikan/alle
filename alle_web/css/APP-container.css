@@ -320,6 +320,8 @@ body{
 .Library_system_words{
 	text-align:left;
 	display:inline-block;
+	color:#707070;
+	font-size:16px;
 }
 .Library_system_words span{
 	margin-bottom:3px;
@@ -484,9 +486,6 @@ body{
 	.product_triangle{
 		margin:5px 0;
 		margin-right: 10px;
-	}
-	.Library_system_container h4{
-		display:inline-block;
 	}
 	.Library_system_words span{
 		text-align:left;
@@ -777,18 +776,9 @@ body{
 		width:49%;
 	}
 	.product_triangle_two{
-		width:100%;
-		height:auto;
-		margin:3px 0;
+		margin: 3px 0px;
+    	margin-right: 3px;
 	}
-	.product_triangle_two div{
-		text-align:left;
-	}
-	.product_triangle_two h4{
-		display: inline-block;
-		margin-left:5px;
-	}
-
 
 }
 
