@@ -35,23 +35,25 @@ $(function() {
       $(this).remove();
     });
   });
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementById("sticker");
+  When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+  Get the navbar
+  var navbar = document.getElementById("sticker");
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("stick")
-  } else {
-    navbar.classList.remove("stick");
+  Get the offset position of the navbar
+  var sticky = sticker.offsetTop;
+
+  Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      sticker.classList.add("stick")
+    } else {
+      sticker.classList.remove("stick");
+    }
   }
-}
+
 
   /*----------------------------
    Navbar nav
@@ -251,23 +253,7 @@ function myFunction() {
   //   }
   // });
 
-  // When the user scrolls the page, execute myFunction
-  // window.onscroll = function() {myFunction()};
 
-  // Get the navbar
-  // var navbar = document.getElementById("sticker");
-
-  // Get the offset position of the navbar
-  // var sticky = sticker.offsetTop;
-
-  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-  // function myFunction() {
-  //   if (window.pageYOffset >= sticky) {
-  //     sticker.classList.add("stick")
-  //   } else {
-  //     sticker.classList.remove("stick");
-  //   }
-  // }
 })(jQuery);
 $(document).ready(function(){
   $("#ProductList").click(function(){
