@@ -173,6 +173,12 @@ body{
 }
 .APP_list_pic_margin{
 	/* margin-right:80px; */
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.APP_list_pic_margin img{
+	max-width: 100%;
 }
 
 
