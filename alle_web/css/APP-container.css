@@ -180,6 +180,10 @@ body{
 .APP_list_pic_margin img{
 	max-width: 100%;
 }
+.APP_list_pic_margin img{
+	width:268px;
+	height:475px;
+}
 
 
 /* 客戶實例 */
