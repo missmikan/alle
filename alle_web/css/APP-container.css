@@ -16,6 +16,12 @@ body{
 	font-size: 16px;
 	margin-bottom: 15px;
 }
+
+/* 微調預約＋產品介紹按鈕！ */
+.carousel-caption button{
+	display:inline-block;
+}
+
 /* 設計理念 */
 .product_banner_img{
 	margin-bottom:40px;
@@ -486,7 +492,7 @@ body{
 	.library_banner_img img{
 		height: 113px;
 	}
-	.product_triangle.product_triangle_two{
+	.product_triangle{
 		margin: 2px 0;
     	width: 48%;
     	padding: 5px 9px;
@@ -521,6 +527,8 @@ body{
 		margin-bottom:20px;
 		padding:0 3px;
 		padding-bottom: 20px;
+		margin-right: 0;
+		width:32%;
 	}
 	.Library_money_box_down h5{
 		font-size:17px;
