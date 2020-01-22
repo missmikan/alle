@@ -16,8 +16,7 @@
 
 html, body {
   height: 100%;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Noto Sans TC',sans-serif;
 }
 .app_header{
   background-image: url('../img/slider/slider5.jpg');
@@ -2598,5 +2597,37 @@ div#preloader {
   }
 }
 /*----------------------------------------
- .End CSS
+ 客戶專區-下載
 ----------------------------------------*/
+.download_area{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.download_area h3{
+    color: #043E79;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.download_area ul li{
+  padding: 10px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.download_area ul li a:link,.download_area ul li a:visited{
+  color: #333;
+  font-size: 15px;
+}
+.download_area ul li a:hover{
+  color: #3EC1D5;
+  position: relative;
+  top: 1px;
+}
+.download_area ul li a:before{
+  content: "\e025";
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 10px;
+  color: #043E79;
+}
