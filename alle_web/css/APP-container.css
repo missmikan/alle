@@ -16,6 +16,12 @@ body{
 	font-size: 16px;
 	margin-bottom: 15px;
 }
+
+/* 微調預約＋產品介紹按鈕！ */
+.carousel-caption button{
+	display:inline-block;
+}
+
 /* 設計理念 */
 .product_banner_img{
 	margin-bottom:40px;
@@ -496,8 +502,10 @@ body{
 		height: 113px;
 	}
 	.product_triangle{
-		margin:5px 0;
-		margin-right: 10px;
+		margin: 2px 0;
+    	width: 48%;
+    	padding: 5px 9px;
+    	height: 225px;
 	}
 	.Library_system_words span{
 		text-align:left;
@@ -528,6 +536,8 @@ body{
 		margin-bottom:20px;
 		padding:0 3px;
 		padding-bottom: 20px;
+		margin-right: 0;
+		width:32%;
 	}
 	.Library_money_box_down h5{
 		font-size:17px;
@@ -577,6 +587,13 @@ body{
 		text-align: center;
 	}
 }
+@media(max-width:350px){
+	/* 為了功能特色的框框QQ 圖書＋門禁用*/
+	.product_triangle,.product_triangle_two{
+		height: 275px;
+	}
+}
+
 
 /* 數位門禁 */
 /* 功能應用 */
@@ -796,6 +813,9 @@ body{
 	.product_triangle_two{
 		margin: 3px 0px;
     	margin-right: 3px;
+		width: 48%;
+    	height: 224px;
+    	padding: 4px 8px;
 	}
 
 }
