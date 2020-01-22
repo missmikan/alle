@@ -16,6 +16,9 @@ body{
 	font-size: 16px;
 	margin-bottom: 15px;
 }
+.modal-footer {
+    padding: 15px 15px 0;
+}
 
 /* 微調預約＋產品介紹按鈕！ */
 .carousel-caption button{
@@ -127,7 +130,7 @@ body{
 .APP_application_list_title{
 	border-bottom: 2px solid #307FCE;
 	/* padding:10px; */
-	margin:20px auto;
+	margin:0 auto 20px
 }
 .APP_application_list_title_left{
 	float:left;
@@ -173,7 +176,7 @@ body{
 }
 .APP_list_pic_margin{
 	/* margin-right:80px; */
-	width: 33%;
+	width: 25%;
 	display: inline-block;
 	margin-bottom: 10px;
 }
@@ -293,7 +296,7 @@ body{
 		text-align: center;
 	}
 	.APP_list_pic_margin{
-		width: 80%;
+		width: 40%;
 		display: inline-block;
 		margin-bottom: 10px;
 	}

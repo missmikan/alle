@@ -199,7 +199,7 @@ body {
 /* Back to top button */
 .back-to-top {
   position: fixed;
-  display: none;
+  /* display: none; */
   background: #3EC1D5;
   color: #fff;
   padding: 6px 12px 9px 12px;
@@ -208,6 +208,7 @@ body {
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
+  z-index: 11;
 }
 /* button setting */
 .btn-lg{
@@ -540,6 +541,7 @@ body {
     top: 60px;
   }
   .back-to-top {
+    right: 15px;
     bottom: 15px;
   }
 
@@ -650,6 +652,7 @@ div#preloader {
   color: #293E53;
   font-size: 1.2em;
   cursor: pointer;
+  font-weight: 600;
 }
 .company_Name span{
   color: #949AA0;
@@ -900,6 +903,11 @@ div#preloader {
   padding: 15px;
   text-align: center;
 }
+.ProductList .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 
@@ -927,12 +935,13 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #293E53;
+  color: #223a50;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #FFAA46;

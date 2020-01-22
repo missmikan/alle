@@ -159,21 +159,6 @@ var sendMail = function() {
     event.preventDefault();
   });
 
-  /*--------------------------
-    Back to top button
-  ---------------------------- */
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-    return false;
-  });
 
   /*----------------------------
    Parallax
@@ -310,3 +295,19 @@ $(document).ready(function(){
 //     sticker.classList.remove("stick");
 //   }
 // } 用了這個好像會壞掉
+
+  /*--------------------------
+    Back to top button
+  ---------------------------- */
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn('slow');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });
+
+  $('.back-to-top').click(function(){
+    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    return false;
+  });
