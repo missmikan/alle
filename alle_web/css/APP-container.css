@@ -486,9 +486,11 @@ body{
 	.library_banner_img img{
 		height: 113px;
 	}
-	.product_triangle{
-		margin:5px 0;
-		margin-right: 10px;
+	.product_triangle.product_triangle_two{
+		margin: 2px 0;
+    	width: 48%;
+    	padding: 5px 9px;
+    	height: 225px;
 	}
 	.Library_system_words span{
 		text-align:left;
@@ -562,6 +564,13 @@ body{
 		text-align: center;
 	}
 }
+@media(max-width:350px){
+	/* 為了功能特色的框框QQ 圖書＋門禁用*/
+	.product_triangle,.product_triangle_two{
+		height: 275px;
+	}
+}
+
 
 /* 數位門禁 */
 /* 功能應用 */
@@ -781,6 +790,9 @@ body{
 	.product_triangle_two{
 		margin: 3px 0px;
     	margin-right: 3px;
+		width: 48%;
+    	height: 224px;
+    	padding: 4px 8px;
 	}
 
 }
