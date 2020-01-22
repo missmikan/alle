@@ -57,17 +57,16 @@ body{
 	width:100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 	margin:0 auto;
 	padding-bottom:30px;
 
 }
 .APP_application_list_up a{
 	display:inline-flex;
+	width:19%;
 	color:#363636;
 	border:solid 1px #d9d9dc;
 	padding:12px 0px;
-	width:calc(20% - 20px);
 	margin:15px 0px;
 	background-color:#ffffff;
 	text-align:center;
@@ -77,6 +76,9 @@ body{
 	font-weight: 400;
 	justify-content: center;
 	align-items: center;
+}
+.APP_application_list_up a:not(:nth-child(5n)){
+	margin-right: calc(5% / 4);
 }
 .APP_application_list_up a:before{
 	content: "";
@@ -117,47 +119,54 @@ body{
 	margin:0 auto;
 }
 .APP_application_list_title{
-	background-color:#307FCE;
-	padding:10px;
+	border-bottom: 2px solid #307FCE;
+	/* padding:10px; */
 	margin:20px auto;
 }
 .APP_application_list_title_left{
 	float:left;
 }
 .APP_application_list_title_left h4{
-	color:#ffffff;
-	font-size:22px;
-	font-weight: 400;
-	padding-top:5px;
+	font-size: 22px;
+    font-weight: 400;
+    padding-top: 5px;
+    margin: 3px 0;
 }
 .APP_application_list_title_right{
 	float:right;
 }
+.APP_application_list_pic{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 .APP_list_user{
-	display:inline-block;
-	padding:5px 15px;
-	border-radius:5px;
-	margin-left:3px;
-	color:#ffffff;
-	font-size:16px;
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-left: 3px;
+    color: #ffffff;
+    font-size: 15px;
 }
 .APP_user_orange{
-	background-color:#DE9658;
+	background-color:#5bb2dc;
 }
 .APP_user_green{
-	background-color:#7BA24C;
+	background-color:#ffaa46;
 }
 .APP_user_red{
-	background-color:#C96E6E;
+	background-color:#9c7dcc;
 }
 
 .APP_application_list_words{
-	color:#363636;
-	display:inline-block;
-	margin-bottom:20px;
+	color: #656565;
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.8em;
 }
 .APP_list_pic_margin{
-	margin-right:80px;
+	/* margin-right:80px; */
 }
 
 
@@ -555,7 +564,13 @@ body{
 	/* 客戶服務頁 */
 
 	.APP_application_list_up a{
-		width: calc(50% - 8px);
+		width: 48%;
+	}
+	.APP_application_list_up a:not(:nth-child(4n)){
+		margin-right: 0;
+	}
+	.APP_application_list_up a:not(:nth-child(2n)){
+		margin-right: 1%
 	}
 	.APP_application_list_up{
 		width:auto;
