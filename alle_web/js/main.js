@@ -68,7 +68,7 @@ var sendMail = function() {
     success: function (response) {
       var value = response.result.value;
       if(value > 0) {
-        alert("發送成功");
+        alert("我們已收到您的來信，將在上班時間儘速回覆您，謝謝");
         document.getElementById('alle_form_unit').value = "";
         document.getElementById('alle_form_name').value = "";
         document.getElementById('alle_form_phone').value = "";
