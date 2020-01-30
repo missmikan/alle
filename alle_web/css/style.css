@@ -189,7 +189,7 @@ a:active, a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', 'Noto Sans TC',sans-serif;
   font-size: 14px;
   text-align: left;
   overflow-x: hidden;
@@ -243,6 +243,10 @@ body {
 .price_title+ul{
   font-size: 16px;
   line-height: 2em;
+}
+.price_title img{
+  position: relative;
+  bottom: 3px;
 }
 .gray_bg{
   padding: 2em;
@@ -943,7 +947,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #223a50;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
