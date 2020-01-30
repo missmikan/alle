@@ -91,6 +91,77 @@
       </div>
     </div>
     <div class="clear"></div>
+    <!-- ------使用介面------ -->
+    <div class="APP_interface_introduction">
+      <div class="section_title">
+        <span class="section_title_bg">
+          <span>School</span><sup>+</sup>
+          <span>使用介面</span>
+        </span>
+        <span class="section_title_sm">
+          <span>Interface Introduction</span>
+        </span>
+      </div>
+      <div class="product_designconcept">
+        <span>
+          School<sup>+</sup> 介面使用，包含首頁、應用頁面、設定，簡單上手一目了然。
+        </span>
+      </div>
+      <div class="APP_introduction">
+        <div class="APP_introduction_img">
+          <img src="img/APP_interface_introduction/app-introduction-01.jpg" alt="">
+        </div>
+        <h6>介面首頁</h6>
+        <p>快速一覽當日通知、課表、公告等</p>
+        <p>右上角 <i class="fa fa-bars" aria-hidden="true"></i> 可快速切換身份</p>
+        <p>首頁卡片可自訂順序或增減</p>
+      </div>
+      <div class="APP_introduction">
+        <div class="APP_introduction_img">
+          <img src="img/APP_interface_introduction/app-introduction-02.jpg" alt="">
+        </div>
+        <h6>應用頁面</h6>
+        <p>顯示可操作的功能選單</p>
+        <p>右上角 <i class="fa fa-bars" aria-hidden="true"></i> 可快速切換身份</p>
+      </div>
+      <div class="APP_introduction">
+        <div class="APP_introduction_img">
+          <img src="img/APP_interface_introduction/app-introduction-03.jpg" alt="">
+        </div>
+        <h6>設定頁面</h6>
+        <p>家長與教師可由此新增子女</p>
+        <p>可在此切換身份</p>
+        <p>顯示帳號裝置綁定紀錄，也能註銷裝置</p>
+        <p>可自訂首頁卡片順序或增減</p>
+      </div>
+    </div>
+    <!-- -----登入註冊按鈕---- -->
+    <div class="APP_signin">
+      <div class="APP_signin_button">
+          觀看登入註冊說明 >
+      </div>
+      <div class="APP_signin_box APP_signin_margin">
+        <h6>首次登入註冊</h6>
+        <p>提供親師生 三種身份登入</p>
+        <div class="APP_signin_img">
+          <img src="img/APP_interface_introduction/app-signin-01.jpg" alt="">
+        </div>
+      </div>
+      <div class="APP_signin_box APP_signin_margin">
+        <h6>家長註冊</h6>
+        <p>使用簡訊驗證註冊</p>
+        <div class="APP_signin_img">
+          <img src="img/APP_interface_introduction/app-signin-02.jpg" alt="">
+        </div>
+      </div>
+      <div class="APP_signin_box">
+        <h6>老師及學生身份</h6>
+        <p>可直接使用校務系統帳號登入</p>
+        <div class="APP_signin_img">
+          <img src="img/APP_interface_introduction/app-signin-03.jpg" alt="">
+        </div>
+      </div>
+    </div>
     <!-- ------應用功能------ -->
     <div class="APP_application_list" id="two">
       <div class="section_title">
@@ -129,23 +200,24 @@
         </a>
       </div> -->
       <div class="APP_application_list_up">
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('announcement')">公告推播</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('announcement')"><i class="fa fa-bell-o" aria-hidden="true"></i>公告推播</a>
         <!-- <a  type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('')">校園出入</a> -->
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('calendar')">行事曆</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('calendar')"><i class="fa fa-calendar" aria-hidden="true"></i>行事曆</a>
         <!-- <a href="#">設備維修</a> -->
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('health-registered')">健康掛號</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('APP-library')">圖書管理</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('point')">數位積點</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('curriculum')">教學課表</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('health-information')">健康資料</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('site-reservation')">場地預約</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('lunch')">午餐管理</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('arrive-school')">到校管理</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('rollcall')">點名統計</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('student-takeleave')">學生請假</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('teacher-takeleave')">教師請假</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('contact-book')">電子聯絡簿</a>
-        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('community-rollcall')">社團點名</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('health-registered')"><i class="fa fa-plus-square" aria-hidden="true"></i>健康掛號</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('APP-library')"><i class="fa fa-book" aria-hidden="true"></i>我的圖書館</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('point')"><i class="fa fa-star-o" aria-hidden="true"></i>數位積點</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('curriculum')"><i class="fa fa-file-text-o" aria-hidden="true"></i>教學課表</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('health-information')"><i class="fa fa-heartbeat" aria-hidden="true"></i>健康資料</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('site-reservation')"><i class="fa fa-university" aria-hidden="true"></i>場地預約</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('lunch')"><i class="fa fa-cutlery" aria-hidden="true"></i>午餐管理</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('arrive-school')"><i class="fa fa-graduation-cap" aria-hidden="true"></i>到校管理</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('rollcall')"><i class="fa fa-hand-paper-o" aria-hidden="true"></i>點名統計</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('student-takeleave')"><i class="fa fa-child" aria-hidden="true"></i>學生請假</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('teacher-takeleave')"><i class="fa fa-user-circle-o" aria-hidden="true"></i>教師請假</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('contact-book')">
+          <i class="fa fa-address-book-o" aria-hidden="true"></i>電子聯絡簿</a>
+        <a type="button" data-toggle="modal" data-target="#myModal" onclick="appchangePage('community-rollcall')"><i class="fa fa-users" aria-hidden="true"></i>社團點名</a>
       </div>
     </div>
     <div class="clear"></div>

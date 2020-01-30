@@ -59,6 +59,98 @@ body{
 	color:#909090;
 	font-weight:300;
 }
+/* 使用介面 */
+.APP_introduction{
+	display:inline-block;
+	vertical-align:top;
+	width:33%;
+}
+.APP_interface_introduction h6{
+	font-size:18px;
+	font-weight:400;
+	color:#3A495C;
+	margin-top:20px;
+}
+.APP_interface_introduction p{
+	font-size:14px;
+	font-weight:400;
+	color:#797979;
+}
+.APP_interface_introduction p i{
+	color:#797979;
+	font-size:14px;
+}
+.APP_interface_introduction p:before{
+	content:"";
+	display:inline-block;
+	background-color:#797979;
+	height: 4px;
+	width: 4px;
+	border-radius:50%;
+	position:relative;
+	top:-4px;
+	margin-right:5px;
+}
+.APP_introduction_img{
+	width:266px;
+	height:473px;
+}
+.APP_interface_introduction img{
+	max-width:100%;
+}
+
+/* 登入註冊按鈕＋內容 */
+/* 大按鈕～ */		
+.APP_signin_button{
+	display:block;
+	color:#307FCE;
+	font-size:16px;
+	font-weight:400;
+	background-color:#fdfdfd;
+	width:100%;
+	box-shadow:0 2px 6px #efefef;
+	padding:20px;
+	text-align:center;
+	cursor:pointer;
+	margin-bottom:20px;
+}
+.APP_signin_button:hover{
+	background-color:#ffffff;
+	transition:all 0.3s ease 0s;
+	color:#3EC1D5;
+}
+/* 內容～ */
+.APP_signin_box{
+	background-color:#ffffff;
+	border:solid 1px #E5E5E5;
+	box-shadow:0 3px 6px #EDEDED;
+	width:31%;
+	text-align:center;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+.APP_signin_margin{
+	margin-right:3%;
+}
+.APP_signin_box h6{
+	font-size:18px;
+	font-weight:400;
+	color:#293E53;
+}
+.APP_signin_box p{
+	font-size:14px;
+	color:#797979;
+}
+.APP_signin_img{
+	width: 165px;
+	height: 297px;
+	text-align:center;
+	display:inline-block;
+}
+.APP_signin_img img{
+	max-width:100%;
+}
 
 /* 應用功能 */
 .APP_application_list_up{
@@ -67,7 +159,6 @@ body{
 	flex-wrap: wrap;
 	margin:0 auto;
 	padding-bottom:30px;
-
 }
 .APP_application_list_up a{
 	display:inline-flex;
@@ -84,17 +175,24 @@ body{
 	font-weight: 400;
 	justify-content: center;
 	align-items: center;
+	cursor:pointer;
 }
 .APP_application_list_up a:not(:nth-child(5n)){
 	margin-right: calc(5% / 4);
 }
-.APP_application_list_up a:before{
-	content: "";
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	background-image: url('../img/list_item.png');
-	margin-right: 5px;
+.APP_application_list_up a i{
+	display:inline-block;
+	font-size:32px;
+	margin-right:5px;
+}
+.APP_application_list_up a:nth-child(3n+1) i{
+	color:#91dafd;
+}
+.APP_application_list_up a:nth-child(3n+2) i{
+	color:#ffccd5;
+}
+.APP_application_list_up a:nth-child(3n+3) i{
+	color:#fbdf53;
 }
 .APP_application_list_up a:after{
 	content: "";
@@ -113,6 +211,9 @@ body{
     text-decoration: none;
     transition: all 0.5s;
     border: 0;
+}
+.APP_application_list_up a:hover i{
+	color:#ffffff;
 }
 .APP_application_list_up a:hover:after{
 	border-color: transparent orange transparent transparent;
@@ -305,6 +406,27 @@ body{
 		overflow: hidden;
 	}
 
+	/* 介面說明rwd */
+	.APP_introduction{
+		width:100%;
+		display:block;
+		text-align:center;
+		margin-bottom:30px;
+	}
+	.APP_introduction_img{
+		display:inline-block;
+		text-align:center;
+	}
+	.APP_signin_box{
+		display:block;
+		width:100%;
+	}
+	.APP_signin_margin{
+		margin-right:0;
+	}
+	.APP_signin{
+		margin-bottom:30px;
+	}
 
 }
 
