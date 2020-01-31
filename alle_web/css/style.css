@@ -2558,7 +2558,7 @@ div#preloader {
  ----------------------------------------- */
 .contact_header{
   width: 100%;
-  height: 200px;
+  height: 250px;
   background-image: url('../img/contact_header.jpg');
   background-position: center;
   display: flex;
