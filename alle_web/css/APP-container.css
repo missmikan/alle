@@ -206,22 +206,18 @@ body{
 }
 .APP_application_list_up a i{
 	display:inline-block;
-	font-size:24px;
+	font-size:32px;
 	margin-right:5px;
 }
-
-.APP_application_list_up a i{
-	color:#91c146;
-}
-/* .APP_application_list_up a:nth-child(3n+1) i{
-	color:#5d84de;
+.APP_application_list_up a:nth-child(3n+1) i{
+	color:#91dafd;
 }
 .APP_application_list_up a:nth-child(3n+2) i{
-	color:#42bb95;
+	color:#ffccd5;
 }
 .APP_application_list_up a:nth-child(3n+3) i{
 	color:#fbdf53;
-} */
+}
 .APP_application_list_up a:after{
 	content: "";
 	width: 0;
@@ -1166,12 +1162,11 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	border-bottom:0px;
     display: block;
     text-align: center;
-
 }
 .news_container .nav-tabs>li.active>a, .news_container .nav-tabs>li.active>a:focus, .news_container .nav-tabs>li.active>a:hover{
 	border:0px;
 	color:#ffffff;
-	background-color:#28639D;
+	background-color:#307FCE;
 	border-radius:5px;
 	padding:5px 8px;
 }
@@ -1189,6 +1184,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 .nav-tabs>li>a{
 	border:0px;
 	border-radius:0px;
+	font-size:15px;
 }
 .tab-content{
 	border:0px;
@@ -1210,27 +1206,27 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 }
 .news_list_02 button{
 	background-color:#ffffff;
-	color:#293E53;
-	border:solid 1px #D3D3D3;
-	border-left:solid 14px #D3D3D3;
+	border:solid 1px #DEDEDE;
+	border-left:solid 10px #62A5F4;
 	outline:none;
 	transition:all 0.2s ease 0s;
-	font-size:16px;
 	text-align:left;
+	box-shadow:0 0 2px #F0F0F0;
 }
-.news_list_02 button .news_title_02{
+.news_title_02{
 	font-weight:600;
 	vertical-align:bottom;
+	font-size:18px;
+	color:#293E53;
 }
-.news_list_02 button .news_date_02{
+.news_date_02{
 	font-size:14px;
-	color:#707070;
+	color:#a9a9a9;
 	font-weight:100;
 }
 .news_list_02 button:hover{
-	background-color:#8497AC;
-	color:#ffffff;
-}
+	background-color:#F0F0F0;
+}/* 
 .news_list_02 button:hover .news_date_02{
 	color:#ffffff;
 }
@@ -1240,7 +1236,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 .news_list_02 button:visited{
 	background-color:#ffffff;
 	color:#293E53;
-}
+} */
 .news_date_02{
 	float:right;
 	display:inline-block;
@@ -1248,5 +1244,66 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 .news_title_02{
 	display:inline-block;
 	width:90%;
-	overflow:hidden;
 }
+.news_title_02_oneline{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.modal-dialog{
+	margin-top: 250px;
+	width:75%;
+}
+
+/* 新知資訊 下面頁數按鈕 */
+.news_02_page{
+	text-align:center;
+}
+.pagination>li>a:hover{
+	color:#ffffff;
+	background-color:#36a5da;
+}
+.pagination>li>a:focus{
+	color:#ffffff;
+	background-color:#36a5da;
+}
+.pagination>li>a, .pagination>li>span{
+	border: 1px solid #eceaea;
+}
+
+/* 新知資訊 內頁內容 */
+.modal-content{
+	padding:20px 23px;
+}
+.news_02_in_top{
+	border-left:solid 10px #62A5F4;
+	padding:10px 15px;
+	/* border-bottom:solid 2px #EDEDED; */
+}
+.news_02_in_down{
+	padding:15px 10px;
+	padding-left:25px;
+	border-top:solid 2px #EDEDED;
+}
+
+/* 新知科技rwd */
+	@media(max-width:768px){
+		.modal-dialog{
+			margin:0 auto;
+			margin-top:130px;
+			width:90%;
+			margin-bottom:50px;
+		}
+		.news_title_02{
+			width:65%;
+			overflow:hidden;
+		}
+	}
+	@media(max-width:320px){
+		.news_title_02{
+			width:58%;
+			overflow:hidden;
+		}
+	}
+
+
