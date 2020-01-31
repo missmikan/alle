@@ -36,6 +36,12 @@ body{
 	font-size:15px;
 	margin-bottom:30px;
 }
+.product_designconcept_APP{
+	color:#797979;
+	font-size:15px;
+	margin-top:15px;
+	margin-bottom: 5px;
+}
 .APP_application_introduce{
 	margin-bottom:50px;
 }
@@ -100,8 +106,14 @@ body{
 }
 
 /* 登入註冊按鈕＋內容 */
+.APP_signin{
+	margin-bottom: 40px;
+}
+.APP_signin_list{
+	display:block;
+}
 /* 大按鈕～ */		
-.APP_signin_button{
+.APP_signin_button,.APP_signin .btn,.APP_signin .btn-primary{
 	display:block;
 	color:#307FCE;
 	font-size:16px;
@@ -113,10 +125,22 @@ body{
 	text-align:center;
 	cursor:pointer;
 	margin-bottom:20px;
+	text-decoration:none;
+	border:0px;
 }
 .APP_signin_button:hover{
 	background-color:#ffffff;
-	transition:all 0.3s ease 0s;
+	transition:all 0.2s ease 0.1s;
+	color:#3EC1D5;
+}
+.APP_signin .btn:hover{
+	background-color:#ffffff;
+	transition:all 0.2s ease 0.1s;
+	color:#3EC1D5;
+}
+.APP_signin .btn-primary:hover{
+	background-color:#ffffff;
+	transition:all 0.2s ease 0.1s;
 	color:#3EC1D5;
 }
 /* 內容～ */
@@ -500,10 +524,6 @@ body{
 	text-decoration:underline;
 }
 /* 系統特色-下半部圖片與文字 */
-.section_title_noline{
-	border-bottom:0px;
-	margin-top:40px
-}
 .Library_system_down_words p:before{
 	content:"";
 	background-image:url('../img/library/system_checkbox.svg');
@@ -534,6 +554,7 @@ body{
 }
 .Library_system_down{
 	background-color:#F3F4F5;
+	margin-bottom:40px;
 }
 .Library_screen_picture{
 	text-align:center;
@@ -977,17 +998,22 @@ body{
 .clear{
 	clear:both;
 }
-.client_banner{
-	text-align:center;
-	background-image:url("../img/client_banner.jpg");
+.client_content{
+	margin-top:80px;
 }
-.client_banner h4{
-	font-weight:400;
-	color:#293E53;
-	padding:90px 0;
-	font-size:30px;
-	margin-bottom:30px;
-	margin-top:0px
+.client_banner{
+	width: 100%;
+  	height: 250px;
+  	background-image: url('../img/client_banner.jpg');
+  	background-position: center;
+  	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+  	color: #FFF;
+  	font-size: 2.4em;
+  	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  	font-weight: 600;
+  	margin-bottom: 20px;
 }
 .client_inside{
 	max-width:1280px;
@@ -1114,4 +1140,109 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		margin-right:18px;
 		width: 100%;
 	}
+}
+
+/* 全誼新知科技分享 */
+.news_header{
+  width: 100%;
+  height: 250px;
+  background-image: url('../img/news_header.jpg');
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 2.4em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/* 修改上面按鈕列表bootstrap */
+.nav-tabs{
+	border-bottom:0px;
+    display: block;
+    text-align: center;
+
+}
+.news_container .nav-tabs>li.active>a, .news_container .nav-tabs>li.active>a:focus, .news_container .nav-tabs>li.active>a:hover{
+	border:0px;
+	color:#ffffff;
+	background-color:#28639D;
+	border-radius:5px;
+	padding:5px 8px;
+}
+.news_container .nav>li>a{
+	padding:5px 8px;
+	margin:0 15px;
+	cursor:pointer;
+	border:0px;
+}
+.news_container .nav>li>a:hover{
+	background-color:#ffffff;
+	color:#1AA4BE;
+	border:0px;
+}
+.nav-tabs>li>a{
+	border:0px;
+	border-radius:0px;
+}
+.tab-content{
+	border:0px;
+	padding:0px;
+}
+.nav-tabs>li{
+	float:none;
+	display:inline-block;
+}
+.news_container a{
+	color:#293E53;
+}
+/* 新知資訊列表 */
+.news_list_btn{
+	display:block;
+	padding:12px 20px;
+	width:100%;
+	margin-top:13px;
+}
+.news_list_02 button{
+	background-color:#ffffff;
+	color:#293E53;
+	border:solid 1px #D3D3D3;
+	border-left:solid 14px #D3D3D3;
+	outline:none;
+	transition:all 0.2s ease 0s;
+	font-size:16px;
+	text-align:left;
+}
+.news_list_02 button .news_title_02{
+	font-weight:600;
+	vertical-align:bottom;
+}
+.news_list_02 button .news_date_02{
+	font-size:14px;
+	color:#707070;
+	font-weight:100;
+}
+.news_list_02 button:hover{
+	background-color:#8497AC;
+	color:#ffffff;
+}
+.news_list_02 button:hover .news_date_02{
+	color:#ffffff;
+}
+.news_list_02 button:hover .news_title_02{
+	color:#ffffff;
+}
+.news_list_02 button:visited{
+	background-color:#ffffff;
+	color:#293E53;
+}
+.news_date_02{
+	float:right;
+	display:inline-block;
+}
+.news_title_02{
+	display:inline-block;
+	width:90%;
+	overflow:hidden;
 }
