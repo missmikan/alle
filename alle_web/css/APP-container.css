@@ -206,18 +206,22 @@ body{
 }
 .APP_application_list_up a i{
 	display:inline-block;
-	font-size:32px;
+	font-size:24px;
 	margin-right:5px;
 }
-.APP_application_list_up a:nth-child(3n+1) i{
-	color:#91dafd;
+
+.APP_application_list_up a i{
+	color:#91c146;
+}
+/* .APP_application_list_up a:nth-child(3n+1) i{
+	color:#5d84de;
 }
 .APP_application_list_up a:nth-child(3n+2) i{
-	color:#ffccd5;
+	color:#42bb95;
 }
 .APP_application_list_up a:nth-child(3n+3) i{
 	color:#fbdf53;
-}
+} */
 .APP_application_list_up a:after{
 	content: "";
 	width: 0;
