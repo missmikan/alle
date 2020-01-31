@@ -2416,8 +2416,8 @@ div#preloader {
 /*----------------------------------------*/
 
 .footer-area {
-  padding: 25px 0;
-  background: #307fce;
+  padding: 15px 0;
+  background: #135494;
 }
 .footer-area-bottom {
   background: #f1f1f1 none repeat scroll 0 0;
@@ -2433,7 +2433,7 @@ div#preloader {
   color: #444;
 }
 
-.copyright>p {
+.copyright{
   margin-bottom: 0;
   color: #b0dbff;
 }
@@ -2455,18 +2455,31 @@ div#preloader {
 }
 .f_company_area .top{
   padding: 15px 0;
-  border-top: 1px solid #b0dbff;
+  border-bottom: 1px solid #b0dbff;
   font-size: 1.2em;
 }
-.f_menu ul{
-  display: flex;
-  justify-content: space-between;
+.f_menu{
+  max-width: calc(100% - 10em);
+  float: right;
 }
 .f_menu ul li{
-  padding: 15px 0;
+  padding: 0px 15px;
+  float: right;
+}
+.f_menu ul li:first-child{
+  padding-right: 0;
 }
 .f_menu ul li a:hover{
   color: orange;
+}
+.company_data{
+  font-size: 15px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.large_font{
+  font-size: 2em;
 }
 /*----------------------------------------*/
 
@@ -2537,7 +2550,7 @@ div#preloader {
  ----------------------------------------- */
 .main.container{
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 /* -----------------------------------------
@@ -2614,6 +2627,15 @@ div#preloader {
   }
   .f_menu ul li{
     width: 50%;
+  }
+  .company_data{
+    flex-wrap: wrap;
+  }
+  .company_data > div {
+    width: 100%;
+  }
+  .large_font{
+    font-size: 1.2em;
   }
 }
 /*----------------------------------------
