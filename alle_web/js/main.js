@@ -2,7 +2,7 @@
 var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
-  if(page === "app" || page === "school_system" || page === "access_control" || page === "library") {
+  if(page === "app" || page === "school_system" || page === "access_control" || page === "library" || page === "price" || page === "news" || page === "team" || page === "contact") {
       $(".ProductList").slideUp();
     }
 };
@@ -24,7 +24,19 @@ $(function() {
       this.className += " active";
       });
     }
-    $("#includedContent").load("main_slider.html");
+  window.addEventListener("hashchange", function() {
+    var hash = location.hash;
+    
+    if(location.hash === undefined || location.hash === "") {
+      changePage("main_slider");
+      // document.getElementById("main_slider").click();
+    } else {
+      hash = hash.substring(1);
+      changePage(hash);
+      document.getElementById(hash).click();
+    }
+  }, false);
+  $("#includedContent").load("main_slider.html");
 });
 
 $(window).scroll(function() {

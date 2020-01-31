@@ -1010,6 +1010,7 @@ body{
   	height: 250px;
   	background-image: url('../img/client_banner.jpg');
   	background-position: center;
+  	background-size: cover;
   	display: flex;
  	align-items: center;
  	justify-content: center;

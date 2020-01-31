@@ -229,6 +229,7 @@ body {
 .clearfix{
   clear: both;
 }
+
 /* ------------------------------------
     使用方案CSS/ 
 --------------------------------------*/
@@ -279,7 +280,9 @@ body {
 .contact_form a:link,.contact_form a:visited{
   color: #504C4C;
 }
-
+.news_tab{
+  margin-bottom: 10px;
+}
 @media(max-width:768px){
   .price_outter{
     margin-top:75px;
@@ -604,12 +607,14 @@ div#preloader {
 }
 
 ::-moz-selection {
-  background: #3EC1D5;
+  background: #44B7DF;
+  color: #FFF;
   text-shadow: none;
 }
 
 ::selection {
-  background: #3EC1D5;
+  background: #44B7DF;
+  color: #FFF;
   text-shadow: none;
 }
 
@@ -692,7 +697,7 @@ div#preloader {
   color: #FFF;
   font-size: 15px;
   font-weight: 400;
-  padding: 24px 0px;
+  padding: 18px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
 }
@@ -927,7 +932,7 @@ div#preloader {
 ----------------------------- */
 .navbar-header a.navbar-brand {
   display: inline-flex;
-  height: 70px;
+  height: 56px;
   padding: 8px 0;
   align-items: center;
 }
@@ -949,7 +954,7 @@ div#preloader {
   color: #223a50;
   font-size: 15px;
   font-weight: 600;
-  padding: 24px 0px;
+  padding: 18px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
   cursor: pointer;
@@ -2456,11 +2461,11 @@ div#preloader {
 .f_company_area .top{
   padding: 15px 0;
   border-bottom: 1px solid #b0dbff;
-  font-size: 1.2em;
 }
 .f_menu{
   max-width: calc(100% - 10em);
   float: right;
+  font-size: 1.1em;
 }
 .f_menu ul li{
   padding: 0px 15px;
@@ -2478,8 +2483,11 @@ div#preloader {
   display: flex;
   justify-content: space-between;
 }
+.f_com_name{
+  font-size: 1.5em;
+}
 .large_font{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 /*----------------------------------------*/
 
@@ -2644,6 +2652,7 @@ div#preloader {
 .download_area{
   width: 100%;
   margin-bottom: 15px;
+  font-size: 1.1em;
 }
 .download_area h3{
     color: #043E79;
@@ -2651,6 +2660,13 @@ div#preloader {
     font-weight: 400;
     margin-bottom: 10px;
     margin-top: 0;
+}
+.download_area .table tr td{
+    padding: 12px 8px;
+}
+.download_area .table tr td:first-child span.glyphicon{
+    color: #ccc;
+    margin-right: 5px;
 }
 .download_area ul li{
   padding: 10px 0;
