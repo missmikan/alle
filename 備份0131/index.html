@@ -1,0 +1,197 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>全誼資訊ALLE - 校務系統的先驅者</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords" content="全誼,校務系統">
+  <meta name="description" content="專注研發國中小校務系統20年，配合學校開發所需的各式系統服務，Web與App均能跨平台使用。我們有校務行政系統、圖書系統、卡務系統、門禁系統、健康掛號系統以及校務APP等服務">
+  <!-- Favicons -->
+  <link rel="Shortcut Icon" href="img/favicon.png">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <!-- <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet"> -->
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Poppins&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/APP-container.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+<div id="preloader"></div>
+<header>
+  <!-- header-area start <--></-->
+  <div class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <!-- Navigation -->
+          <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <!-- Brand -->
+              <a class="navbar-brand page-scroll sticky-logo" onclick="changePage('main_slider')">
+                <div class="company_Name">全誼資訊<span> ALLE</span></div>
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a class="page-scroll" title="點選查看所有產品" id="ProductList" type="button">產品概覽</a>
+                </li>
+                <li class="tab">
+                  <a class="page-scroll" onclick="changePage('price')">使用方案</a>
+                </li>
+                <!--  <li>
+                  <a class="page-scroll" href="how_to_login.html">新知科技</a>
+                </li> -->
+                <li class="tab">
+                  <a class="page-scroll" onclick="changePage('team')">關於全誼</a>
+                </li>
+                <li class="tab">
+                  <a class="page-scroll" onclick="changePage('contact')">客戶專區</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="/WebAuth.do">登入</a>
+                </li>
+              </ul>
+            </div>
+            <!-- navbar-collapse -->
+          </nav>
+          <!-- END: Navigation -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-area end -->
+</header>
+<div class="ProductList" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item" >
+        <div class="content" onclick="changePage('app')">
+          <div class="pic"><img src="img/product_1.png" alt=""></div>
+          <p>School<sup>+</sup>校務APP</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+        <div class="content" onclick="changePage('school_system')">
+          <div class="pic"><img src="img/product_2.png" alt=""></div>
+          <p>School<sup>+</sup>校務系統</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+        <div class="content" onclick="changePage('access_control')">
+          <div class="pic"><img src="img/product_3.png" alt=""></div>
+          <p>數位門禁系統</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+        <div class="content" onclick="changePage('library')">
+          <div class="pic"><img src="img/product_4.png" alt=""></div>
+          <p>圖書管理系統</p>
+        </div>
+      </div>
+<!--       <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+        <div class="content">
+          <div class="pic"><img src="img/product_4.png" alt=""></div>
+          <p>建構中</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+        <div class="content">
+          <div class="pic"><img src="img/product_4.png" alt=""></div>
+          <p>建構中</p>
+        </div> 
+      </div>-->
+    </div>
+  </div>
+  <div class="arrow" style="text-align: center;">
+    <button class="btn" type="button" id="CloseList">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+    </button>
+  </div>
+</div>
+
+<div id="includedContent"></div>
+
+<!-- Start Footer bottom Area -->
+<footer>
+  <div class="footer-area">
+    <div class="container">
+      <div class="f_company_area">
+        <div class="f_menu">
+          <ul>
+            <li><a onclick="changePage('team')">關於全誼</a></li>
+            <li><a onclick="changePage('contact')">客戶專區</a></li>
+            <li><a onclick="changePage('price')">使用方案</a></li>
+            <!-- <li><a href="#">新知科技</a></li> -->
+            <li><a href="https://www.youtube.com/channel/UCYmvUkwwOgqtvbeTl7v9FRQ" target="_blank">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="top">
+          <div class="f_com_name pull-left">
+            全誼資訊 ALLE
+          </div>
+          <div class="pull-right">
+            免付費客服專線 0800-880-928
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        
+        <div class="copyright text-center">
+          <p>
+            &copy; Copyright <strong>全誼資訊</strong>. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/venobox/venobox.min.js"></script>
+<script src="lib/knob/jquery.knob.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/parallax/parallax.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/appear/jquery.appear.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<!-- <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script> -->
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/main.js"></script>
+<script src="js/APP-interface.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#ProductList").click(function(){
+  $(".ProductList").slideToggle();
+  });
+});
+$(document).ready(function(){
+  $("#CloseList").click(function(){
+  $(".ProductList").slideUp();
+  });
+});
+</script>

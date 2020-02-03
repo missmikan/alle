@@ -523,7 +523,7 @@ body {
   display: none;
   width: 100%;
   position: relative;
-  top: 70px;
+  top: 56px;
   z-index: 999;
   border-radius: 0;
   background-color: rgba(255, 255, 255, 1);
@@ -961,7 +961,7 @@ div#preloader {
 }
 .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #FFAA46;
-  bottom: 0px;
+  bottom: 15px;
   content: "";
   left: 0;
   position: absolute;
@@ -986,7 +986,9 @@ div#preloader {
 .main-menu ul.navbar-nav li a:hover {
   color: #3EC1D5;
 }
-
+#sticker .main-menu ul.navbar-nav li.active > a::after {
+  border: 0;
+}
 .navbar {
   border: medium none;
   margin-bottom: 0;
@@ -2422,7 +2424,7 @@ div#preloader {
 
 .footer-area {
   padding: 15px 0;
-  background: #135494;
+  background: #307fce;
 }
 .footer-area-bottom {
   background: #f1f1f1 none repeat scroll 0 0;
@@ -2482,6 +2484,10 @@ div#preloader {
   padding: 15px 0;
   display: flex;
   justify-content: space-between;
+}
+.company_data p img{
+  width: 16px;
+
 }
 .f_com_name{
   font-size: 1.5em;
