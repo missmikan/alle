@@ -4,9 +4,11 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
 		<title>動態api管理</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC&display=swap" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -40,7 +42,7 @@
 							</ul>
 							<!-- THE PANELS -->
 							<article id="panels">
-								<div class="container">
+								<div class="main_container">
 									<section id="panel-1">
 										<main>
 											<div class="left_menu">
@@ -213,35 +215,43 @@
 										<main>
 											<div class="item_title_box">	
 												<span class="item_title">
-													Email管理設定
+													<span>Email管理設定</span>
 												</span>
-												<span class="btn_font14 btn_lightblue flo_right ">
-													<img src="img/pluse.svg" alt="">
-													從人事資料快速新增
-												</span>
-											</div>
-										<!-- 新增人員 -->
-											<div class="add">
-												<span class="add_person">
-													新增人員
-												</span>
-												<span class="add_person_title">
-													單位
-													<input type="text" placeholder="請輸入單位名稱" class="input_box input_box_rwd">
-												</span>
-												<span class="add_person_title">
-													姓名
-													<input type="text" placeholder="請輸入姓名" class="input_box input_box_rwd">
-												</span>
-												<span class="add_person_title">
-													信箱
-													<input type="text" placeholder="請輸入信箱" class="input_box input_400 input_box_rwd">
-												</span>
-												<span class="btn_font14 btn_deepblue">
+												<a class="btn_font14 btn_deepblue flo_right btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 													<img src="img/pluse.svg" alt="">
 													新增
-												</span>
+												</a>
+
+												<!-- 新增人員 -->
+												<div class="collapse" id="collapseExample">
+													<div class="add">
+													<!-- <span class="add_person">
+														新增人員
+													</span> -->
+													<span class="add_person_title">
+														單位
+														<input type="text" placeholder="請輸入單位名稱" class="input_box input_box_rwd">
+													</span>
+													<span class="btn_font14 btn_lightblue">
+														<img src="img/pluse.svg" alt="">
+														從人事資料加入
+													</span>
+													<span class="add_person_title">
+														姓名
+														<input type="text" placeholder="請輸入姓名" class="input_box input_box_rwd">
+													</span>
+													<span class="add_person_title">
+														信箱
+														<input type="text" placeholder="請輸入信箱" class="input_box input_400 input_box_rwd">
+													</span>
+													<span class="btn_font14 btn_yellow">
+														<img src="img/check.svg" alt="">
+																確認
+													</span>
+												</div>
+												</div>
 											</div>
+										
 										<!-- 快速搜尋 -->
 											<div class="setting_search">
 												<input type="button" class="search_btn" value="顯示全部">
@@ -249,7 +259,7 @@
 												<input type="button" class="search_btn" value="超過三個月未使用">
 												<span class="flo_right ">
 													<input type="text" placeholder="搜尋單位/聯絡人/信箱名稱" class="input_box input_200">
-													<span class="search">
+													<span class="search_img">
 														<img src="img/search.svg" alt="">
 													</span>
 												</span>
