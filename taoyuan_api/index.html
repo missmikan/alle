@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<title>動態api管理</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<!-- TAB CONTROLLERS -->
+			<input id="panel-1-ctrl" class="panel-radios" type="radio" name="tab-radios" checked>
+			<input id="panel-2-ctrl" class="panel-radios" type="radio" name="tab-radios">
+			<input id="panel-3-ctrl" class="panel-radios" type="radio" name="tab-radios">
+			<input id="panel-4-ctrl" class="panel-radios" type="radio" name="tab-radios">
+			<input id="panel-5-ctrl" class="panel-radios" type="radio" name="tab-radios">
+			<input id="nav-ctrl" class="panel-radios" type="checkbox" name="nav-checkbox">
+			<!-- TABS LIST -->
+			<ul id="tabs-list">
+				<!-- MENU TOGGLE -->
+				<label id="open-nav-label" for="nav-ctrl"></label>
+				<li id="li-for-panel-1">
+					<label class="panel-label" for="panel-1-ctrl">數位儀表板</label>
+					</li><!--INLINE-BLOCK FIX-->
+					<li id="li-for-panel-2">
+						<label class="panel-label" for="panel-2-ctrl">介接服務</label>
+						</li><!--INLINE-BLOCK FIX-->
+						<li id="li-for-panel-3">
+							<label class="panel-label" for="panel-3-ctrl">資源管理</label>
+							</li><!--INLINE-BLOCK FIX-->
+							<li id="li-for-panel-4">
+								<label class="panel-label" for="panel-4-ctrl">系統設定</label>
+								</li><!--INLINE-BLOCK FIX-->
+								
+								<label id="close-nav-label" for="nav-ctrl">Close</label>
+							</ul>
+							<!-- THE PANELS -->
+							<article id="panels">
+								<div class="container">
+									<section id="panel-1">
+										<main>
+											<div class="left_menu">
+												<ul>
+													<li>全部統計</li>
+													<li>介接單位</li>
+													<li>API總數</li>
+													<li>異常查詢</li>
+													<li>AAA</li>
+												</ul>
+											</div>
+											<div class="right_content">
+												<div class="data_bar">
+													<div class="data_item">
+														<div class="title color_1">介接單位</div>
+														<span class="count">13</span>
+													</div>
+													<div class="data_item">
+														<div class="title color_2">介接API總數</div>
+														<span class="count">13</span>
+													</div>
+													<div class="data_item">
+														<div class="title color_3">ABCDEFG</div>
+														<span class="count">13</span>
+													</div>
+													<div class="data_item">
+														<div class="title color_4">測試測試</div>
+														<span class="count">13</span>
+													</div>
+												</div>
+
+
+
+											</div>
+										</main>
+									</section>
+
+									<section id="panel-2">
+										<main>
+											222
+										</main>
+									</section>
+									<section id="panel-3">
+										<main>
+											333
+										</main>
+									</section>
+									<section id="panel-4">
+										<main>
+											444
+										</main>
+									</section>
+								</div>
+							</article>
+						</div>
+					</body>
+				</html>
