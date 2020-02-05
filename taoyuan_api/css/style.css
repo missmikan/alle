@@ -351,6 +351,16 @@ span.nav_4{
   font-weight:bold;
   margin-left:7px;
 }
+::-webkit-input-placeholder{
+  color:#9A9A9A;
+}
+::-moz-placeholder{
+  color:#9A9A9A;
+}
+::-moz-placeholder{
+  color:#9A9A9A;
+}
+
 
 /* 快速搜尋 */
 .search_btn{
