@@ -1,8 +1,8 @@
 @charset'UTF-8';
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Inconsolata);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC&display=swap');
 body {
   color: #444444;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Noto Sans TC','Montserrat', sans-serif;
   font-size: 14px;
 }
 .white-box{
