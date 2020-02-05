@@ -185,7 +185,7 @@
 												<span class="item_title">
 													Email管理設定
 												</span>
-												<span class="btn_font15 btn_lightblue flo_right ">
+												<span class="btn_font14 btn_lightblue flo_right ">
 													+從人事資料快速新增
 												</span>
 											</div>
@@ -198,19 +198,19 @@
 													單位
 												</span>
 												<span>
-													<input type="text" placeholder="請輸入單位名稱">
+													<input type="text" placeholder="請輸入單位名稱" class="input_box">
 												</span>
 												<span class="add_person_title">
 													姓名
 												</span>
 												<span>
-													<input type="text" placeholder="請輸入姓名">
+													<input type="text" placeholder="請輸入姓名" class="input_box">
 												</span>
 												<span class="add_person_title">
 													信箱
 												</span>
 												<span>
-												<input type="text" placeholder="請輸入信箱">
+												<input type="text" placeholder="請輸入信箱" class="input_box">
 												</span>
 												<span class="btn_font14 btn_deepblue">
 													新增
@@ -222,61 +222,65 @@
 												<input type="button" class="search_btn" value="近期新增">
 												<input type="button" class="search_btn" value="超過三個月未使用">
 												<span class="flo_right">
-													<input type="text" placeholder="搜尋單位/聯絡人/信箱名稱" class="input_box">
-													<i class="fa fa-search" aria-hidden="true"></i>
+													<input type="text" placeholder="搜尋單位/聯絡人/信箱名稱" class="input_box input_200">
+													<span class="">
+														<img src="img/search.svg" alt="">
+													</span>
 												</span>
 											</div>
 										<!-- 列表 -->
-											<ul>
+										<div class="setting_table">
+											<ul class="setting_list">
 												<li>
-													<div>
-														全誼資訊
-													</div>
-													<div>
-														王小明
-													</div>
-													<div>
-														12345@gmail.com
-													</div>
-													<div>
-														<span>
+													<ul>
+														<li>全誼資訊</li>
+														<li>王小明</li>
+														<li>12345@gmail.com</li>
+														<li>
 															上次使用 
 															<span>
 																2020/01/01
 															</span>
+														</li>
+														<li>
+															<span class="btn_font14 btn_green">
+																修改
+															</span>
+<!-- 														</li>
+														<li> -->
+															<span class="btn_font14 btn_red">
+																刪除
 														</span>
-														<span class="btn_font14 btn_green">
-															修改
-														</span>
-														<span class="btn_font14 btn_red">
-															刪除
-														</span>
-													</div>
+														</li>
+													</ul>
 												</li>
 											<!-- 按修改鈕 -->
 												<li>
-													<div>
-														<input type="text" placeholder="" name="單位">
-													</div>
-													<div>
-														<input type="text" placeholder="" name="姓名">
-													</div>
-													<div>
-														<input type="text" placeholder="" name="信箱">
-													</div>
-													<div>
-														<span>
+													<ul>
+														<li>
+															<input type="text" placeholder="" name="單位" class="input_box">
+														</li>
+														<li>
+															<input type="text" placeholder="" name="姓名" class="input_box">
+														</li>
+														<li>
+															<input type="text" placeholder="" name="信箱" class="input_box">
+														</li>
+														<li>
 															上次使用 
 															<span>
 																2020/01/01
 															</span>
-														</span>
-														<span class="btn_font14 btn_yellow">
-															確認
-														</span>
-													</div>
+														</li>
+														<li>
+															<span class="btn_font14 btn_yellow">
+																確認
+															</span>
+														</li>
+													</ul>
 												</li>
 											</ul>
+										</div>
 										</main>
 									</section>
 								</div>
