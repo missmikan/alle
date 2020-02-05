@@ -184,14 +184,17 @@ label.panel-label:hover {
 	width: 10%;
 	text-align: center;
 }
-.chart{
-	width: calc(50% - 5px);
-	height: 300px;
+.flex{
+  display: flex;
+}
+.chart_1{
 	padding: 10px;
-	box-sizing: border-box;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	float: left;
+  flex: 1;
+  margin-right: 10px;
+}
+.chart_2{
+  padding: 10px;
+  flex: 2;
 }
 .chart:nth-child(even){
 	margin-right: 0;
