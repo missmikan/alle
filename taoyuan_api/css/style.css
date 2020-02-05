@@ -86,6 +86,18 @@ label.panel-label:hover {
     box-sizing: border-box;
     cursor: pointer;
 }
+.left_menu ul li.active{
+	background-color: #12AAC6;
+	color: #FFF;
+}
+.left_menu ul li .numbers{
+	color: #12AAC6;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 3px;
+	padding: 2px 3px;
+	box-sizing: border-box;
+	float: right;
+}
 .right_content{
 	width: calc(85% - 15px);
 	float: left;
@@ -262,6 +274,11 @@ span.nav_4{
 		width: 100%;
 		margin-right: 0;
 	}
+	.left_menu ul li{
+		float: left;
+		width: auto;
+		margin-right: 5px;
+	}
 	.right_content{
 		width: 100%;
 	}
@@ -282,6 +299,7 @@ span.nav_4{
 	.data_bar .data_item:nth-child(even){
 		margin-right: 0px;
 	}
+
   #nav-ctrl:checked ~ #tabs-list #li-for-panel-1 {
     max-height: 46px;
     opacity: 1;
@@ -414,6 +432,9 @@ span.nav_4{
   #panels section header {
     display: block;
   }
+	.nav_1,.nav_2,.nav_3,.nav_4,.nav_5{
+		display: none !important;
+	}
 }
 @media all and (min-width: 768px) {
 		.panel-radios{
