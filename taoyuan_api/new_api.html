@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/new_api.css">
+	</head>
+	<body class="def_rwd">
+		<div class="new_student_data_1 ng-scope" ng-if="!modal.edit">
+			<div class="green_title">學生基本資料</div>
+			
+			<div class="form-2">中文姓名</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.name" class="ng-binding">林浚晨</span>
+				</div>
+			</div>
+			<div class="form-2">英文姓名</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.ename" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2">英文暱名</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.nickname" class="ng-binding"></span>
+				</div>
+			</div>
+			<div class="form-2">身分證號</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.idno" class="ng-binding">F132162759</span>
+				</div>
+			</div>
+			
+			<div class="form-2">性別/生日</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.sex_name" class="ng-binding">女</span>
+					<span class="blank">/</span>
+					<span ng-bind="modal.data.birthday_tw" class="ng-binding">101-10-02</span>
+				</div>
+			</div>
+			<div class="form-2">學習型態</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.learn_opt[modal.data.learn_type]" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2" style="letter-spacing:2em;">國籍</div>
+			<div class="form-4">
+				<div class="content">
+					<!-- ngIf: modal.data.continent != '01' -->
+					<span ng-bind="modal.data.stdcountry_name" class="ng-binding"></span>
+				</div>
+			</div>
+			<div class="form-2">第二國籍</div>
+			<div class="form-4">
+				<div class="content">
+					<!-- ngIf: modal.data.continent2 != '01' --><span ng-bind="modal.data.continent_name2" ng-if="modal.data.continent2 != '01'" class="ng-binding ng-scope"></span><!-- end ngIf: modal.data.continent2 != '01' -->
+					<span ng-bind="modal.data.stdcountry_name2" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2" style="letter-spacing:0.5em;">出生地</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.birthplace" class="ng-binding"></span>
+				</div>
+			</div>
+			<div class="form-2" style="letter-spacing:0.5em;">僑居地</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.overseas" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2">學生電話</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.cpgsm" class="ng-binding"></span>
+				</div>
+			</div>
+			<div class="form-2">電子郵件</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.mail" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2">戶籍電話</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.hptel" class="ng-binding"></span>
+				</div>
+			</div>
+			<div class="form-2">聯絡電話</div>
+			<div class="form-4">
+				<div class="content">
+					<span ng-bind="modal.data.cptel" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2">戶籍地址</div>
+			<div class="form-10">
+				<div class="content">
+					<span ng-bind="modal.data.h_addr" class="ng-binding"></span>
+				</div>
+			</div>
+			
+			<div class="form-2">聯絡地址</div>
+			<div class="form-10">
+				<div class="content">
+					<span ng-bind="modal.data.c_addr" class="ng-binding"></span>
+				</div>
+			</div>
+		
+			
+		</div>
+	</body>
+</html>
