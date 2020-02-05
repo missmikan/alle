@@ -459,3 +459,126 @@ pre strong {
   color: #444444;
   font-weight: normal;
 }
+
+/* 系統設定 */
+/* 標題文字 */
+.item_title{
+  font-size:18px;
+  color:#0B778B;
+  font-weight:bold;
+  display:inline-block;
+}
+.item_title_box{
+  margin-bottom:8px;
+}
+/* button */
+.btn_font15{
+  color:#ffffff;
+  font-size:15px;
+  padding:3px 5px;
+  border-radius:3px;
+  cursor:pointer;
+}
+
+.btn_font14{
+  color:#ffffff;
+  font-size:14px;
+  padding:3px 5px;
+  border-radius:3px;
+  cursor:pointer;
+}
+
+.btn_lightblue{
+  background-color:#1CA9D3;
+}
+.btn_lightblue:hover{
+  background-color:#0BBFF5;
+  transition:all 0.2s ease 0s;
+}
+
+.btn_deepblue{
+  background-color:#367F9A;
+}
+.btn_deepblue:hover{
+  background-color:#27B1C3;
+  transition:all 0.2s ease 0s;
+}
+
+.btn_green{
+  background-color:#039B1A;
+}
+.btn_green:hover{
+  background-color:#47B198;
+  transition:all 0.2s ease 0s;
+}
+
+.btn_red{
+  background-color:#D16666;
+}
+.btn_red:hover{
+  background-color:#FF4B4B;
+  transition:all 0.2s ease 0s;
+}
+
+.btn_yellow{
+  background-color:#FCC42D;
+}
+.btn_yellow:hover{
+  background-color:#FFCE00;
+  transition:all 0.2s ease 0s;
+}
+
+.flo_right{
+  float:right;
+  display:inline-block;
+}
+
+/* 新增人員 */
+.add{
+  margin-bottom:12px;
+  background-color:#F5F5F5;
+  padding:8px 0;
+}
+.add_person{
+  display:inline-block;
+  color:#535353;
+  font-size:15px;
+  font-weight:bold;
+  margin:0 10px;
+}
+.add_person_title{
+  color:#6F6F6F;
+  font-size:15px;
+  font-weight:bold;
+  margin-left:7px;
+}
+
+/* 快速新增 */
+.search_btn{
+  color:#007FB7;
+  font-size:14px;
+  display:inline-block;
+  padding:1px 8px;
+  cursor:pointer;
+  border: 0px;
+  border-bottom:solid 2px #ffffff;
+  outline:none;
+}
+.search_btn:focus{
+  border-bottom:solid 2px #007FB7;
+}
+.search_btn:hover{
+  border-bottom:solid 2px #007FB7;
+  transition:all 0.2s ease 0.1s;
+}
+
+/* 輸入框樣式 */
+.input_box{
+  outline:none;
+  border-radius:3px;
+  border:solid 1px #E0E0E0;
+  padding:3px 5px;
+}
+.input_box
+
+
