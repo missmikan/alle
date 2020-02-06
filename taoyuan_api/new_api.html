@@ -7,54 +7,55 @@
 	</head>
 	<body class="def_rwd">
 		<div class="new_student_data_1 ng-scope" ng-if="!modal.edit">
-			<div class="green_title">學生基本資料</div>
+			<div class="green_title">API資訊</div>
 			
-			<div class="form-2">中文姓名</div>
+			<div class="form-2">API型別</div>
 			<div class="form-4">
 				<div class="content">
-					<span ng-bind="modal.data.name" class="ng-binding">林浚晨</span>
+					<select name="" id="">
+						<option value="">請選擇API</option>
+					</select>
 				</div>
 			</div>
-			<div class="form-2">英文姓名</div>
+			<div class="form-2">API操作類別</div>
 			<div class="form-4">
 				<div class="content">
-					<span ng-bind="modal.data.ename" class="ng-binding"></span>
-				</div>
-			</div>
-			
-			<div class="form-2">英文暱名</div>
-			<div class="form-4">
-				<div class="content">
-					<span ng-bind="modal.data.nickname" class="ng-binding"></span>
-				</div>
-			</div>
-			<div class="form-2">身分證號</div>
-			<div class="form-4">
-				<div class="content">
-					<span ng-bind="modal.data.idno" class="ng-binding">F132162759</span>
+					123
 				</div>
 			</div>
 			
-			<div class="form-2">性別/生日</div>
-			<div class="form-4">
+			<div class="form-2">*專案API名稱</div>
+			<div class="form-10">
 				<div class="content">
-					<span ng-bind="modal.data.sex_name" class="ng-binding">女</span>
-					<span class="blank">/</span>
-					<span ng-bind="modal.data.birthday_tw" class="ng-binding">101-10-02</span>
+					<input type="text" placeholder="專案API名稱">
 				</div>
 			</div>
-			<div class="form-2">學習型態</div>
+			<div class="form-2">*呼叫路徑</div>
 			<div class="form-4">
 				<div class="content">
-					<span ng-bind="modal.learn_opt[modal.data.learn_type]" class="ng-binding"></span>
+					<input type="text" placeholder="呼叫路徑">
 				</div>
 			</div>
 			
-			<div class="form-2" style="letter-spacing:2em;">國籍</div>
+			<div class="form-2">啟用/停用</div>
 			<div class="form-4">
 				<div class="content">
-					<!-- ngIf: modal.data.continent != '01' -->
-					<span ng-bind="modal.data.stdcountry_name" class="ng-binding"></span>
+					<input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+				</div>
+			</div>
+			<div class="form-2">判斷第三方存取</div>
+			<div class="form-4">
+				<div class="content">
+					
+				</div>
+			</div>
+			
+			<div class="form-2">加密模式</div>
+			<div class="form-4">
+				<div class="content">
+					<select name="" id="">
+						<option value="">不加密</option>
+					</select>
 				</div>
 			</div>
 			<div class="form-2">第二國籍</div>
