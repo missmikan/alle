@@ -414,6 +414,7 @@ span.nav_4{
   color:#6F6F6F;
   font-weight:bold;
   margin-left:7px;
+  display:inline-block;
 }
 ::-webkit-input-placeholder{
   color:#9A9A9A;
@@ -738,7 +739,7 @@ span.nav_4{
 
   /* 系統設定rwd */
   .add_person_title{
-    display:inline-block;
+    display:block;
     margin-bottom: 5px;
   }
   .input_box_rwd{
@@ -910,11 +911,29 @@ span.nav_4{
   .setting_list>li>ul{
     flex-wrap: wrap;
   }
-  .setting_list>li>ul>li{
-    width: 100% !important;
-  }
   .input_400{
-    width: auto;
+    width:68%;
+  }
+  .setting_table ul{
+    position:relative;
+  }
+  .setting_list>li>ul>li:nth-child(1){
+    width: 100%;
+  }
+  .setting_list>li>ul>li:nth-child(2){
+    width: 100%;
+  }
+  .setting_list>li>ul>li:nth-child(3){
+    width: 100%;
+  }
+  .setting_list>li>ul>li:nth-child(4){
+    width: 100%;
+  }
+  .setting_list>li>ul>li:nth-child(5){
+    position: absolute;
+    right: 5px;
+    top: 39px;
+    width: 27%;
   }
 }
 @media all and (min-width: 768px) {
