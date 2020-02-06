@@ -12,11 +12,22 @@ body {
 	color: #12C6AA;
 }
 .warning_text{
-	color: #FF5A5A;
+	color: #ff6d6d;
 }
 .wrapper{
 	max-width: 1000px;
 	margin: 0 auto;
+}
+.arrow_down{
+  color: #FFF;
+  font-size: 1.5em;
+  padding: 7px;
+  position: absolute;
+  right: 20px;
+  top: 2px;
+}
+#tab-list label {
+    margin-bottom: 0;
 }
 ul#tabs-list {
   list-style: none;
@@ -35,7 +46,6 @@ label.panel-label {
   width: 100%;
   color: #707070;
   cursor: pointer;
-  /* background-color: #ecf0f1; */
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
   -webkit-transition-duration: 200ms;
@@ -99,20 +109,19 @@ label.panel-label:hover {
 	box-sizing: border-box;
 	float: right;
 }
-.left_menu .search .title{
+.h3_title{
   color: #12AAC6;
   font-weight: 600;
   margin-bottom: 5px;
-}
-.left_menu .search input{
-  padding: 5px 8px;
-  border-radius: 3px;
-  border: 1px solid #CCC;
-  outline: none;
+  padding: 5px 0;
+  display: inline-block;
 }
 .right_content{
 	width: calc(85% - 15px);
 	float: left;
+}
+.tool_bar{
+  margin-bottom: 10px;
 }
 .data_bar{
 	display: flex;
@@ -163,6 +172,7 @@ label.panel-label:hover {
 .list_table{
 	color:#707070;
 	margin-bottom: 15px;
+  width: 100%;
 }
 .list_table ul{
 	list-style: none;
@@ -245,6 +255,24 @@ label.panel-label:hover {
   width: 8%;
   text-align: right ;
 }
+.api_enter > ul > li > ul >li:nth-child(1){
+  width: 8%;
+}
+.api_enter > ul > li > ul >li:nth-child(2){
+  width: 12%;
+}
+.api_enter > ul > li > ul >li:nth-child(3){
+  width: 15%;
+}
+.api_enter > ul > li > ul >li:nth-child(4){
+  width: 40%;
+}
+.api_enter > ul > li > ul >li:nth-child(5){
+  width: 10%;
+}
+.api_enter > ul > li > ul >li:nth-child(6){
+  width: 25%;
+}
 .flex{
   display: flex;
 }
@@ -297,11 +325,12 @@ span.nav_4{
 /* 系統設定 */
 /* 標題文字 */
 .item_title{
-  font-size:1.2em;
+  font-size:1.1em;
   color:#0B778B;
   font-weight:bold;
   display:inline-block;
   border-left:solid 5px #0B778B;
+  margin-bottom: 5px;
 }
 .item_title span{
   margin-left: 5px;
@@ -317,6 +346,7 @@ span.nav_4{
   cursor:pointer;
   margin-right:3px;
   display:inline-block;
+  border: 0;
 }
 
 .btn_lightblue{
@@ -528,6 +558,10 @@ span.nav_4{
     mask-image: url(../img/nav_4.svg);
 }
 @media all and (max-width: 767px) {
+  .wrapper{
+    width: 95%;
+    margin: 0 auto;
+  }
 	.left_menu{
 		width: 100%;
 		margin-right: 0;
@@ -537,6 +571,12 @@ span.nav_4{
 		width: auto;
 		margin-right: 5px;
 	}
+  .left_menu .search .title{
+    display: inline-block;
+  }
+  .left_menu .search{
+    margin-bottom: 10px;
+  }
 	.right_content{
 		width: 100%;
 	}
@@ -602,15 +642,15 @@ span.nav_4{
     display: block;
     max-height: 0;
     overflow-y: hidden;
-    background-color: #444444;
-    color: #ecf0f1;
+    color: #FFF;
+    background-color: #333;
     padding: 0px;
-    -webkit-transition: max-height 200ms;
-    transition: max-height 200ms;
+    -webkit-transition: max-height 20ms;
+    transition: max-height 20ms;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 1em;
+    line-height: 12px;
     letter-spacing: 1px;
   }
 
@@ -618,6 +658,7 @@ span.nav_4{
     max-height: 36px;
     opacity: 1;
     padding: 12px 24px;
+    text-align: center;
   }
 
   #tabs-list {
@@ -687,7 +728,6 @@ span.nav_4{
 
   #panels .main_container {
     width: 100%;
-    width:1000px;
   }
   #panels section header {
     display: block;
@@ -706,6 +746,175 @@ span.nav_4{
   }
   .add_person{
     display:none;
+  }
+  .content_list{
+    flex-wrap: wrap;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 6px rgba(34, 63, 128, 0.16);
+
+  }
+  .list_table  > ul > li{
+    margin-bottom: 10px;
+  }
+  .list_table  > ul > li > ul >li{
+    width: 50% !important;
+    text-align: left !important;
+    display: inline-flex;
+    align-items: flex-start;
+  }
+  .list_table  > ul > li:first-child{
+    display: none;
+  }
+  .company_use > ul > li > ul >li:nth-child(1){
+    width: 100% !important;
+    color: #263c6f;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+    font-size: 1.1em;
+  }
+  .company_use > ul > li > ul >li:nth-child(2):before{
+    content: "API數量：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .company_use > ul > li > ul >li:nth-child(3):before{
+    content: "使用總次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .company_use > ul > li > ul >li:nth-child(4):before{
+    content: "成功次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .company_use > ul > li > ul >li:nth-child(5):before{
+    content: "失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .company_use > ul > li > ul >li:nth-child(6):before{
+    content: "近一個月成功次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .company_use > ul > li > ul >li:nth-child(7):before{
+    content: "近一個月失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(1){
+    width: 100% !important;
+    color: #263c6f;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  .api_use > ul > li > ul >li:nth-child(2):before{
+    content: "使用總次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(3):before{
+    content: "成功次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(4):before{
+    content: "失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(5):before{
+    content: "近一個月成功次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(6):before{
+    content: "近一個月失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_use > ul > li > ul >li:nth-child(7):before{
+    content: "使用狀態：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(1):before{
+    content: "啟用：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(2):before{
+    content: "參數Key：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(3):before{
+    content: "參數類型：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(4):before{
+    content: "說明：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(5):before{
+    content: "預設值：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .api_enter > ul > li > ul >li:nth-child(6):before{
+    content: "可傳入預設：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 6em;
+  }
+  .setting_list>li>ul{
+    flex-wrap: wrap;
+  }
+  .setting_list>li>ul>li{
+    width: 100% !important;
+  }
+  .input_400{
+    width: auto;
   }
 }
 @media all and (min-width: 768px) {

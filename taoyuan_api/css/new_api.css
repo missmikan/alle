@@ -1,35 +1,29 @@
-/* .school{ */
-/* 	width: 6em; */
-/* } */
-.def_rwd .place{
-	width:calc(100% - 4em) !important;
+@charset 'UTF-8';
+
+.api_rwd{
+	max-width: 80%;
+	margin: 0 auto;
 }
-.def_rwd .move_place{
-	width: calc(100% - 4em) !important;
+.api_rwd .point{
+	color: #ff6d6d;
 }
-.def_rwd .th-font{
-    color: #9E9E9E;
-/* 	white-space: nowrap; */
-	margin-right: 2px;
-}
-.def_rwd .address{
-	min-width:100%;
-}
-.def_rwd .blank{
-/* 	width: 6px; */
-    margin: 0px 6px;
-}
-.def_rwd .green_title{
+.api_rwd .green_title{
 	color: #FFF;
     padding: 0.2em 0.5em;
     width: 100%;
-    background-color: #50A9C1;
+    background-color: #12AAC6;
     border-radius: 3px;
     margin-bottom: 5px;
     margin-top: 5px;
     font-weight: 600;
 }
-.def_rwd .green_subtitle {
+.api_rwd .green_bold_title{
+	color: #12AAC6;
+    padding: 0.2em 0.5em 0.2em 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.api_rwd .green_subtitle {
 	color: #795548;
     width: 100%;
     border-radius: 3px;
@@ -38,13 +32,13 @@
     font-weight: 600;
     border-bottom: #c1e9e7 2px solid;
 }
-.def_rwd .green_subtitle span {
+.api_rwd .green_subtitle span {
 	background-color: #c1e9e7;
 	padding: 3px 10px;
 	border-radius: 3px;
 	color: #5f5f5f;
 }
-.def_rwd .blue_title{
+.api_rwd .blue_title{
 	color: #FFF;
 	padding: 0.2em 1em;
 	width: 100%;
@@ -53,33 +47,38 @@
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
-.def_rwd .alert_input {
+.api_rwd .small_tips{
+	color: #666;
+	font-size: 13px;
+	padding: 0 10px;
+}
+.api_rwd .alert_input {
 	border-color: #e27373;
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(244, 67, 54, 0.29);
 }
 /* 以下是新版面css */
-.def_rwd .new_student_data_1{
+.api_rwd .new_student_data_1{
 	display: flex;
 	flex-wrap: wrap;
 	color: #284852;
 	/* margin-top: 15px; */
 	font-size:15px;
 }
-.def_rwd .form-2{
+.api_rwd .form-2{
 	width: calc((100% / 10)*1);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
 	/* padding-left: 10px; */
 	box-sizing: border-box;
 	margin-bottom: 10px;
-    color: #067778;
+    color: #3094A7;
     font-weight: 500;
 	align-items: center;
 	font-size: 15px;
 	white-space: nowrap;
 /* 	justify-content: flex-end; */
 }
-.def_rwd .form-4{
+.api_rwd .form-4{
 	width: calc((100% / 10)*4);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
@@ -88,7 +87,7 @@
 	margin-bottom: 10px;
 	align-items: center;
 }
-.def_rwd .form-10{
+.api_rwd .form-10{
 	width: calc((100% / 10)*9);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
@@ -98,7 +97,7 @@
 	align-items: center;
 }
 
-.def_rwd .form-1{
+.api_rwd .form-1{
 	width: calc((100% / 12)*1);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
@@ -112,8 +111,8 @@
 	white-space: nowrap;
 /* 	justify-content: flex-end; */
 }
-.def_rwd .form-3{
-	width: calc((100% / 12)*3);
+.api_rwd .form-3{
+	width: calc((100% / 12)*4);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
 	padding-left: 10px;
@@ -121,8 +120,8 @@
 	margin-bottom: 10px;
 	align-items: center;
 }
-.def_rwd .form-11{
-	width: calc((100% / 12)*11);
+.api_rwd .form-11{
+	width: calc((100% / 12)*10);
 	display: inline-flex;
 /* 	flex-wrap: wrap; */
 	padding-left: 10px;
@@ -131,189 +130,84 @@
 	align-items: center;
 }
 
-.def_rwd .radio > span{
+.api_rwd .radio > span{
 	margin-right: 10px;
 }
-.def_rwd .new_student_data_1 input[type="text"]{
+.api_rwd .new_student_data_1 input[type="text"]{
 	width: 90%;
 	display: inline;
 	height: 1.8em;
 }
-.def_rwd .new_student_data_1 select{
+.api_rwd .new_student_data_1 select{
 	width: auto;
 	display: inline;
 	height: 1.8em;
 	margin-right: 4px;
 	padding: 3px;
 }
-.def_rwd .new_student_data_1 .content{
-	width:auto;
+.api_rwd .new_student_data_1 .content{
+	width:100%;
 	margin-right:2px;
     display: inline-flex;
 }
 
 /* 以上是新版面css */
 
-.def_rwd .brother_item{
-	width: 100%;
-	padding: 0.7em;
-	border-bottom: 1px solid #EFEFEF;
-	font-size: 15px;
-	box-sizing: border-box;
-}
-.def_rwd .brother_item .content{
-	width: auto;
-	margin-right: 5px;
-}
-.def_rwd .brother_item ul{
-	list-style:none;
-	padding-left:0;
-	display:flex;
-	margin:0;
-}
-.def_rwd .brother_item ul li{
-	margin-right:5px;
-}
-.def_rwd .brother_item .title{
-	font-weight: 400;
-	font-size: 1em;
-	width:5%;
-}
-.def_rwd .brother_item .name{
-	color: #117f8e;
-	font-weight: 400;
-	font-size: 16px;
-	margin-right: 1em;
-	font-size: 1.1em;
-	width:20%;
-}
-.def_rwd .brother_item.th{
-	padding:0;
-}
-.def_rwd .brother_item.th .name{
-	color: #333 !important;
-	font-size: 14px;
-}
-.def_rwd .brother_item .birth{
-	color: #333;
-	font-weight: 400;
-	font-size: 1em;
-	width:20%;
-}
-.def_rwd .brother_item .birth:before{
-	content: "民國";
-}
-.def_rwd .brother_item .birth:after{
-	content: "年生";
-}
-.def_rwd .brother_item.th .birth:before{
-	content: "";
-}
-.def_rwd .brother_item.th .birth:after{
-	content: "";
-}
-.def_rwd .brother_item .school{
-	font-size: 1em;
-	width:30%;
-}
-.def_rwd .brother_item .school span{
-	color: #4b819e;
-	font-weight: 400;
-}
-.def_rwd .brother_item .memo{
-	color: #999;
-	font-size: 0.95em;
-	width:15%;
-}
-.def_rwd .brother_item  .edit{
-	width:5%;
-}
-.def_rwd .brother_item .check{
-	margin-right: 1em;
-	font-size: 0.95em;
-	width:6%;
-}
-.def_rwd .brother_item .text{
-	margin-right: 1em;
-	font-size: 0.95em;
-	width:15%;
-}
-.def_rwd .brother_item .mail{
-	margin-right: 1em;
-	font-size: 0.95em;
-	width:20%;
-	word-break: break-word;
-}
-
 @media screen and (max-width: 768px){
-	.def_rwd .brother_item{
+	.api_rwd .brother_item{
 		display: block;
 		width: 100%;
 	}
 }
 
 @media screen and ( min-width: 421px ) and ( max-width: 767px ){
-	.def_rwd .list_menu > div > span {
-		width: calc(98% / 3);
-	    display: inline-block;
-	    margin-bottom: 0.5em;
-	}
-	.def_rwd .page1 .form-group div input{
+	.api_rwd .page1 .form-group div input{
 		display: inline-block;
 	}
-	.def_rwd .border_bar > span:first-child{
-		width: 100%;
-	}
-	.def_rwd .border_bar > span:nth-child(2){
-		width: 100%;
-	}
-	.def_rwd .border_bar > span:nth-child(3){
-		width: 100%;
-	}
 /* 以下是新版面css */
-	.def_rwd .new_student_data_1{
+	.api_rwd .new_student_data_1{
 		flex-wrap: wrap;
 	}
-	.def_rwd .new_student_data_1 .content{
+	.api_rwd .new_student_data_1 .content{
 		width:100%;
 		margin-right:5px;
 	    display: flex;
         margin-bottom: 4px;
 	}
-	.def_rwd .form-2{
-		width: calc((100% / 12)*2);
+	.api_rwd .form-2{
+		width: calc((100% / 12)*3);
 		display: inline-flex;
 		flex-wrap: wrap;
 		padding-left: 0px;
 		align-items: flex-start;
 	}
-	.def_rwd .form-4{
-		width: calc((100% / 12)*10);
+	.api_rwd .form-4{
+		width: calc((100% / 12)*9);
 		display: inline-flex;
 	 	flex-wrap: wrap;
 		padding-left: 10px;
 	}
-	.def_rwd .form-10{
-		width: calc((100% / 12)*10);
+	.api_rwd .form-10{
+		width: calc((100% / 12)*9);
 		display: inline-flex;
 	 	flex-wrap: wrap;
 		padding-left: 10px;
 	}
 	
-	.def_rwd .form-1{
+	.api_rwd .form-1{
 		width: calc((100% / 12)*2);
 		display: inline-flex;
 		flex-wrap: wrap;
 		padding-left: 0px;
 		align-items: flex-start;
 	}
-	.def_rwd .form-3{
+	.api_rwd .form-3{
 		width: calc((100% / 12)*10);
 		display: inline-flex;
 	 	flex-wrap: wrap;
 		padding-left: 10px;
 	}
-	.def_rwd .form-11{
+	.api_rwd .form-11{
 		width: calc((100% / 12)*10);
 		display: inline-flex;
 	 	flex-wrap: wrap;
@@ -321,150 +215,48 @@
 	}
 	
 /* 以上是新版面css */
-	.def_rwd .brother_item.th{
-		display:none;
-	}
-	.def_rwd .brother_item  ul{
-		flex-wrap:wrap;
-	}
-	.def_rwd .brother_item .title,.def_rwd .brother_item .name{
-		width:auto;
-	}
-	.def_rwd .brother_item .title{
-		color: #FFF;
-	    font-size: 13px;
-	    background-color: #4CAF50;
-	    padding: 0.2em 0.4em;
-	    border-radius: 100px;
-	}
-	.def_rwd .brother_item .birth{
-		width:auto;
-	}
-	.def_rwd .brother_item .school{
-		width:100% !important;
-	}
-	.def_rwd .brother_item .memo{
-		width:100%;
-	}
-	.def_rwd .brother_item .mail{
-		width:100%;
-	}
-	.def_rwd .brother_item .text{
-		width:40%;
-	}
 }
 @media screen and ( max-width: 420px ){
-	.def_rwd .main{
+	.api_rwd .main{
 		display: block;
 	}
-	.def_rwd nav {
-		width: 100%;
-		height: auto;
-		line-height: normal;
-		padding: 5px 10px;
-		position: fixed;
-		top: 0;
-		z-index: 1;
-		font-size: 1.3em;
-	}
-	.def_rwd nav > div > span{
-		display: block;	}
-	.def_rwd .main{
-		margin: 0px;
-		padding-top: 70px;
-		padding-bottom: 10px;
-		box-sizing: border-box;
-	}
-	.def_rwd .page1 .form-group div input{
+	.api_rwd .page1 .form-group div input{
 		width: 100% !important;
 	    margin-right: 0px;
 	}
-
-	.def_rwd .page1 .form-group{
-		margin-bottom: 25px;
-	}
-	.def_rwd .border_bar > span:first-child{
-		width: 100%;
-	}
-	.def_rwd .border_bar > span:nth-child(2){
-		width: 100%;
-	}
-	.def_rwd .border_bar > span:nth-child(3){
-		width: 100%;
-	}
-	.def_rwd .border_bar{
-		border-radius: 5px;
-	}
-	.def_rwd .step_bar ul li{
-		font-size: 0.9em;
-	}
-	.def_rwd .data_1 input[type|=text],.def_rwd .data_1 input[type|=date],.def_rwd .data_1 select,.def_rwd .data_2 input[type|=text],.def_rwd .data_2 input[type|=date],.def_rwd .data_2 select,.def_rwd .data_3 input[type|=text],.def_rwd .data_3 input[type|=date],.def_rwd .data_3 select{
+	.api_rwd .data_1 input[type|=text],.api_rwd .data_1 input[type|=date],.api_rwd .data_1 select,.api_rwd .data_2 input[type|=text],.api_rwd .data_2 input[type|=date],.api_rwd .data_2 select,.api_rwd .data_3 input[type|=text],.api_rwd .data_3 input[type|=date],.api_rwd .data_3 select{
 		width: calc(100% - 8em);
 		margin-bottom: 0.2em;
 	}
-	.def_rwd label{
+	.api_rwd label{
 		width: 28%;
 		max-height:3em ;
 		display: inline-block;
 	}
-	.def_rwd .data_3 label{
+	.api_rwd .data_3 label{
 		width: 4.2em;
 	}
-	.def_rwd .inline_block{
+	.api_rwd .inline_block{
 		display: inline-block;
 	}
-	.def_rwd .address{
-		width:57% !important;
-	}
-	.def_rwd .data_1 form ul li,.def_rwd .data_2 form ul li,.def_rwd .data_3 form ul li{
+	.api_rwd .data_1 form ul li,.api_rwd .data_2 form ul li,.api_rwd .data_3 form ul li{
 		display: block;
 	}
-	.def_rwd .label_set{
+	.api_rwd .label_set{
 		height: 3em;
 		float: none;
 	}
-	.def_rwd .menu_set{
-		display: inline-block;
-		width: 100%;
-		float: none;
-	}
-	.def_rwd .list_menu > div > span {
-		width: calc(98% / 2);
-	    display: inline-block;
-	    margin-bottom: 0.5em;
-	}
-	.def_rwd .page1 .form-group div input{
-		display: inline-block;
-	}
-	.def_rwd .page1 .form-group label{
-	    width: 100%;
-	}
-	.def_rwd .form-group{
+	.api_rwd .form-group{
 		padding: 3px 10px;
 	}
-	.def_rwd .school{
-		width: 7em !important;
-	}
-	.def_rwd .place{
-		width:calc(100% - 8em) !important;
-	}
-	.def_rwd .move_place{
-		width: calc(100% - 5em) !important;
-	}
-	.def_rwd .address2{
-		width: calc(100% - 5em) !important;
- 	}
- 	.def_rwd .address{
-		min-width:100% !important;
-	}
  	/* 以下是新版面css */
-	.def_rwd .new_student_data_1 .content{
+	.api_rwd .new_student_data_1 .content{
 		width:100%;
 		margin-right:5px;
 	    display: flex;
 	    margin-bottom: 4px;
 	}
-	.def_rwd .form-2{
+	.api_rwd .form-2{
 		width: calc((100% / 12)*2);
 		display: inline-flex;
 		flex-wrap: wrap;
@@ -472,54 +264,23 @@
 	    align-items: flex-start;
 	    font-size: 12px;
 	}
-	.def_rwd .form-4{
+	.api_rwd .form-4{
 		width: calc((100% / 12)*10);
 		display: inline-flex;
 	 	flex-wrap: wrap;
 		padding-left: 10px;
 	}
-	.def_rwd .form-10{
+	.api_rwd .form-10{
 		width: calc((100% / 12)*10);
 		display: inline-flex;
 	 	flex-wrap: wrap;
 		padding-left: 10px;
 	}
 	/* 以上是新版面css */
-	.def_rwd .brother_item.th{
-		display:none;
-	}
-	.def_rwd .brother_item  ul{
-		flex-wrap:wrap;
-	}
-	.def_rwd .brother_item .title,.def_rwd .brother_item .name{
-		width:auto;
-	}
-	.def_rwd .brother_item .title{
-		color: #FFF;
-	    font-size: 13px;
-	    background-color: #4CAF50;
-	    padding: 0.2em 0.4em;
-	    border-radius: 100px;
-	}
-	.def_rwd .brother_item .birth{
-		width:auto;
-	}
-	.def_rwd .brother_item .school{
-		width:100% !important;
-	}
-	.def_rwd .brother_item .memo{
-		width:100%;
-	}
-	.def_rwd .brother_item .mail{
-		width:100%;
-	}
-	.def_rwd .brother_item .text{
-		width:40%;
-	}
 }
 
 /* 開關 */
-input[type=checkbox] {
+input[type=checkbox]#switch {
   height: 0;
   width: 0;
   visibility: hidden;

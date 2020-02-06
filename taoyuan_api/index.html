@@ -3,9 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>動態api管理</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/new_api.css"> -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC&display=swap" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="  crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -23,7 +25,7 @@
 			<ul id="tabs-list">
 				<!-- MENU TOGGLE -->
 				<label id="open-nav-label" for="nav-ctrl">
-					<span class=""></span>
+					<span class="pull-right arrow_down" id="arrow_down"><span class="glyphicon glyphicon-menu-down"></span></span>
 				</label>
 				<li id="li-for-panel-1">
 					<label class="panel-label" for="panel-1-ctrl"><span class="nav_1"></span> 數位儀表板</label>
@@ -37,8 +39,7 @@
 							<li id="li-for-panel-4">
 								<label class="panel-label" for="panel-4-ctrl"><span class="nav_4"></span> 系統設定</label>
 								</li><!--INLINE-BLOCK FIX-->
-								
-								<label id="close-nav-label" for="nav-ctrl">Close</label>
+								<label id="close-nav-label" for="nav-ctrl">關閉 <span class="glyphicon glyphicon-menu-up"></span></label>
 							</ul>
 							<!-- THE PANELS -->
 							<article id="panels">
@@ -51,9 +52,10 @@
 													<li id="tabs">介接單位<span class="numbers">123</span></li>
 													<li id="tabs">API總數<span class="numbers">88</span></li>
 												</ul>
+												<div class="clearfix"></div>
 												<div class="search">
-													<div class="title">Call id快速查詢</div>
-													<input type="text" placeholder="請輸入CallID">
+													<div class="h3_title"><span class="glyphicon glyphicon-search"></span> Call id快速查詢</div>
+													<input type="text" placeholder="請輸入Call id" class="form-control">
 												</div>
 											</div>
 											<div class="right_content">
@@ -88,7 +90,22 @@
 												<!-- 單位列表列 -->
 
 												<div class="tool_bar">
+													<form action="" class="form form-inline">
+														<span>
+															<img src="img/calendar.svg" alt="" style="width: 25px;height:25px">
+															<span class="h3_title">日期區間：</span>
+														</span>
+														<input type="date" class="form-control"> 
+														<span>至</span>
+														<input type="date" class="form-control">
+														<span class="pull-right">
+															<span class="h3_title">排列方式：</span>
+															<button class="btn_font14 btn_lightblue"><span class="glyphicon glyphicon-sort-by-attributes"></span></button>
+														<button class="btn_font14 btn_lightblue"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></button>
+													</span>
+													</form>
 													
+													<div class="clearfix"></div>
 												</div>
 												<div class="list_table company_use">
 													<ul>
@@ -407,15 +424,18 @@
 										
 										<!-- 快速搜尋 -->
 											<div class="setting_search">
-												<input type="button" class="search_btn" value="顯示全部">
-												<input type="button" class="search_btn" value="近期新增">
-												<input type="button" class="search_btn" value="超過三個月未使用">
-												<span class="flo_right ">
+												<div class="flo_right ">
 													<input type="text" placeholder="搜尋單位/聯絡人/信箱名稱" class="input_box input_200">
 													<span class="search_img">
 														<img src="img/search.svg" alt="">
-													</span>
+												</div>
 												</span>
+												<div style="float:left;padding:8px 0">
+													<input type="button" class="search_btn" value="顯示全部">
+													<input type="button" class="search_btn" value="近期新增">
+													<input type="button" class="search_btn" value="超過三個月未使用">
+												</div>
+												
 											</div>
 										<!-- 列表 -->
 										<div class="setting_table">
@@ -440,28 +460,6 @@
 																<img src="img/delete.svg" alt="">
 																刪除
 															</span>
-														</li>
-													</ul>
-												</li>
-											<!-- 按修改鈕 -->
-												<li>
-													<ul>
-														<li>
-															<input type="text" placeholder="" name="單位" class="input_box">
-														</li>
-														<li>
-															<input type="text" placeholder="" name="姓名" class="input_box">
-														</li>
-														<li>
-															<input type="text" placeholder="" name="信箱" class="input_box">
-														</li>
-														<li>
-															上次使用 
-															<span>
-																2020/01/01
-															</span>
-														</li>
-														<li>
 															<span class="btn_font14 btn_yellow">
 																<img src="img/check.svg" alt="">
 																確認
