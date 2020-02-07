@@ -321,6 +321,57 @@ span.nav_4{
 	top: 1px;
 }
 
+/* 介接服務 點入頁面 */
+.main02_inside_set{
+  margin-bottom:15px;
+  background-color:#fbfbfb;
+  padding:5px 0;
+  padding-left:10px;
+}
+.main02_inside_set>span{
+  font-size:1.05em;
+  color:#4a4a4a;
+  display:inline-block;
+  margin-right:25px;
+  font-weight:500;
+}
+.main02_inside_set>span>span{
+  color:#2979dc;
+  margin-right:5px;
+}
+.main02_inside_set span img{
+  width:15px;
+  position:relative;
+  top:-2px;
+  color:#19a597;
+  margin-right: 5px;
+}
+.main02_inside_set span:nth-child(4) img{
+  width:12px;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(1){
+  width: 6%;
+  text-align: center;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(2){
+  width:20%;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(3){
+  width:25%;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(4){
+  width:13%;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(5){
+  width:15%;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(6){
+  width:13%;
+}
+.main02_inside_list > ul > li > ul >li:nth-child(7){
+  width:8%;
+}
+
 
 /* 系統設定 */
 /* 標題文字 */
@@ -336,7 +387,7 @@ span.nav_4{
   margin-left: 5px;
 }
 .item_title_box{
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
 /* button */
 .btn_font14{
@@ -811,6 +862,48 @@ span.nav_4{
   }
   .company_use > ul > li > ul >li:nth-child(7):before{
     content: "近一個月失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(1):before{
+    content: "序號：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(2):before{
+    content: "專案API名稱：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(3):before{
+    content: "API型別：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(4):before{
+    content: "API呼叫次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(5):before{
+    content: "API呼叫失敗次數：";
+    color: #333;
+    font-weight: 600;
+    display: inline-block;
+    width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(6):before{
+    content: "狀態：";
     color: #333;
     font-weight: 600;
     display: inline-block;
