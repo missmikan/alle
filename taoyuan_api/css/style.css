@@ -442,6 +442,24 @@ span.nav_4{
   background-color:#FFCE00;
   transition:all 0.2s ease 0s;
 }
+/* 取消、返回列表用途 */
+.btn_lightgray{
+  background-color:#969c9e;
+}
+.btn_lightgray:hover{
+  background-color:#c1c6c7;
+  transition:all 0.2s ease 0s;
+}
+/* 儲存用途 */
+.btn_bluegreen{
+  background-color:#0bbf96;
+}
+.btn_bluegreen:hover{
+  background-color:#44d2b8;
+  transition:all 0.2s ease 0s;
+}
+
+
 
 .flo_right{
   float:right;
