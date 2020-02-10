@@ -368,9 +368,10 @@ span.nav_4{
 .main02_inside_list > ul > li > ul >li:nth-child(6){
   width:13%;
 }
-.main02_inside_list > ul > li > ul >li:nth-child(7){
+.main02_inside_list > ul > li > ul >li:nth-child(8){
   width:8%;
 }
+
 
 
 /* 系統設定 */
@@ -398,6 +399,11 @@ span.nav_4{
   margin-right:3px;
   display:inline-block;
   border: 0;
+}
+.btn_font14 img{
+  width:14px;
+  position:relative;
+  top: -2px;
 }
 
 .btn_back{
@@ -928,6 +934,9 @@ span.nav_4{
     font-weight: 600;
     display: inline-block;
     width: 9em;
+  }
+  .main02_inside_list > ul > li > ul >li:nth-child(7){
+    display:block;
   }
   .api_use > ul > li > ul >li:nth-child(1){
     width: 100% !important;
