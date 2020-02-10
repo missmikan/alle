@@ -400,6 +400,10 @@ span.nav_4{
   border: 0;
 }
 
+.btn_back{
+  background-color:#86a5a7;
+}
+
 .btn_lightblue{
   background-color:#1CA9D3;
 }
@@ -420,12 +424,14 @@ span.nav_4{
 }
 
 .btn_green{
-  background-color:#039B1A;
+  background-color:#33b37e;
 }
 .btn_green:hover{
-  background-color:#47B198;
+  background-color:#31d491;
   transition:all 0.2s ease 0s;
 }
+
+
 
 .btn_red{
   background-color:#D16666;
@@ -867,12 +873,8 @@ span.nav_4{
     display: inline-block;
     width: 9em;
   }
-  .main02_inside_list > ul > li > ul >li:nth-child(1):before{
-    content: "序號：";
-    color: #333;
-    font-weight: 600;
-    display: inline-block;
-    width: 9em;
+  .main02_inside_list > ul > li > ul >li:nth-child(1){
+    display:none;
   }
   .main02_inside_list > ul > li > ul >li:nth-child(2):before{
     content: "專案API名稱：";
