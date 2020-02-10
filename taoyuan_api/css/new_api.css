@@ -63,6 +63,7 @@
 	color: #284852;
 	/* margin-top: 15px; */
 	font-size:15px;
+	clear: both;
 }
 .api_rwd .form-2{
 	width: calc((100% / 10)*1);
