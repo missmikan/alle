@@ -12,6 +12,10 @@
 		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body class="api_rwd">
+		<div>
+			<button class="pull-right btn_bluegreen btn_font14"><span class="glyphicon glyphicon-floppy-disk"></span> 儲存</button>
+			<button class="pull-right btn_lightgray btn_font14"><span class="glyphicon glyphicon-remove"></span> 取消</button>
+		</div>
 		<div class="new_student_data_1 ng-scope" ng-if="!modal.edit">
 			<div class="green_title">API資訊</div>
 			<div class="form-2">專案API名稱 <span class="point"> *</span></div>
@@ -43,7 +47,7 @@
 				</div>
 			</div>
 			
-			<div class="form-2">停用/啟用/</div>
+			<div class="form-2">停用/啟用</div>
 			<div class="form-4">
 				<div class="content">
 					<input type="checkbox" id="switch" /><label for="switch">Toggle</label>
