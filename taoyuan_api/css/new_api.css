@@ -154,6 +154,10 @@
 
 /* 以上是新版面css */
 
+.form_control_date{
+	margin-right:20px;
+}
+
 @media screen and (max-width: 768px){
 	.api_rwd .brother_item{
 		display: block;
