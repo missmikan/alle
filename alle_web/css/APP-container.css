@@ -865,23 +865,24 @@ body{
 	box-shadow:0 0 5px #E2E2E2;
 	border:solid 1px #E2E2E2;
 	display:inline-block;
-	padding:15px;
-	width: 274px;
-	height: 476px;
+	padding:10px;
+	width: 224px;
+/* 	height: 476px; */
 	margin: 8px 0;
     margin-right: 8px;
 	vertical-align: top;
 	text-align:left;
 }
 .access_hardware_product_img img{
-	max-width:100%;
+	/* max-width:100%; */
+	height:132px;
 }
 .access_hardware_product_img{
 	text-align:center;
-	border-bottom:solid 1px #E3E3E3;
+/* 	border-bottom:solid 1px #E3E3E3; */
 }
 .access_hardware_product_img h4{
-	font-size:16px;
+	font-size:15px;
 	color:#293E53;
 }
 .access_hardware_product_p{
