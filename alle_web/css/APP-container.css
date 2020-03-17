@@ -16,7 +16,8 @@ body{
 	margin-bottom: 15px;
 }
 .modal-footer {
-    padding: 15px 15px 0;
+    padding: 0px 15px 0;
+    border-top:0px;
 }
 
 /* 微調預約＋產品介紹按鈕！ */
@@ -1307,5 +1308,12 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 			overflow:hidden;
 		}
 	}
+
+/* 0317-調整 */
+.item{
+	height: 460px;
+}
+
+
 
 

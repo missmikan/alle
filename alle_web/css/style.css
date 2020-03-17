@@ -225,6 +225,7 @@ body {
 .btn-darkblue{
   background-color: #0062C4;
   color: #FFF;
+  display:inline-block;
 }
 .clearfix{
   clear: both;
@@ -895,13 +896,13 @@ div#preloader {
   border-radius: 3px;
   border: 1px solid #EFEFEF;
   background-color: #FFF;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   cursor: pointer;
 }
 .ProductList .p_item .content .pic{
   width: 100px;
-  height: 100px;
+  height: 70px;
   padding: 20px;
   margin: 0 auto;
   display: flex;
@@ -916,7 +917,7 @@ div#preloader {
   border-radius: 3px;
   border: 1px solid #EFEFEF;
   background-color: #EFEFEF;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
 }
 .ProductList .row{
