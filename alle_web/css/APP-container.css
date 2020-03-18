@@ -211,13 +211,13 @@ body{
 	margin-right:5px;
 }
 .APP_application_list_up a:nth-child(3n+1) i{
-	color:#91dafd;
+	color:#76cebe;
 }
 .APP_application_list_up a:nth-child(3n+2) i{
-	color:#ffccd5;
+	color:#7691ce;
 }
 .APP_application_list_up a:nth-child(3n+3) i{
-	color:#fbdf53;
+	color:#83ce76;
 }
 .APP_application_list_up a:after{
 	content: "";
@@ -1312,6 +1312,12 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 /* 0317-調整 */
 .item{
 	height: 460px;
+}
+
+@media(max-width:768px){
+	.item{
+		height:auto;
+	}
 }
 
 
