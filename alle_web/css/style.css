@@ -1057,6 +1057,7 @@ div#preloader {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index:1000;
 }
 /* .menu.stick {
   background-color: #10467b;

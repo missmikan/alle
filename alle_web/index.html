@@ -5,6 +5,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords" content="全誼,校務系統">
   <meta name="description" content="專注研發國中小校務系統20年，配合學校開發所需的各式系統服務，Web與App均能跨平台使用。我們有校務行政系統、圖書系統、卡務系統、門禁系統、健康掛號系統以及校務APP等服務">
+  <!-- health -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
   <!-- Favicons -->
   <link rel="Shortcut Icon" href="img/favicon.png">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -108,18 +111,18 @@
             <p>圖書管理系統</p>
           </div>
         </div>
-          <div class="col-md-2 col-sm-4 col-xs-6 p_item">
-          <div class="content">
-            <div class="pic"><img src="img/product_5.png" alt=""></div>
-            <p>新生線上報到(待開放)</p>
-          </div>
-        </div>
-        <!-- <div class="col-md-2 col-sm-4 col-xs-6 p_item">
-          <div class="content">
-            <div class="pic"><img src="img/product_4.png" alt=""></div>
-            <p>建構中</p>
-          </div>
-        </div> -->
+                <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+                <div class="content">
+                  <div class="pic"><img src="img/product_5.png" alt=""></div>
+                  <p>新生線上報到</p>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-4 col-xs-6 p_item">
+                <div class="content" onclick="changePage('health')">
+                  <div class="pic"><img src="img/product_6.png" alt=""></div>
+                  <p>健康掛號系統</p>
+                </div>
+              </div>
       </div>
     </div>
     <div class="arrow" style="text-align: center;">
@@ -197,6 +200,9 @@
     </div>
   </footer>
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- health -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
@@ -225,4 +231,34 @@
   $(".ProductList").slideUp();
   });
   });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+    $('#myCarousel').carousel()
+   })
+  </script>
+
+  <script>
+    $(document).ready(function(){
+
+$('#itemslider').carousel({ interval: 3000 });
+
+$('.carousel-showmanymoveone .item').each(function(){
+var itemToClone = $(this);
+
+for (var i=1;i<6;i++) {
+itemToClone = itemToClone.next();
+
+if (!itemToClone.length) {
+itemToClone = $(this).siblings(':first');
+}
+
+itemToClone.children(':first-child').clone()
+.addClass("cloneditem-"+(i))
+.appendTo($(this));
+}
+});
+});
+
   </script>
