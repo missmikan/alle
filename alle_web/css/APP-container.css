@@ -16,7 +16,8 @@ body{
 	margin-bottom: 15px;
 }
 .modal-footer {
-    padding: 15px 15px 0;
+    padding: 0px 15px 0;
+    border-top:0px;
 }
 
 /* 微調預約＋產品介紹按鈕！ */
@@ -51,6 +52,7 @@ body{
 /* 大標題 */
 .section_title{
 	margin:10px 0;
+	margin-top:30px;
 	border-bottom: 1px solid #E3E3E3;
 }
 .section_title_bg{
@@ -176,6 +178,23 @@ body{
 	max-width:100%;
 }
 
+.APP_youtube{
+	display:block;/* 
+	background-color:#ffffff;
+	border:solid 1px #E5E5E5;
+	box-shadow:0 3px 6px #EDEDED; */
+	float: right;
+	margin-top: 15px;
+	text-align:center;
+	width:16em;
+	text-decoration:underline;
+	font-size:15px;
+}
+
+.APP_youtube i{
+	margin-right: 2px;
+}
+
 /* 應用功能 */
 .APP_application_list_up{
 	width:100%;
@@ -210,13 +229,13 @@ body{
 	margin-right:5px;
 }
 .APP_application_list_up a:nth-child(3n+1) i{
-	color:#91dafd;
+	color:#76cebe;
 }
 .APP_application_list_up a:nth-child(3n+2) i{
-	color:#ffccd5;
+	color:#7691ce;
 }
 .APP_application_list_up a:nth-child(3n+3) i{
-	color:#fbdf53;
+	color:#83ce76;
 }
 .APP_application_list_up a:after{
 	content: "";
@@ -1308,4 +1327,332 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		}
 	}
 
+/* 0317-調整 */
+
+.item{
+	max-height:540px;
+
+}
+
+@media(max-width:768px){
+	.item{
+		height:auto;
+	}
+}
+
+/* 0320- 健康掛號系統 */
+
+/* 設計理念 */
+.health_product_img{
+	text-align:center;
+	margin:20px 0;
+}
+
+.health_product_sml_img{
+	display:none;
+}
+
+.health_product_img img{
+	max-width:800px;
+}
+
+
+/* 系統特色 */
+.health_system_words{
+	letter-spacing:0.7px;
+}
+
+/* 手機APP介面*/
+.health_p{
+	font-size:16px;
+	color:#797979;
+}
+
+.health_APP h5{
+	color:#0062C4;
+	font-size:23px;/* 
+	text-align:left; */
+}
+
+.health_APP span{
+	font-size:14px;
+	color:#797979;/* 
+	text-align:left; */
+	display:block;
+}
+
+.health_APP span:before{
+	content:"";
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	border:solid 1px #797979;
+	position:relative;
+	top:-1px;
+	background-color: #797979;
+	display:inline-block;
+	margin-right:3px;
+}
+
+/* 套的 */
+
+.img-responsive{
+	max-width:auto;
+}
+/* #quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+} */
+#quote-carousel .carousel-indicators {
+    position: relative;
+    /* right: 50%;
+    top: auto; */
+    bottom: 0px;
+/*     margin-top: 20px; *//* 
+    margin-right: 100px; */
+    max-width:1000px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;/* 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+   /*  border-radius: 50%; */
+    opacity: 0.3;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+    z-index:-1;/* 
+    margin:0 15px;  */
+}
+#quote-carousel .carousel-indicators img{
+	width:100%;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 440px;
+    height: 377px;
+    opacity: 1;
+    transition: all .2s;
+   /*  margin:0 20px;
+ */
+}
+
+#quote-carousel .carousel-indicators .active img{
+	width:100%;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.health_APP .carousel-indicators{
+	left:0%;
+	width:100%;
+	margin-left:0%;
+	margin-bottom: 0%;
+}
+
+.health_APP  .carousel-control{
+	opacity:1;
+	background-color: #ffffff;
+	cursor:none;
+	width:0px;
+}
+
+.health_APP  .carousel-control:hover{
+	opacity:1;
+}	
+
+.health_APP  .carousel-control:active{
+	opacity:1;
+}
+
+
+/* 健康掛號機介面 */
+.health_tablet_top div{
+	display:inline-block;
+	margin-right:30px;
+}
+
+.health_tablet_top h5{
+	color: #0062C4;
+	font-size:18px;
+	margin-bottom: 15px;
+	font-weight:bold;
+}
+
+.health_tablet_top p{
+	color:#797979;
+	font-size:15px;
+}
+
+.health_tablet_top p:before{
+	content:"";
+	display:inline-block;
+	width:5px;
+	height:5px;
+	color:#797979;
+	border:solid 1px #797979;
+	position:relative;
+	top:-1px;
+	background-color: #797979;
+	border-radius:50%;
+	margin-right:5px;
+}
+
+.health_tablet_down{
+	background-color: #F7F7F7;
+	margin: 30px 0;
+	box-shadow:0 0 6px #E3E3E3;
+	padding:5px;
+	padding-bottom:20px
+}
+
+.health_tablet_down h5{
+	color:#0062C4;
+	font-size:20px;
+	text-align:center;
+	margin:8px 0;
+	font-weight:bold;
+}
+
+/* 掛號機套件 */
+/* .owl-carousel.owl-loaded{
+	display:block;
+} */
+
+/* 客戶實例 */
+.health_customer .health_left,.health_customer .health_right{
+	display:inline-block;
+	/* width:49%; */
+	vertical-align:top;
+	margin-top:12px;
+}
+
+.health_customer .health_left{
+	width:39%;
+}
+
+.health_customer .health_right{
+	width:60%;
+}
+
+.health_customer .health_left img{
+	margin-right:10px;
+}
+
+.health_customer .health_left p{
+	font-size:16px;
+	color:#7C7C7C;
+	margin-top:8px;
+}
+
+.health_customer .health_right h5{
+	color:#383838;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.health_customer .health_right p{
+	color:#7C7C7C;
+	font-size:15px;
+	margin:18px 0;
+}
+
+.health_customer .health_right strong{
+	color:#293E53;
+	font-size:17px;
+}
+
+.health_customer .health_right strong span{
+	color:#0062C4;
+	font-size:25px;
+	display:inline-block;
+	margin-top:10px;
+}
+
+
+
+
+/* 實例新聞 */
+.health_newlists{
+	margin:15px 0;
+}
+.health_newlists_box div{
+	background-color: #ffffff;
+	padding:8px 12px;
+	border-radius:5px;
+	box-shadow:0 2px 5px #d0d0d0;
+	width:240px;
+	display:inline-block;
+	margin:8px;
+}
+
+.health_newlists_box h6{
+	color:#383838;
+	font-size:16px;
+	font-weight:700;
+}
+
+.health_newlists_box p{
+	color:#A2A2A2;
+	font-size:14px;
+}
+
+.health_newlists_box div:hover{
+	position:relative;
+	top:-5px;
+	left:-5px;
+	box-shadow:0 2px 5px #E0E0E0;
+	transition:all .3s ease;
+	background-color: #fbfbfb;
+}
+
+.health_APP_sml_words{
+	display:none;
+}
+
+@media(max-width: 768px){
+	.health_product_sml_img{
+		display:block;
+		max-width:700px;
+	}
+
+	.health_product_img{
+		display:none;
+	}
+
+	/* #quote-carousel .carousel-indicators .item{
+		width: 440px;
+	    height: 377px;
+	    opacity: 1;
+	} */
+	
+/* 	health_APP */
+	.health_APP .carousel-inner{
+		display:none;
+	}
+
+	.health_APP .carousel li{
+		display:block;
+	}
+	
+
+/* 	健康掛號機 */
+
+	.health_tablet_top div img{
+		width:100%;
+	}
+	
+}
 
