@@ -2096,7 +2096,7 @@ div#preloader {
   font-size: 20px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot>span {
+.testimonial-carousel > .owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot>span {
   background: #fff none repeat scroll 0 0;
   display: inline-block;
   height: 8px;
@@ -2109,7 +2109,7 @@ div#preloader {
   border-radius: 50%;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots {
+.testimonial-carousel > .owl-carousel.owl-theme .owl-controls .owl-dots {
   bottom: -30px;
   display: block;
   left: 50%;
@@ -2121,12 +2121,12 @@ div#preloader {
   margin-bottom: 15px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot {
+.testimonial-carousel > .owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot {
   display: inline-block;
   margin: 0 3px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
+.testimonial-carousel > .owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
   background: #3EC1D5;
 }
 
