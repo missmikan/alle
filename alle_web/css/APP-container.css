@@ -1394,7 +1394,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	margin-right:3px;
 }
 
-/* 套的 */
+/* 手機APP套的1 */
 
 .img-responsive{
 	max-width:auto;
@@ -1433,7 +1433,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	width:100%;
 }
 #quote-carousel .carousel-indicators .active {
-    width: 440px;
+    width: 445px;
     height: 377px;
     opacity: 1;
     transition: all .2s;
@@ -1444,6 +1444,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 #quote-carousel .carousel-indicators .active img{
 	width:100%;
 }
+
 .item blockquote {
     border-left: none;
     margin: 0;
@@ -1477,6 +1478,47 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	opacity:1;
 }
 
+/* 手機APP套的2 */
+.health_APP_mobile{
+	display:none;
+}
+
+.health_APP_mobile_box{
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.health_APP_mobile_box h5{
+	color:#0062C4;
+	font-size:23px;
+	margin-top: 20px;
+}
+
+.health_APP_mobile_box p{
+	font-size:14px;
+	color:#797979;
+	display:block;
+}
+
+.health_APP_mobile_box p:before{
+	content:"";
+	width:5px;
+	height:5px;
+	border-radius:50%;
+	border:solid 1px #797979;
+	position:relative;
+	top:-1px;
+	background-color: #797979;
+	display:inline-block;
+	margin-right:3px;
+}
+
+.health_APP_mobile_box img {
+    width: 60%;
+    border: solid .3px #d2d2d2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
 /* 健康掛號機介面 */
 .health_tablet_top div{
@@ -1527,9 +1569,98 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 }
 
 /* 掛號機套件 */
-/* .owl-carousel.owl-loaded{
-	display:block;
-} */
+
+    /* .health_tablet_down .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .health_tablet_down .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .health_tablet_down .slick-slide img {
+      width: 100%;
+    }
+
+    .health_tablet_down .slick-prev:before,
+    .health_tablet_down .slick-next:before {
+      color: black;
+    }
+
+
+    .health_tablet_down .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .health_tablet_down .slick-active {
+      opacity: 1;
+    }
+
+    .health_tablet_down .slick-current {
+      opacity: 1;
+    } */
+
+/* 靜態掛號機 */
+.health_tablet_down{
+	margin:0 auto;
+	text-align:center;
+	margin-top: 20px;
+}
+.health_tablet_down_box{
+	width:30%;
+	display:inline-block;
+	padding:10px;
+	text-align:left;
+}
+.health_tablet_down_box img{
+	width:100%;
+	border-radius:5px;
+}
+.health_tablet_down_box p{
+	font-size:16px;
+	color:#293E53;
+	font-weight:400;
+}
+
+@-webkit-keyframes round {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    16% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    20% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+
+}
+	@keyframes round {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    16% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    20% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+
+}
+
 
 /* 客戶實例 */
 .health_customer .health_left,.health_customer .health_right{
@@ -1549,6 +1680,8 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 .health_customer .health_left img{
 	margin-right:10px;
+	width:45%;
+	border-radius:5px;
 }
 
 .health_customer .health_left p{
@@ -1579,6 +1712,11 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	font-size:25px;
 	display:inline-block;
 	margin-top:10px;
+	line-height:32px;
+}
+
+.health_customer .health_right h5{
+	line-height:30px;
 }
 
 
@@ -1593,9 +1731,14 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	padding:8px 12px;
 	border-radius:5px;
 	box-shadow:0 2px 5px #d0d0d0;
-	width:240px;
+	width:23%;
 	display:inline-block;
 	margin:8px;
+}
+
+.health_newlists_box div img{
+	width:100%;
+	border-radius:5px;
 }
 
 .health_newlists_box h6{
@@ -1643,7 +1786,11 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		display:none;
 	}
 
-	.health_APP .carousel li{
+	.health_APP{
+		display:none;
+	}
+
+	.health_APP_mobile{
 		display:block;
 	}
 	
@@ -1653,6 +1800,106 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	.health_tablet_top div img{
 		width:100%;
 	}
+
+	.health_tablet_down{
+		margin-bottom: 400px;
+	}
+
+	
+	.health_tablet_down{
+		position:relative;
+	}
+	.health_tablet_down_box{
+		position:absolute;
+		top:40px;
+		left:0;
+		opacity:0;
+		width:100%;
+		filter: alpha(opacity=0);
+		background-color:#F7F7F7;
+	}
+	.health_tablet_down_box img{
+		width:100%;
+	}
+	.health_tablet_down_box{
+		-webkit-animation: round 30s linear infinite;
+            animation: round 30s linear infinite;
+	}
+
+	
+	.health_tablet_down_box:nth-child(1){
+		-webkit-animation-delay: 0s;
+            animation-delay: 0s;
+	}
+
+	.health_tablet_down_box:nth-child(2){
+		-webkit-animation-delay: 5s;
+            animation-delay: 5s;
+	}
+
+	.health_tablet_down_box:nth-child(3){
+		-webkit-animation-delay: 10s;
+            animation-delay: 10s;
+	}
+
+	.health_tablet_down_box:nth-child(4){
+		-webkit-animation-delay: 15s;
+            animation-delay: 15s;
+	}
+
+	.health_tablet_down_box:nth-child(5){
+		-webkit-animation-delay: 20s;
+            animation-delay: 20s;
+	}
+
+	.health_tablet_down_box:nth-child(6){
+		-webkit-animation-delay: 25s;
+            animation-delay: 25s;
+	}
+		/* 當滑鼠移到圖片上時，暫停播放動畫。 */
+	.health_tablet_down_box:hover{
+		-webkit-animation-play-state: paused;
+            animation-play-state: paused;
+	}
+
+/* 客戶實例 */
+	.health_customer .health_left{
+		width:100%;
+		display:block;
+	}
+	.health_customer .health_left img{
+		display:inline-block;
+	}
+	.health_customer .health_right{
+		display:block;
+		width:100%;
+	}
+	.health_customer .health_left p{
+		font-size:14px;
+		margin:0px;
+	}
+	.health_customer .health_right p{
+		margin:0;
+	}
+	.health_customer .health_left, .health_customer .health_right{
+		margin-top:15px;
+	}
+
+/* 新聞稿 */
+	/* .health_newlists_box div{
+		width:100%;
+	} */
+
+	.health_newlists_box div{
+		width:100%;
+	}
+	.health_newlists_box h6{
+		font-size:19px;
+	}
+	.health_newlists_box p{
+		font-size:16px;
+	}
+
 	
 }
 
