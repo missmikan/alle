@@ -704,8 +704,8 @@ div#preloader {
 }
 
 .menu .wrap{
-  width: 80%;
-  max-width: 1024px;
+  width: 100%;
+  max-width: 1000px;
   position: relative;
   margin: 0 auto;
 }
@@ -790,7 +790,7 @@ div#preloader {
 /*--------------------------------
    MENU手機版
 --------------------------------*/
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
   /* .nivoSlider {
       height: auto;
   } */
@@ -1057,7 +1057,7 @@ div#preloader {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index:1000;
+  z-index:10;
 }
 /* .menu.stick {
   background-color: #10467b;
