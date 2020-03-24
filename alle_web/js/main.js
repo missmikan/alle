@@ -1,8 +1,7 @@
-
 var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
-  if(page === "app" || page === "school_system" || page === "access_control" || page === "library" || page === "price" || page === "news" || page === "team" || page === "contact") {
+  if(page === "app" || page === "school_system" || page === "access_control" || page === "library" || page === "price" || page === "news" || page === "team" || page === "contact" || page === "health" || page === "newStudent") {
       $(".ProductList").slideUp();
     }
 };
@@ -280,6 +279,7 @@ var sendMail = function() {
 
 
 })(jQuery);
+
 $(document).ready(function(){
   $("#ProductList").click(function(){
   $(".ProductList").slideToggle();
@@ -323,3 +323,20 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
   });
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
