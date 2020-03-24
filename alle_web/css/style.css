@@ -682,7 +682,7 @@ div#preloader {
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 1);
-  z-index: 11;
+  z-index: 17;
   box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
 }
 .menu {
@@ -1057,7 +1057,7 @@ div#preloader {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index:10;
+  z-index:16;
 }
 /* .menu.stick {
   background-color: #10467b;
