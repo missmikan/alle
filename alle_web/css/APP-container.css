@@ -1771,6 +1771,11 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		max-width:700px;
 	}
 
+	.health_product_sml_img img{
+		width:100%;
+		margin-top: 30px;
+	}
+
 	.health_product_img{
 		display:none;
 	}
