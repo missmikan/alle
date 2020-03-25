@@ -535,7 +535,7 @@ body{
 	position:relative;
 }
 .library_banner_img img{
-	max-width: 100%;
+	width: 100%;
 }
 .library_banner_words{
 	position:absolute;
@@ -746,9 +746,10 @@ body{
 		height: 113px;
 	}
 	.product_triangle{
-		margin: 2px 0;
-    	width: 48%;
+		margin: 5px 0;
+    	width: 45%;
     	padding: 5px 9px;
+    	margin-right: 10px;
     	/* height: 225px; */
 	}
 	.Library_system_words span{
