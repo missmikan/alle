@@ -2065,6 +2065,10 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	width:40%;
 }
 
+.newStudent_report_online_right p{
+	color:#797979;
+}
+
 .newStudent_report_online_right div:nth-child(1),.newStudent_report_online_right h5{
 	margin-top:50px;
 }
@@ -2108,6 +2112,10 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 .newStudent_setting_screen_down{
 	width:49%;
 	display:inline-block;
+}
+
+.newStudent_setting_screen_down p{
+	color:#797979;
 }
 
 .newStudent_setting_screen_down img{
