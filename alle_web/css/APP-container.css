@@ -1948,8 +1948,11 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		width:100%;
 	} */
 
+
 	.health_newlists_box div{
-		width:100%;
+		width:45%;
+		display:inline-flex;
+		flex-wrap:wrap;
 	}
 	.health_newlists_box h6{
 		font-size:19px;
