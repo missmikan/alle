@@ -240,10 +240,8 @@
       </div>
     </footer>
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <!-- 健康掛號機 -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="slick/slick.min.js"></script>
-    
+    <!-- 觸控輪播 -->
+    <script src="js/hammer.min.js"></script>
     
     <!-- health -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -277,43 +275,17 @@
     });
     });
     </script>
-    <!-- 健康掛號機 -->
+    <!-- 觸控輪播 -->
     <script>
-    $(document).on('ready', function() {
-    $(".variable").slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    responsive: [
-    {
-    breakpoint: 1024,
-    settings: {
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    infinite: true,
-    dots: true
-    }
-    },
-    {
-    breakpoint: 600,
-    settings: {
-    slidesToShow: 2,
-    slidesToScroll: 2
-    }
-    },
-    {
-    breakpoint: 480,
-    settings: {
-    slidesToShow: 1,
-    slidesToScroll: 1
-    }
-    }
-    ]
-    });
-    
-    });
+      $(function(){
+      var myElement= document.getElementById('carousel-example-generic')
+      var hm=new Hammer(myElement);
+      hm.on("swipeleft",function(){
+      $('#carousel-example-generic').carousel('next')
+      })
+      hm.on("swiperight",function(){
+      $('#carousel-example-generic').carousel('prev')
+      })
+      })
     </script>
+    
