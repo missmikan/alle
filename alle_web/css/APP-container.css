@@ -20,6 +20,8 @@ body{
     border-top:0px;
 }
 
+
+
 /* 0324 修改按鈕 */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
 	box-shadow:#ffffff;
@@ -1951,11 +1953,17 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	.health_tablet_down {
     	padding-bottom: 270px;
 	}
+	.health_newlists_box div img{
+		max-height: 140px;
+	}
 }
 
-@media(max-width:350px){
+@media(max-width:375px){
 	.health_tablet_down {
     	padding-bottom: 200px;
+	}
+	.health_newlists_box div img{
+		max-height: 81px;
 	}
 }
 
