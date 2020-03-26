@@ -878,7 +878,7 @@ div#preloader {
     padding: 9px 0px 34px;
   }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img {
-    height: 85vh;
+    height:80vh;
     max-width: none;
     width: auto;
   }
@@ -887,7 +887,7 @@ div#preloader {
   }
   .menu_status{
     position: absolute;
-    top: 22px;
+    top: 14px;
     right: 3em;
     color: #FFF;
     font-size: 1.1em;
@@ -2653,6 +2653,10 @@ div#preloader {
   }
   .f_menu ul li{
     width: 50%;
+    padding:2px 0px;
+  }
+  .f_com_name{
+    margin-bottom: 9px;
   }
   .company_data{
     flex-wrap: wrap;
@@ -2668,6 +2672,7 @@ div#preloader {
 @media(max-width:400px){
   .f_menu{
     max-width:99%;
+    float:left;
   }
 }
 

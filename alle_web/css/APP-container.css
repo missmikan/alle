@@ -591,6 +591,7 @@ body{
 	display:inline-block;
 	color:#707070;
 	font-size:16px;
+	text-align:justify;
 }
 .Library_system_words span{
 	margin-bottom:3px;
@@ -1550,9 +1551,15 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 }
 
 /* 健康掛號機介面 */
+.health_tablet_top {
+    vertical-align: top;
+}
+
 .health_tablet_top div{
 	display:inline-block;
-	margin-right:30px;
+	width: 48%;
+    margin-right: 1%;
+    vertical-align: top;
 }
 
 .health_tablet_top h5{
@@ -1560,6 +1567,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	font-size:18px;
 	margin-bottom: 15px;
 	font-weight:bold;
+	margin-top:44px;
 }
 
 .health_tablet_top p{
@@ -1599,6 +1607,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 .health_tablet_top div img{
 	border-radius: 5px;
+	width:100%;
 }
 
 /* 掛號機套件 */
@@ -1836,8 +1845,17 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 /* 	健康掛號機 */
 
-	.health_tablet_top div img{
+	.health_tablet_top div{
+		display: block;
 		width:100%;
+	}
+
+	.health_tablet_top div{
+		margin-right:0;
+	}
+
+	.health_tablet_top h5{
+		margin-top:20px;
 	}
 
 	

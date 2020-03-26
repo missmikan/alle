@@ -128,11 +128,11 @@
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-flex;
-    height: 60px  !important;
+    height: 50px  !important;
     padding: 9px 0;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
-    padding: 11px 0;
+    padding: 6px 0;
   }
   .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
     background-color: #307fce;
