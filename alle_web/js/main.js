@@ -1,7 +1,9 @@
+var page_list = ["app", "school_system", "access_control", "library", "price", "health", "newStudent", "news", "team", "contact"];
+
 var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
-  if(page === "app" || page === "school_system" || page === "access_control" || page === "library" || page === "price" || page === "news" || page === "team" || page === "contact" || page === "health" || page === "newStudent") {
+  if(page_list.indexOf(page) > -1) {
       $(".ProductList").slideUp();
     }
 };
@@ -25,14 +27,13 @@ $(function() {
     }
   window.addEventListener("hashchange", function() {
     var hash = location.hash;
+    hash = hash.replace("#", "") || "";
     
-    if(location.hash === undefined || location.hash === "") {
+    if(location.hash === "") {
       changePage("main_slider");
-      // document.getElementById("main_slider").click();
-    } else {
-      hash = hash.substring(1);
-      changePage(hash);
-      document.getElementById(hash).click();
+    } else if(page_list.indexOf(hash) > -1) {
+    	changePage(hash);
+        document.getElementById(hash).click();
     }
   }, false);
   $("#includedContent").load("main_slider.html");
