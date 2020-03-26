@@ -524,6 +524,15 @@ body{
 	.APP_signin{
 		margin-bottom:30px;
 	}
+	
+	.APP_customer_container span:after {
+    	content: "";
+    	margin-right: 29px;
+	}
+
+	.APP_customer_container span{
+		width:auto;
+	}
 
 }
 
