@@ -26,13 +26,13 @@ body{
 }
 
 /* 0324修改產品上面大圖部分 */
-
-
+.slide_index {
+    max-height: 58vh;
+}
 .slide_index_big{
 	width:100%;
 	max-height:88vh;
 }
-
 .slide_index_sml{
 	display:none;
 }
@@ -577,6 +577,13 @@ body{
 	top: 0;
 	right: 0;
 }
+
+.product_triangle_6{
+	width: 182px;
+    padding: 10px;
+    margin-right: 9px;
+}
+
 .Library_system_words{
 	text-align:left;
 	display:inline-block;
@@ -1588,6 +1595,10 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	font-weight:bold;
 }
 
+.health_tablet_top div img{
+	border-radius: 5px;
+}
+
 /* 掛號機套件 */
 
     /* .health_tablet_down .slider {
@@ -1751,14 +1762,15 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	padding:8px 12px;
 	border-radius:5px;
 	box-shadow:0 2px 5px #d0d0d0;
-	width:23%;
+	width:22%;
 	display:inline-block;
-	margin:8px;
+	margin:1%;
 }
 
 .health_newlists_box div img{
 	width:100%;
 	border-radius:5px;
+	max-height: 153.75px;
 }
 
 .health_newlists_box h6{
@@ -1829,7 +1841,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	
 	.health_tablet_down{
 		position:relative;
-		padding-bottom:300px;
+		padding-bottom:441px;
 	}
 	.health_tablet_down_box{
 		position:absolute;
@@ -1919,12 +1931,14 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 
 	.health_newlists_box div{
-		width:43%;
+		width:45%;
 		display:inline-flex;
 		flex-wrap:wrap;
 	}
 	.health_newlists_box h6{
 		font-size:19px;
+		height: 4.1em;
+		overflow:hidden;
 	}
 	.health_newlists_box p{
 		font-size:16px;
@@ -1932,6 +1946,20 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 	
 }
+
+@media(max-width:550px){
+	.health_tablet_down {
+    	padding-bottom: 270px;
+	}
+}
+
+@media(max-width:350px){
+	.health_tablet_down {
+    	padding-bottom: 200px;
+	}
+}
+
+
 
 
 

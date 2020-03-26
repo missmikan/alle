@@ -9,7 +9,6 @@
     margin: 0;
 }
 
-
 /*----------------------------------------*/
 /*  1.  Theme default CSS
 /*----------------------------------------*/
@@ -288,6 +287,10 @@ body {
   .price_outter{
     margin-top:75px;
   }
+
+  .col-xs-6 {
+    width: 47%;
+  }
 }
 
 /* ------------------------------------
@@ -501,7 +504,8 @@ body {
 --------------------------------------*/
 .arrow{
   position: absolute;
-  left: 46%;
+  left: 49%;
+  top:80%;
 }
 .arrow .btn{
   background-color: orange;
@@ -549,6 +553,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  .arrow{
+    position: absolute;
+    left: 44%;
+    top:92%;
+  } 
   .btn-lg{
     padding: 0.5em 1em;
   }
@@ -924,6 +933,7 @@ div#preloader {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  display: -webkit-flex;
 }
 
 
@@ -2654,6 +2664,14 @@ div#preloader {
     font-size: 1.2em;
   }
 }
+
+@media(max-width:400px){
+  .f_menu{
+    max-width:99%;
+  }
+}
+
+
 /*----------------------------------------
  客戶專區-下載
 ----------------------------------------*/
@@ -2697,3 +2715,4 @@ div#preloader {
   margin-right: 10px;
   color: #043E79;
 }
+
