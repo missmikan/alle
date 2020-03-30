@@ -1436,7 +1436,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 /* 手機APP套的1 */
 
-.img-responsive{
+.health_APP .img-responsive{
 	max-width:auto;
 }
 /* #quote-carousel .carousel-control {
@@ -1446,7 +1446,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
     text-shadow: none;
     margin-top: 30px;
 } */
-#quote-carousel .carousel-indicators {
+.health_APP #quote-carousel .carousel-indicators {
     position: relative;
     /* right: 50%;
     top: auto; */
@@ -1455,7 +1455,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
     margin-right: 100px; */
     max-width:1000px;
 }
-#quote-carousel .carousel-indicators li {
+.health_APP #quote-carousel .carousel-indicators li {
     width: 80px;
     height: 80px;
     cursor: pointer;/* 
@@ -1469,10 +1469,10 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
     z-index:-1;/* 
     margin:0 15px;  */
 }
-#quote-carousel .carousel-indicators img{
+.health_APP #quote-carousel .carousel-indicators img{
 	width:100%;
 }
-#quote-carousel .carousel-indicators .active {
+.health_APP #quote-carousel .carousel-indicators .active {
     width: 445px;
     height: 377px;
     opacity: 1;
@@ -1481,15 +1481,15 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
  */
 }
 
-#quote-carousel .carousel-indicators .active img{
+.health_APP #quote-carousel .carousel-indicators .active img{
 	width:100%;
 }
 
-.item blockquote {
+.health_APP .item blockquote {
     border-left: none;
     margin: 0;
 }
-.item blockquote p:before {
+.health_APP .item blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
     float: left;
@@ -1619,6 +1619,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	width:100%;
 }
 
+
 /* 掛號機套件 只用css 不完全 */
 
 .health_me a:link,
@@ -1638,7 +1639,6 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
   width: 100%;
 }
 .health_me .row {
-  overflow: scroll;
   width: 100%;
   margin-right:0px;
   margin-left:0px;
@@ -1762,7 +1762,12 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	font-weight:400;
 }
 
-@-webkit-keyframes round {
+/* 0330列表 */
+.health_table_in,.health_tablet_box_in{
+	display:none;
+}
+
+/* @-webkit-keyframes round {
     3% {
         opacity: 1;
         filter: alpha(opacity=100);
@@ -1798,7 +1803,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
     }
 
 }
-
+ */
 
 /* 客戶實例 */
 .health_customer .health_left,.health_customer .health_right{
@@ -1941,7 +1946,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 
 /* 	健康掛號機 原本的但入但出變換圖*/
 
-	.health_tablet_top div{
+	/* .health_tablet_top div{
 		display: block;
 		width:100%;
 	}
@@ -2004,25 +2009,51 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	.health_tablet_down_box:nth-child(6){
 		-webkit-animation-delay: 25s;
             animation-delay: 25s;
-	}
+	} */
 	/* .health_tablet_down_box:nth-child(7){
 		-webkit-animation-delay: 30s;
             animation-delay: 30s;
             display:none;
 	} */
 
-	/* 健康掛號機 0330列表 */
-	/* .health_tablet_top{
+
+	/* 健康掛號機 0330列表 下面拿掉的是淡入淡出的哦*/
+	.health_tablet_top{
 		display:none;
 	}
 	
-	.health_tablet_down h5{
+	.health_tablet_down h5,.health_tablet_down p,.health_tablet_off{
 		display:none;
 	}
-
+	.health_tablet_down{
+		background-color: #ffffff;
+		box-shadow:0 0 0 #ffffff;
+		margin-top:0px;
+	}
 	.health_tablet_down_box{
 		width:100%;
-	} */
+		margin-bottom: 30px;
+	}
+
+	.health_table_in,.health_tablet_box_in{
+		text-align:center;
+		display:block;
+	}
+	.health_table_in h4{
+		color: #0062C4;
+    	font-size: 23px;
+    	margin-top: 20px;
+	}
+	.health_table_in h6{
+		font-size: 14px;
+    	color: #797979;
+   		display: block;
+   		font-weight:300;
+	}
+
+	
+
+
 	
 
 
@@ -2074,18 +2105,18 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 }
 
 @media(max-width:550px){
-	.health_tablet_down {
+	/* .health_tablet_down {
     	padding-bottom: 270px;
-	}
+	} */
 	.health_newlists_box div img{
 		max-height: 140px;
 	}
 }
 
 @media(max-width:375px){
-	.health_tablet_down {
+	/* .health_tablet_down {
     	padding-bottom: 200px;
-	}
+	} */
 	.health_newlists_box div img{
 		max-height: 81px;
 	}
