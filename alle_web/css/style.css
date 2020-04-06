@@ -505,7 +505,7 @@ body {
 .arrow{
   position: absolute;
   left: 49%;
-  top:80%;
+  top:90%;
 }
 .arrow .btn{
   background-color: orange;
@@ -932,7 +932,7 @@ div#preloader {
 .ProductList .row{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+/*   justify-content: center; */
   display: -webkit-flex;
 }
 

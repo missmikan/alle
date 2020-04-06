@@ -1,4 +1,4 @@
-var page_list = ["app", "school_system", "access_control", "library", "price", "health", "newStudent", "news", "team", "contact"];
+var page_list = ["app", "school_system", "access_control", "library", "price", "health", "newStudent", "appStudentLeave", "news", "team", "contact"];
 
 var changePage = function(page) {
   console.log("page => ", page);

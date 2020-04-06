@@ -480,6 +480,7 @@ body{
 	width:100%;
 }
 
+
 @media(max-width:768px){
 /* body{
 	margin:-297px;
@@ -2051,11 +2052,6 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
    		font-weight:300;
 	}
 
-	
-
-
-	
-
 
 
 /* 客戶實例 */
@@ -2465,4 +2461,187 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	}
 }
 
+/* APP學生請假 產品頁 */
+
+.sLeave_designconcept{
+	text-align:center;
+}
+
+.sLeave_designconcept img{
+	width:40%;
+}
+
+/* 學生請假介面 */
+
+.sLeave_student{
+	margin-bottom: 60px;
+}
+
+.sLeave_student_first{
+	font-size:16px;
+	color:#797979;
+	margin-bottom: 15px;
+}
+
+.sLeave_student_left,.sLeave_student_right{
+	display:inline-block;
+}
+
+.sLeave_student_left span{
+	margin-right: 20px;
+}
+
+.sLeave_student_right{
+	padding-left:50px;
+	width:38%;
+}
+
+.sLeave_student_right p:before{
+	content:"";
+	display:inline-block;
+	width:4px;
+	height:4px;
+	background-color: #797979;
+	border-radius:50%;
+	position:relative;
+	top:-2px;
+	margin-right: 2px;
+}
+
+.sLeave_lightblue{
+	color:#0062C4;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+.sLeave_gray{
+	color:#797979;
+	font-size:14px;
+	font-weight:300;
+	margin-bottom: 8px;
+}
+
+.sLeave_deepblue{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom: 15px;
+	color:#043E79;
+}
+
+
+/* 校端請假介面 */
+
+.sLeave_teacher{
+	margin-top: 30px;
+}
+
+.sLeave_teacher_down{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sLeave_teacher_downbox{
+	display:inline-block;
+	margin-right:9%;
+	width:40%;
+}
+
+.sLeave_teacher_downbox img{
+	width:100%;
+}
+
+
+/* 流程影片 */
+
+.sLeave_moviebox{
+	background-color:#FAFAFA;
+	box-shadow:0 1px 5px #dedede;
+	margin-top: 20px;
+}
+
+.sLeave_moviebox .sLeave_student_right,.sLeave_moviebox .sLeave_student_left{
+	vertical-align:top;
+}
+
+.sLeave_moviebox .sLeave_student_right{
+	margin-top:50px;
+}
+
+.sLeave_moviebox h6{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.sLeave_movie{
+	width:500px;
+	display: inline-block;
+	height: 300px;
+}
+
+
+
+
+@media(max-width:768px){
+	.sLeave_designconcept img{
+		width:80%;
+	}
+
+	.sLeave_student_left span{
+		margin-right: 2%;
+	}
+
+	.sLeave_student_left img{
+		width:47%;
+	}
+
+	.sLeave_student,.sLeave_teacher{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.sLeave_teacher{
+		margin-top:0px;
+	}
+
+	.sLeave_student_right{
+		width:100%;
+		padding-left: 5px;
+		margin-top:10px;
+		order:1;
+	}
+
+	.sLeave_student_left{
+		order:2;
+	}
+
+	.sLeave_gray{
+		margin-bottom: 5px;
+	}
+
+	.sLeave_teacher_downbox{
+		margin-right:0;
+		display:block;
+		margin-top:10px;
+		margin-bottom: 80px;
+		width:90%;
+	}
+
+	.sLeave_moviebox .sLeave_student_right{
+		margin-top:0px;
+	}
+
+	.sLeave_moviebox{
+    	position: relative;
+    	padding-bottom: 56.25%;  //16:9
+    	overflow: hidden;
+	}
+	.sLeave_moviebox iframe{
+    	position: absolute;
+   		top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+	}
+}
 
