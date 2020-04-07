@@ -582,6 +582,10 @@ body {
   .features_list{
     padding: 15px 0;
   }
+
+  .ProductList .p_item{
+    
+  }
 }
 
 .back-to-top:focus {
