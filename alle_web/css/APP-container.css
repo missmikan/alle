@@ -2579,6 +2579,12 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	height: 300px;
 }
 
+.sLeave_gray strong{
+	font-weight:400;
+	display:inline-block;
+	padding-bottom:8px;
+}
+
 
 
 
