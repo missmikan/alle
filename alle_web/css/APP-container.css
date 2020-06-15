@@ -467,6 +467,13 @@ body{
 	font-weight: 400;
 }
 
+
+.newStudent_customer > .APP_customer_bottom span{
+	color:#504C4C;
+	font-size:29px;
+	font-weight:bold;
+}
+
 /* 聯繫我們 */
 .APP_contact_down{
 	color:#5A5A5A;
