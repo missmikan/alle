@@ -2777,31 +2777,3 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 	}
 }
 
-/* 自助借還書機 */
-.bb-flex{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.bb-cp{
-	padding: 4em;
-	max-width: 80%;
-	margin: -2em 0em;
-}
-.bb-pros{
-	margin-bottom: -2em;
-}
-@media(max-width:768px){
-	.bb-flex{
-		padding-top: 5em;
-		padding-bottom: -100px;
-
-	}
-	.bb-cp{
-		padding: 0em;
-		max-width: 100%;
-		margin: 2em 0em 0em;
-	}
-	.bb-pros{
-		margin-bottom: -1em;
-	}
