@@ -844,6 +844,7 @@ body{
 	}
 	.Library_system_down_words{
 		width:auto;
+		max-width: 100%;
 	}
 	.Library_bookday a{
 		text-align:right;
