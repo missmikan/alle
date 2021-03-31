@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/all.css">
+		<title>臺北親師生線上請假</title>
+	</head>
+	<body class="absent">
+		<header class="absent--header">
+			<div class="container">
+				<img src="images/logo.png" alt="">
+				<span class="absent--title">線上點名</span>
+			</div>
+		</header>
+		<div class="container card-w name_bar">
+			<span class="circle-icon">
+				<img src="images/icon-account-outlined.png" alt="">
+			</span>
+			<span>四年3班</span>
+			<span>導師</span>
+			<span>莫名</span>
+		</div>
+		<div class="container card-w menu_bar">
+			<ul>
+				<li>課程點名</li>
+				<li class="active">班級點名</li>
+			</ul>
+		</div>
+		<div class="container card-w mainpage">
+			<div class="mainpage--section">
+				<h1>1.請假類別 </h1>
+				<div class="form-check">
+					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 事假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 病假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="six" value="six"><label for="six"> 公假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 喪假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 生理假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 防疫假</label></span>
+					
+					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 不可抗力</label></span>
+				</div>
+			</div>
+			<div class="mainpage--section">
+				<h1>2.請假原因 </h1>
+				<textarea name="" id="" class="textarea" placeholder="請輸入請假事由"></textarea>
+			</div>
+			<div class="mainpage--section">
+				<h1>3.請假日期 </h1>
+				<div class="tips">可複選，全天請假可全選節次</div>
+				<div class="calendar">
+					<img src="images/calendar.png" alt="">
+					<button class="btn btn-orange">新增日期</button>
+				</div>
+				<div class="select">
+					<span class="h2">全選節次</span>
+					<span class="switch">
+						<label>
+							<input
+							type="checkbox"
+							class="checkbox">
+							<span class="btn-box">
+								<span class="switch_btn"></span>
+							</span>
+						</label>
+					</span>
+				</div>
+				<h3>起迄節次</h3>
+				<div class="form-check">
+					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 導師時間</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 第一節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="six" value="six"><label for="six"> 第二節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 第三節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 第四節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 第五節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 第六節</label></span>
+				</div>
+			</div>
+			<div class="mainpage--section text-center">
+				<button class="btn btn-lg btn-primary">送出假單</button>
+			</div>
+		</div>
+	</body>
+</html>
