@@ -30,7 +30,7 @@
 	margin-left: 8px;
 }
 
-// 基本文字大小
+// 基本設定
 .text-16px{
 	font-size: $font-sm;
 }
@@ -141,6 +141,12 @@
 			border-width: 0px 1px 1px 0px;
 			&:first-child{
 				border-width:0px 1px 1px 1px;
+			}
+		}
+		.pointer_h{
+			cursor:pointer;
+			&:hover{
+				background-color: #e6fffe;
 			}
 		}
 	}
