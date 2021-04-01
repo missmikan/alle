@@ -595,6 +595,10 @@ label::after {
     border-bottom: solid 4px #f6f6f6; }
     .history-list-box .history-list-title, .history-list-box .history-list-day, .history-list-box .history-list-reson, .history-list-box .history-list-audit, .history-list-box .history-list-btn {
       width: 100%; }
+    .history-list-box .history-list-title {
+      margin-bottom: 16px; }
+    .history-list-box .history-list-day {
+      margin-bottom: 12px; }
     .history-list-box .history-list-audit {
       position: absolute;
       right: 24px;
@@ -602,7 +606,7 @@ label::after {
       text-align: right; }
       .history-list-box .history-list-audit .parent_send {
         position: absolute;
-        bottom: 105px;
+        bottom: 97px;
         right: 0px; }
     .history-list-box .history-list-btn {
       text-align: center;
