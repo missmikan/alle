@@ -1,0 +1,227 @@
+
+@mixin btn-h{
+	border:0px;
+	outline: none;
+	cursor: pointer;
+}
+
+
+// 最外框
+.rollcall_box{
+	padding: 16px 24px;
+    background-color: #FFFFFF;
+}
+
+
+// 間距
+.pb-16px{
+	padding-bottom: 16px;
+}
+
+.mb-40px{
+	margin-bottom: 40px;
+}
+
+.mb-11px{
+	margin-bottom:11px;
+}
+
+.ml-8px{
+	margin-left: 8px;
+}
+
+// 基本文字大小
+.text-16px{
+	font-size: $font-sm;
+}
+
+
+// 選擇假別
+.rollcall_chousebox{
+	display: flex;
+	align-items: center;
+}
+
+
+// 點名-選擇時段
+.chouse_time_box{
+	display: flex;
+	justify-content: space-between;
+	.time_text{
+		color: #323232;
+		margin-right:8px;
+		display: inline-block;
+	}
+	.chouse_time_btns{
+		display: inline-block;
+		border:1px solid #a3a3a3;
+		border-radius: 8px;
+		padding:4px;
+		background-color: #ffffff;
+		.time_btn{
+			background-color: #ffffff;
+			color:#828282;
+			font-size: $font-sm;
+			border-radius:4px;
+			padding: 4px 16px;
+			transition: all 0.2s;
+			@include btn-h
+			&:hover , &.active{
+				background-color: #1db7bd;
+				color:#ffffff;
+			}
+		}
+	}
+	.send_btn{
+		padding:8px 52px;
+		background-color: #1db7bd;
+		color:#ffffff;
+		border-radius: 12px;
+		transition: all 0.2s;
+		font-size: $font-sm;
+		@include btn-h
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}
+
+
+// 下拉選單
+.select_chouse{
+	/*移除箭頭樣式*/
+	  appearance:none;
+	  -moz-appearance:none;
+	  -webkit-appearance:none;
+	/*改變右邊箭頭樣式*/
+   	  background: url("../images/select-arrow.svg") no-repeat right center transparent;
+	border: 0px;
+    font-size: $font-sm;
+    border-bottom: solid 1px #a3a3a3;
+    padding:0px 0px 4px 0px !important;
+    color: #323232;
+    width: calc( 100% + 4em);
+    outline:none;
+}
+
+
+// 列表
+.rollcall_list{
+	ul{
+		display: flex;
+		li{
+			padding:8px 0px;
+			font-size: $font-sm;
+			color:#323232;
+			text-align: center;
+			&:nth-child(1){
+				width: 11.4%;
+			}
+			&:nth-child(2){
+				width: 20.6%;
+			}
+			&:nth-child(3) , &:nth-child(4) , &:nth-child(5) , &:nth-child(6) , &:nth-child(7){
+				width: 13.5%;
+			}
+		}
+	}
+	.list_title{
+		li{
+			background-color: #e0e0e0;
+			border-right:solid 1px #f6f6f6;
+			display: inline-block;
+			&:last-child{
+				border-right:0px;
+			}
+		}
+	}
+	.list_contain{
+		li{
+			border:solid 1px #f6f6f6;
+			border-width: 0px 1px 1px 0px;
+			&:first-child{
+				border-width:0px 1px 1px 1px;
+			}
+		}
+	}
+	// 當選擇全天時
+	&.chouse_all_day{
+		ul li{
+			&:nth-child(1){
+				width: 11.4%;
+			}
+			&:nth-child(2){
+				width: 20.6%;
+			}
+			&:nth-child(3){
+				width: 67.5%;
+			}
+			&:nth-child(4) , &:nth-child(5) , &:nth-child(6) , &:nth-child(7){
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+@media(max-width:768px){
+
+	.rollcall_box{
+		padding: 0px;
+		.rollcall_box_phone{
+			padding: 16px 24px 11px 24px;
+			&.mb-40px{
+				margin-bottom:0px;
+			}
+		}
+	}
+
+	.chouse_time_box{
+		background-color: #f6f6f6;
+		padding:16px 24px;
+		.time_text{
+			display: none;
+		}
+		.send_btn{
+			padding:8px 23.5px;
+		}
+		&.mb-11px{
+			margin-bottom:0px;
+		}
+	}
+
+	.select_chouse{
+		padding: 0px 0px 8px 0px !important;
+	}
+	
+	.rollcall_chousebox{
+		display: block;
+		.inputGroup{
+			margin-bottom:8px;
+		}
+		div{
+			display: block;
+		}
+		.ml-8px{
+			margin-left: 0px;
+			width: 50%;
+			margin-top:8px;
+		}
+	}
+
+	.rollcall_list{
+		ul li{
+			font-size: 14px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -351,3 +351,164 @@ label::after {
 
 .text-center {
   text-align: center; }
+
+.rollcall_box {
+  padding: 16px 24px;
+  background-color: #FFFFFF; }
+
+.pb-16px {
+  padding-bottom: 16px; }
+
+.mb-40px {
+  margin-bottom: 40px; }
+
+.mb-11px {
+  margin-bottom: 11px; }
+
+.ml-8px {
+  margin-left: 8px; }
+
+.text-16px {
+  font-size: 16px; }
+
+.rollcall_chousebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.chouse_time_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .chouse_time_box .time_text {
+    color: #323232;
+    margin-right: 8px;
+    display: inline-block; }
+  .chouse_time_box .chouse_time_btns {
+    display: inline-block;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #ffffff; }
+    .chouse_time_box .chouse_time_btns .time_btn {
+      background-color: #ffffff;
+      color: #828282;
+      font-size: 16px;
+      border-radius: 4px;
+      padding: 4px 16px;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      border: 0px;
+      outline: none;
+      cursor: pointer; }
+      .chouse_time_box .chouse_time_btns .time_btn:hover, .chouse_time_box .chouse_time_btns .time_btn.active {
+        background-color: #1db7bd;
+        color: #ffffff; }
+  .chouse_time_box .send_btn {
+    padding: 8px 52px;
+    background-color: #1db7bd;
+    color: #ffffff;
+    border-radius: 12px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    cursor: pointer; }
+    .chouse_time_box .send_btn:hover {
+      opacity: 0.8; }
+
+.select_chouse {
+  /*移除箭頭樣式*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  /*改變右邊箭頭樣式*/
+  background: url("../images/select-arrow.svg") no-repeat right center transparent;
+  border: 0px;
+  font-size: 16px;
+  border-bottom: solid 1px #a3a3a3;
+  padding: 0px 0px 4px 0px !important;
+  color: #323232;
+  width: calc( 100% + 4em);
+  outline: none; }
+
+.rollcall_list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .rollcall_list ul li {
+    padding: 8px 0px;
+    font-size: 16px;
+    color: #323232;
+    text-align: center; }
+    .rollcall_list ul li:nth-child(1) {
+      width: 11.4%; }
+    .rollcall_list ul li:nth-child(2) {
+      width: 20.6%; }
+    .rollcall_list ul li:nth-child(3), .rollcall_list ul li:nth-child(4), .rollcall_list ul li:nth-child(5), .rollcall_list ul li:nth-child(6), .rollcall_list ul li:nth-child(7) {
+      width: 13.5%; }
+
+.rollcall_list .list_title li {
+  background-color: #e0e0e0;
+  border-right: solid 1px #f6f6f6;
+  display: inline-block; }
+  .rollcall_list .list_title li:last-child {
+    border-right: 0px; }
+
+.rollcall_list .list_contain li {
+  border: solid 1px #f6f6f6;
+  border-width: 0px 1px 1px 0px; }
+  .rollcall_list .list_contain li:first-child {
+    border-width: 0px 1px 1px 1px; }
+
+.rollcall_list.chouse_all_day ul li:nth-child(1) {
+  width: 11.4%; }
+
+.rollcall_list.chouse_all_day ul li:nth-child(2) {
+  width: 20.6%; }
+
+.rollcall_list.chouse_all_day ul li:nth-child(3) {
+  width: 67.5%; }
+
+.rollcall_list.chouse_all_day ul li:nth-child(4), .rollcall_list.chouse_all_day ul li:nth-child(5), .rollcall_list.chouse_all_day ul li:nth-child(6), .rollcall_list.chouse_all_day ul li:nth-child(7) {
+  display: none; }
+
+@media (max-width: 768px) {
+  .rollcall_box {
+    padding: 0px; }
+    .rollcall_box .rollcall_box_phone {
+      padding: 16px 24px 11px 24px; }
+      .rollcall_box .rollcall_box_phone.mb-40px {
+        margin-bottom: 0px; }
+  .chouse_time_box {
+    background-color: #f6f6f6;
+    padding: 16px 24px; }
+    .chouse_time_box .time_text {
+      display: none; }
+    .chouse_time_box .send_btn {
+      padding: 8px 23.5px; }
+    .chouse_time_box.mb-11px {
+      margin-bottom: 0px; }
+  .select_chouse {
+    padding: 0px 0px 8px 0px !important; }
+  .rollcall_chousebox {
+    display: block; }
+    .rollcall_chousebox .inputGroup {
+      margin-bottom: 8px; }
+    .rollcall_chousebox div {
+      display: block; }
+    .rollcall_chousebox .ml-8px {
+      margin-left: 0px;
+      width: 50%;
+      margin-top: 8px; }
+  .rollcall_list ul li {
+    font-size: 14px; } }
