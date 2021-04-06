@@ -40,6 +40,11 @@
 .rollcall_chousebox{
 	display: flex;
 	align-items: center;
+	.ml-8px{		
+		border-radius: 10px;
+		outline-color: #1db7bd;
+		outline:none;
+	}
 }
 
 
@@ -175,6 +180,7 @@
 
 	.rollcall_box{
 		padding: 0px;
+		margin-bottom:80px;
 		.rollcall_box_phone{
 			padding: 16px 24px 11px 24px;
 			&.mb-40px{
@@ -211,8 +217,9 @@
 		}
 		.ml-8px{
 			margin-left: 0px;
-			width: 50%;
+			width: 70%;
 			margin-top:8px;
+			display: flex;
 		}
 	}
 

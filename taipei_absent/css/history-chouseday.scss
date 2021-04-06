@@ -1,0 +1,38 @@
+
+.history-chouseday{
+	height:40px;
+	background-color: #ffffff;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	.history-chouseday-in{
+		width:40%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		button{
+			background-color: #ffffff;
+			border:0px;
+			padding:5px 40px;
+			cursor: pointer;
+			padding-bottom: 2px;
+			outline:none;
+			&:hover{
+				opacity:0.8;
+			}
+		}
+	}
+}
+
+
+@media(max-width: 768px){
+	.history-chouseday{
+		.history-chouseday-in{
+			width: 100%;
+			justify-content: space-between;
+			button{
+				padding:5px 30px;
+			}
+		}
+	}
+}

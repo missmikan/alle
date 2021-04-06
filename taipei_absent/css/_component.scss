@@ -8,11 +8,12 @@
 			padding-bottom: 12px;
 			font-size: $font-md;
 			color: $text-color;
-			margin-right: $margin-md;
+			margin-right: 16px;
 			cursor: pointer;
 			&.active{
 				color: $main-color;
 				border-bottom: 4px solid $main-color;
+				padding-bottom: 8px;
 			}
 		}
 	}
@@ -97,3 +98,59 @@ label::after {
 		margin-right:8px;
 	}
 }
+
+
+// 申請請假 手機版
+.calendar.inline-block{
+	display: inline-block !important;
+	vertical-align: middle;
+}
+
+.send-btn-phone{
+	border-radius:12px;
+}
+
+.phone-mb24{
+	margin-bottom:40px;
+}
+
+.open-date-btn{
+	display: none;
+}
+
+@media(max-width:768px){
+	.phone-relative{
+		position: relative;
+	}
+
+	.add-date-btn{
+		position:absolute;
+	    top: 0px;
+		right: 0px;
+		padding: 4px 12px;
+	}
+
+	.inputGroup{
+		margin-right:8px;
+		margin-bottom:8px;
+	}
+
+	.phone-mb24{
+		margin-bottom:24px;
+	}
+
+	.open-date-btn{
+		display: block;
+		padding:4px 12px;
+		margin-top:4px;
+		margin-bottom:16px;
+	}
+
+	.send-btn-phone{
+		padding:8px 52px;
+	}
+}
+
+
+
+

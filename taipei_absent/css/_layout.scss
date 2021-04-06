@@ -30,6 +30,10 @@ body{
 	}
 }
 
+.inline-block{
+	display: inline-block;
+}
+
 h1{
 	font-size: $font-sm;
 	color: $title-color;
