@@ -1,4 +1,5 @@
 
+// 防疫假細項 下拉樣式
 .select-chouse {
   display:flex;
   flex-direction: column;
@@ -106,3 +107,34 @@ input.selectopt:checked + label.select-option:before {
 }
 
 
+// 選擇學生 下拉
+.select-student{
+  span{
+    display: inline-block;
+    margin-right: 6px;
+    select{
+      display: inline-block;
+      font-size: $font-sm;
+      border-radius: 2px;
+      border: 1px solid #a3a3a3;
+      color: #828282;
+      padding: 8px;
+      min-width: 5em;
+    }
+    .select-w-big{
+      min-width: 7em;
+    }
+  }
+}
+
+.chouse-student{
+  margin-top: 10px;
+  a , span{
+    color: #1FB7BD;
+  }
+  a{
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}

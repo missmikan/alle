@@ -909,3 +909,24 @@ input.selectopt:checked + label.select-option:before {
   -webkit-box-shadow: 0px 0px 4px #cccccc;
   box-shadow: 0px 0px 4px #cccccc;
   outline: none; }
+
+.select-student span {
+  display: inline-block;
+  margin-right: 6px; }
+  .select-student span select {
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #a3a3a3;
+    color: #828282;
+    padding: 8px;
+    min-width: 5em; }
+  .select-student span .select-w-big {
+    min-width: 7em; }
+
+.chouse-student {
+  margin-top: 10px; }
+  .chouse-student a, .chouse-student span {
+    color: #1FB7BD; }
+  .chouse-student a:hover {
+    opacity: 0.8; }

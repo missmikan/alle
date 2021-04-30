@@ -29,20 +29,48 @@
 		</div>
 		<div class="container card-w mainpage phone-mb-80">
 			<div class="mainpage--section">
-				<h1>1.選擇學生 </h1>
+				<h1>
+					<span>1.</span>
+					選擇學生
+				</h1>
 				<div>
-					<span>
-						<select>
-							<option>
-								班級
-							</option>
-						</select>
-					</span>
-					
+					<div class="select-student">
+						<span>
+							<select>
+								<option>
+									班級
+								</option>
+							</select>
+						</span>
+						<span>
+							<select class="select-w-big">
+								<option>
+									姓名
+								</option>
+							</select>
+						</span>
+					</div>
+					<div class="chouse-student">
+						<span>
+							快速選擇：
+						</span>
+						<a href="#">
+							四年三班 王小明
+						</a>
+						<span>
+							、
+						</span>
+						<a href="#">
+							四年三班 周曉芳
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="mainpage--section">
-				<h1>2.請假類別 </h1>
+				<h1>
+					<span>2.</span>
+					請假類別 
+				</h1>
 				<div class="form-check">
 					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 事假</label></span>
 					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 病假</label></span>
@@ -50,16 +78,21 @@
 					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 喪假</label></span>
 					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 生理假</label></span>
 					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 防疫假</label></span>
-					
 					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 不可抗力</label></span>
 				</div>
 			</div>
 			<div class="mainpage--section">
-				<h1>3.請假原因 </h1>
+				<h1>
+					<span>3.</span>
+					請假原因
+				</h1>
 				<textarea name="" id="" class="textarea" placeholder="請輸入請假事由"></textarea>
 			</div>
 			<div class="mainpage--section phone-relative phone-mb24">
-				<h1>4.請假日期 </h1>
+				<h1>
+					<span>4.</span>
+					請假日期
+				</h1>
 				<div class="tips">可複選，全天請假可全選節次</div>
 				<div class="calendar inline-block">
 					<img src="images/calendar.png" alt="">
@@ -80,13 +113,13 @@
 				</div>
 				<h3>起迄節次</h3>
 				<div class="form-check">
-					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 導師時間</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 第一節</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="six" value="six"><label for="six"> 第二節</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 第三節</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 第四節</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 第五節</label></span>
-					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 第六節</label></span>
+					<span class="inputGroup "><input type="checkbox" id="aa" value="aa"><label for="aa"> 導師時間</label></span>
+					<span class="inputGroup"><input type="checkbox" id="bb" value="bb"><label for="bb"> 第一節</label></span>
+					<span class="inputGroup"><input type="checkbox" id="cc" value="cc"><label for="cc"> 第二節</label></span>
+					<span class="inputGroup"><input type="checkbox" id="dd" value="dd"><label for="dd"> 第三節</label></span>
+					<span class="inputGroup"><input type="checkbox" id="ee" value="ee"><label for="ee"> 第四節</label></span>
+					<span class="inputGroup"><input type="checkbox" id="ff" value="ff"><label for="ff"> 第五節</label></span>
+					<span class="inputGroup"><input type="checkbox" id="ii" value="ii"><label for="ii"> 第六節</label></span>
 				</div>
 				<button class="btn btn-orange inline-block open-date-btn">
 					展開每日節次
