@@ -621,14 +621,17 @@ label::after {
     width: 68px;
     text-align: right;
     margin-left: 20%; }
-  .history-list-box .history-list-day .mb_12px {
-    margin-bottom: 12px; }
-  .history-list-box .history-list-day .gray_text {
-    color: #828282; }
-    .history-list-box .history-list-day .gray_text div {
+  .history-list-box .history-list-day {
+    position: relative;
+    top: 5px; }
+    .history-list-box .history-list-day .mb_12px {
       margin-bottom: 12px; }
-      .history-list-box .history-list-day .gray_text div:last-child {
-        margin-bottom: 0px; }
+    .history-list-box .history-list-day .gray_text {
+      color: #828282; }
+      .history-list-box .history-list-day .gray_text div {
+        margin-bottom: 7px; }
+        .history-list-box .history-list-day .gray_text div:last-child {
+          margin-bottom: 0px; }
   .history-list-box .history-list-reson {
     line-height: 1.4em; }
     .history-list-box .history-list-reson div:first-child {
@@ -684,7 +687,6 @@ label::after {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    position: static;
     border-bottom: solid 4px #f6f6f6; }
     .history-list-box .history-list-title, .history-list-box .history-list-day, .history-list-box .history-list-reson, .history-list-box .history-list-btn {
       width: 100%; }
@@ -694,13 +696,13 @@ label::after {
         position: relative;
         top: -2px; }
     .history-list-box .history-list-day {
-      margin-bottom: 12px; }
+      margin-bottom: 12px;
+      position: static; }
     .history-list-box .history-list-sight {
       left: auto;
       right: 24px;
       margin-top: 4px; }
     .history-list-box .history-list-reson {
-      position: relative;
       margin-bottom: 20px; }
       .history-list-box .history-list-reson div:first-child {
         display: inline-block; }
@@ -708,7 +710,8 @@ label::after {
         position: absolute;
         display: inline-block;
         left: auto;
-        right: 0px; }
+        right: 24px;
+        top: 53px; }
     .history-list-box .history-list-btn {
       text-align: center;
       margin-left: 0px; }

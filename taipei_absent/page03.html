@@ -1,557 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/all.css">
-	<title>臺北親師生線上請假</title>
-</head>
-<body class="absent">
-	<header class="absent--header">
-		<div class="container">
-			<img src="images/logo.png" alt="">
-			<span class="absent--title">學生請假</span>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/all.css">
+		<title>臺北親師生線上請假</title>
+	</head>
+	<body class="absent">
+		<header class="absent--header">
+			<div class="container">
+				<img src="images/logo.png" alt="">
+				<span class="absent--title">學生請假</span>
+			</div>
+		</header>
+		<div class="container card-w name_bar">
+			<span class="circle-icon">
+				<img src="images/icon-account-outlined.png" alt="">
+			</span>
+			<span>四年3班</span>
+			<span>導師</span>
+			<span>莫名</span>
 		</div>
-	</header>
-	<div class="container card-w name_bar">
-		<span class="circle-icon">
-			<img src="images/icon-account-outlined.png" alt="">
-		</span>
-		<span>四年3班</span>
-		<span>導師</span>
-		<span>莫名</span>
-	</div>
-	<div class="container card-w menu_bar">
-		<ul>
-			<li>申請請假</li>
-			<li class="active">請假紀錄</li>
-		</ul>
-	</div>
-	<div class="mainpage history-list-minheight">
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<!-- 事假 history-list-title-blue -->
-				<span class="history-list-title-blue">
-					事假
-				</span>
-				<!-- <span class="history-list-title-green">
-					病假
-				</span> -->
-			</div>
-			<div class="history-list-sight">
-				<div class="text_orange">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						確認中
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
+		<div class="container card-w menu_bar">
+			<ul>
+				<li class="active">申請請假</li>
+				<li>請假紀錄</li>
+			</ul>
+		</div>
+		<div class="container card-w mainpage phone-mb-80">
+			<div class="mainpage--section">
+				<h1>1.選擇學生 </h1>
 				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
+					<span>
+						<select>
+							<option>
+								班級
+							</option>
+						</select>
+					</span>
+					
 				</div>
 			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
+			<div class="mainpage--section">
+				<h1>2.請假類別 </h1>
+				<div class="form-check">
+					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 事假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 病假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="six" value="six"><label for="six"> 公假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 喪假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 生理假</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 防疫假</label></span>
+					
+					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 不可抗力</label></span>
+				</div>
+			</div>
+			<div class="mainpage--section">
+				<h1>3.請假原因 </h1>
+				<textarea name="" id="" class="textarea" placeholder="請輸入請假事由"></textarea>
+			</div>
+			<div class="mainpage--section phone-relative phone-mb24">
+				<h1>4.請假日期 </h1>
+				<div class="tips">可複選，全天請假可全選節次</div>
+				<div class="calendar inline-block">
+					<img src="images/calendar.png" alt="">
+				</div>
+				<button class="btn btn-orange inline-block add-date-btn">新增日期</button>
+				<div class="select">
+					<span class="h2">全選節次</span>
+					<span class="switch">
+						<label>
+							<input
+							type="checkbox"
+							class="checkbox">
+							<span class="btn-box">
+								<span class="switch_btn"></span>
+							</span>
+						</label>
+					</span>
+				</div>
+				<h3>起迄節次</h3>
+				<div class="form-check">
+					<span class="inputGroup "><input type="radio" name="reason" id="one" value="one"><label for="one"> 導師時間</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="two" value="two"><label for="two"> 第一節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="six" value="six"><label for="six"> 第二節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="three" value="three"><label for="three"> 第三節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="four" value="four"><label for="four"> 第四節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 第五節</label></span>
+					<span class="inputGroup"><input type="radio" name="reason" id="seven" value="seven"><label for="seven"> 第六節</label></span>
+				</div>
+				<button class="btn btn-orange inline-block open-date-btn">
+					展開每日節次
 				</button>
-				<button class="btn_border-red">
-					刪除
+			</div>
+			<div class="mainpage--section text-center">
+				<button class="btn btn-lg btn-primary send-btn-phone">
+					送出假單
 				</button>
 			</div>
 		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-green">
-					病假
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-red">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						審核未過
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-yellow">
-					公假
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-blue">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						已確認
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-purple">
-					喪假
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-blue">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						已確認
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-orange">
-					防疫假
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-blue">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						已確認
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-pink">
-					生理假
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-blue">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						已確認
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-
-		<div class="container history-list-box">
-			<div class="history-list-title">
-				<span class="history-list-title-deepblue">
-					不可抗力
-				</span>
-			</div>
-			<div class="history-list-sight">
-				<div class="text-blue">
-					<span class="phone-none">
-						導師莫名
-					</span>
-					<span>
-						已確認
-					</span>
-				</div>
-			</div>
-			<div class="history-list-day">
-				<div class="mb_12px">
-					<span>
-						合計
-					</span>
-					<span>
-						2日
-					</span>
-					<span>
-						共15節
-					</span>
-				</div>
-				<div class="gray_text">
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-					<div>
-						110/01/10 (一)
-						<span class="phone-none">
-							導、一、二、三、四、五、六、七
-						</span>
-					</div>
-				</div>
-			</div>
-			<div class="history-list-reson">
-				<div>
-					事由：
-				</div>
-				<div class="history-list-audit">
-					<div class="parent_send">
-						<span>
-							家長
-						</span>
-						<span>
-							李姆森
-						</span>
-						<span>
-							請假
-						</span>
-					</div>
-				</div>
-				<div>
-					辦理行政相關事務
-				</div>
-			</div>
-			<div class="history-list-btn">
-				<button class="btn_blue-bg">
-					列印
-				</button>
-				<button class="btn_border-red">
-					刪除
-				</button>
-			</div>
-		</div>
-	</div>
-
-	<div class="phone-buttom-bar">
+		<div class="phone-buttom-bar">
 			<button class="active">
 				<div>
 					<img src="images/home-active.png" alt="">
@@ -577,5 +124,5 @@
 				</div>
 			</button>
 		</div>
-</body>
+	</body>
 </html>
