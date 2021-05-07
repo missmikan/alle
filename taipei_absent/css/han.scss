@@ -86,7 +86,7 @@
 		font-size: $font-sm;
 		@include btn-h
 		&:hover{
-			opacity: 0.8;
+			opacity: 0.72;
 		}
 	}
 }
@@ -232,9 +232,19 @@
 
 
 
+// 課程點名
+.class-box{
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+	.select-chouse02{
+		width: 14em;
+	}
+}
 
-
-
-
-
-
+.class-title{
+	color: #828282;
+	font-size: 16px;
+	position: relative;
+	top: -4px;
+}

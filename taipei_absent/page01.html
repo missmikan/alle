@@ -24,8 +24,9 @@
 	</div>
 	<div class="container card-w menu_bar">
 		<ul>
-			<li>課程點名</li>
-			<li class="active">班級點名</li>
+            <!-- 選中時 +active -->
+			<li class="active">課程點名</li>
+			<li>班級點名</li>
 		</ul>
 	</div>
 	<div class="container rollcall_box mainpage">
@@ -33,7 +34,24 @@
 			<div class="mainpage--section">
 				<div class="calendar pb-16px">
 					<img src="images/calendar.png" alt="">
-				</div>
+                </div>
+                <div class="class-box">
+                    <div class="class-title">
+                        節次
+                    </div>
+                    <div class="select-chouse select-chouse02 ml-8px" tabindex="2">
+                        <input class="selectopt selectopt-top" name="test02" type="radio" id="aaa" checked>
+                        <label for="aaa" class="select-option select-option-top">第三節 彈性課程</label>
+                        <input class="selectopt selectopt-top" name="test02" type="radio" id="bbb">
+                        <label for="bbb" class="select-option select-option-top">第五節 302數學</label>
+                        <div class="select-opt-box">
+                            <input class="selectopt selectopt-down" name="test02" type="radio" id="aaa">
+                            <label for="aaa" class="select-option">第三節 彈性課程</label>
+                            <input class="selectopt selectopt-down" name="test02" type="radio" id="bbb">
+                            <label for="bbb" class="select-option">第五節 302數學</label>
+                        </div>
+                    </div>
+                </div>
 				<div class="rollcall_chousebox">
 					<div>
 						<span class="inputGroup "><input type="radio" name="reason" id="eight" value="eight"><label for="eight"> 取消</label></span>
@@ -47,17 +65,7 @@
 						<span class="inputGroup"><input type="radio" name="reason" id="ten" value="ten"><label for="ten"> 早退</label></span>
 						<span class="inputGroup"><input type="radio" name="reason" id="five" value="five"><label for="five"> 防疫假</label></span>
 					</div>
-					<!-- <div class="ml-8px">
-						<select class="select_chouse">
-							<option>
-								防疫假細項
-							</option>
-							<option>
-								防疫假
-							</option>
-						</select>
-					</div> -->
-					<!-- 下拉選單 -->
+					<!-- 選擇防疫假 才會出現的下拉選單 -->
 					<div class="select-chouse ml-8px" tabindex="1">
 					  <input class="selectopt selectopt-top" name="test" type="radio" id="opt1" checked>
 					  <label for="opt1" class="select-option select-option-top">防疫假細項</label>
@@ -94,83 +102,33 @@
 			</div>
 		</div>
 		<div class="chouse_time_box mb-11px">
-			<div>
-				<span class="time_text">
-					選擇時段：
-				</span>
-				<div class="chouse_time_btns">
-					<button class="time_btn active">
-						上午
-					</button><button class="time_btn">
-						下午
-					</button><button class="time_btn">
-						全天
-					</button>
-				</div>
-			</div>
+			<div></div>
 			<div>
 				<button class="send_btn">
 					送出資料
 				</button>
 			</div>
 		</div>
-		<div class="rollcall_list">
-			<ul class="list_title">
-				<li>座號</li>
-				<li>姓名</li>
-				<li>導</li>
-				<li>一</li>
-				<li>二</li>
-				<li>三</li>
-				<li>四</li>
-			</ul>
-			<ul class="list_contain">
-				<li>01</li>
-				<li>林小花</li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h"></li>
-			</ul>
-			<ul class="list_contain">
-				<li>01</li>
-				<li>林小花</li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h"></li>
-			</ul>
-			<ul class="list_contain">
-				<li>01</li>
-				<li>林小花</li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h"></li>
-				<li class="pointer_h">曠課</li>
-			</ul>
-		</div>
-		<!-- 當選擇全天時 加上chouse_all_day-->
 		<div class="rollcall_list chouse_all_day">
 			<ul class="list_title">
 				<li>座號</li>
 				<li>姓名</li>
-				<li>全天</li>
-				<li>一</li>
-				<li>二</li>
-				<li>三</li>
-				<li>四</li>
+				<li>第三節</li>
 			</ul>
 			<ul class="list_contain">
 				<li>01</li>
 				<li>林小花</li>
 				<li class="pointer_h">曠課</li>
-				<li class="pointer_h">曠課</li>
-				<li class="pointer_h">曠課</li>
+            </ul>
+            <ul class="list_contain">
+				<li>01</li>
+				<li>林小花</li>
 				<li class="pointer_h"></li>
-				<li class="pointer_h"></li>
+            </ul>
+            <ul class="list_contain">
+				<li>01</li>
+				<li>林小花</li>
+				<li class="pointer_h">病假</li>
 			</ul>
 		</div>
 	</div>
@@ -201,9 +159,6 @@
 			</div>
 		</button>
 	</div>
-
-
-
 
 </body>
 </html>

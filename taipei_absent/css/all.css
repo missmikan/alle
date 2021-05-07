@@ -69,6 +69,8 @@ body {
     margin-bottom: 16px; }
     .mainpage--section:last-child {
       margin-bottom: 0; }
+  .mainpage .mainpage--section textarea {
+    outline: #828282; }
 
 .inline-block {
   display: inline-block; }
@@ -118,7 +120,7 @@ h3 {
   border-radius: 8px;
   cursor: pointer; }
   .btn:hover {
-    opacity: 0.95; }
+    opacity: 0.72; }
 
 .btn-lg {
   padding: 12px 44px;
@@ -466,7 +468,7 @@ label::after {
     outline: none;
     cursor: pointer; }
     .chouse_time_box .send_btn:hover {
-      opacity: 0.8; }
+      opacity: 0.72; }
 
 .select_chouse {
   /*移除箭頭樣式*/
@@ -564,6 +566,23 @@ label::after {
   .rollcall_list ul li {
     font-size: 14px; } }
 
+.class-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 8px; }
+  .class-box .select-chouse02 {
+    width: 14em; }
+
+.class-title {
+  color: #828282;
+  font-size: 16px;
+  position: relative;
+  top: -4px; }
+
 .history-list-minheight {
   max-width: 1200px;
   margin: 0px auto;
@@ -659,7 +678,7 @@ label::after {
     outline: none;
     cursor: pointer; }
     .history-list-box .history-list-btn button:hover {
-      opacity: 0.8; }
+      opacity: 0.72; }
   .history-list-box .history-list-btn .btn_blue-bg {
     background-color: #1db7bd;
     color: #ffffff;
@@ -758,7 +777,7 @@ label::after {
       .phone-buttom-bar button.active {
         color: #1db7bd; }
       .phone-buttom-bar button:hover {
-        opacity: 0.8; }
+        opacity: 0.72; }
       .phone-buttom-bar button img {
         width: 22px;
         margin-bottom: 2px; } }
@@ -793,7 +812,7 @@ label::after {
       padding-bottom: 2px;
       outline: none; }
       .history-chouseday .history-chouseday-in button:hover {
-        opacity: 0.8; }
+        opacity: 0.72; }
 
 @media (max-width: 768px) {
   .history-chouseday .history-chouseday-in {
@@ -897,7 +916,14 @@ input.selectopt:checked + label.select-option:before {
   background: #ffffff; }
 
 .select-chouse .select-opt-box {
-  display: none; }
+  display: none;
+  z-index: 9999;
+  background-color: #ffffff;
+  padding: 10px 2px; }
+
+.select-chouse .select-opt-box label {
+  padding: 12px 8px;
+  display: block; }
 
 .select-chouse:focus .select-opt-box {
   display: block; }
@@ -908,6 +934,9 @@ input.selectopt:checked + label.select-option:before {
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 4px #cccccc;
   box-shadow: 0px 0px 4px #cccccc;
+  outline: none; }
+
+.select-student select {
   outline: none; }
 
 .select-student span {
@@ -929,4 +958,86 @@ input.selectopt:checked + label.select-option:before {
   .chouse-student a, .chouse-student span {
     color: #1FB7BD; }
   .chouse-student a:hover {
+    opacity: 0.72; }
+
+.btn-upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: solid 1px #e5e5e5;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 196px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  cursor: pointer; }
+  .btn-upload:hover {
+    opacity: 0.72; }
+  .btn-upload .btn-upload-words {
+    color: #828282;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 133px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 6px;
+    z-index: 2; }
+  .btn-upload.fail-upload {
+    border-color: #ff4438; }
+
+.btn-upload-delet {
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  background-color: #ffffff;
+  cursor: pointer; }
+  .btn-upload-delet:hover {
     opacity: 0.8; }
+
+.fail-upload-words {
+  color: #ff4438;
+  font-size: 14px;
+  line-height: 24px; }
+
+.file-uploading {
+  border-color: #a3a3a3;
+  cursor: initial; }
+  .file-uploading:hover {
+    opacity: 1; }
+  .file-uploading .btn-upload-words {
+    color: #4f4f4f; }
+  .file-uploading div:nth-child(2) {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #7be5d9;
+    border-radius: 8px;
+    -webkit-animation-name: upload;
+    animation-name: upload;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+@-webkit-keyframes upload {
+  0% {
+    width: 0px; }
+  100% {
+    width: 100%; } }
+
+@keyframes upload {
+  0% {
+    width: 0px; }
+  100% {
+    width: 100%; } }

@@ -1,0 +1,95 @@
+
+// 選擇檔案按鈕 
+.btn-upload{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:solid 1px #e5e5e5;
+    border-radius: 8px;
+    padding:8px 16px;
+    width: 196px;
+    height: 40px;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.72;
+    }
+    .btn-upload-words{
+      color:#828282;
+      overflow : hidden;  //多餘的隱藏
+      text-overflow : ellipsis;  //結尾點點點...
+      white-space : nowrap;  //不換行
+      width : 133px;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 6px;
+      z-index: 2;
+    }
+    &.fail-upload{
+      border-color:#ff4438;
+    }
+  }
+  .btn-upload-delet{
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    background-color: #ffffff;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+  
+  .fail-upload-words{
+    color:#ff4438;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+//上傳中 動畫
+.file-uploading{
+    border-color: #a3a3a3;
+    cursor:initial;
+    &:hover{
+        opacity: 1;
+    }
+    .btn-upload-words{
+        color:#4f4f4f;
+    }
+    // &::before{
+    //     content: "";
+    //     height: 100%;
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 0px;
+    //     background-color: #7be5d9;
+    //     border-radius: 8px;
+    //     animation-name: upload;
+    //     animation-iteration-count: 1;
+    //     animation-fill-mode:forwards;
+    //     animation-duration: 20s;
+    // }
+    div:nth-child(2){
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #7be5d9;
+        border-radius: 8px;
+        animation-name: upload;
+        animation-iteration-count: 1;
+        animation-fill-mode:forwards;
+    }
+}
+
+
+@keyframes upload{
+    0%{
+      width: 0px;
+    }
+    100%{
+      width: 100%;
+    }
+}
