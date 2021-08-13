@@ -906,13 +906,14 @@ div#preloader {
 .ProductList .p_item .content{
   border-radius: 3px;
   padding: 12px 4px;
-  /* border: 1px solid #EFEFEF; */
+  border-bottom: 3px solid #ffffff;
   background-color: #FFF;
   /* padding: 0px; */
   text-align: center;
   cursor: pointer;
   display: flex;
   align-items: center;
+  transition: all 0.2s;
 }
 .ProductList .col-md-2{
   width:auto;
@@ -953,7 +954,7 @@ div#preloader {
   border-bottom: 3px solid #00A0C4;
   color:#00A0C4;
   font-weight: 500;
-  font-size: 15px;
+  /* font-size: 15px; */
   position: relative;
 }
 
@@ -977,6 +978,9 @@ div#preloader {
 }
 
 @media(max-width:768px){
+  .ProductList{
+    z-index: 1;
+  }
   .ProductList .col-md-2{
     width:48%;
     margin-right: 2%;
@@ -1013,6 +1017,7 @@ div#preloader {
     font-weight: 500;
     font-size: 14px;
     position: relative;
+    transition: all 0.2s;
   }
 }
 
@@ -2804,7 +2809,7 @@ div#preloader {
 
 
 /* 資安驗證 */
-.info-security{
+/* .info-security{
   display: flex;
   justify-content: space-between;
   margin-top: 12px;
@@ -2844,5 +2849,65 @@ div#preloader {
     margin-bottom: 16px;
   }
 
+} */
+
+.info-security{
+  display: flex;
+  align-items: center;
 }
 
+.info-security-img{
+  width:40%;
+  margin-right: 60px;
+}
+
+.info-security-img img{
+  width:100%;
+}
+
+.info-security-words{
+  color: #364051;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 33px 20px;
+    border: solid 1px #dcdcdc;
+    width: calc(60% - 60px);
+}
+
+.info-security-words > span:first-child{
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+@media(max-width:768px){
+  .info-security{
+    display: block;
+  }
+
+  .info-security-img{
+    width:100%;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .info-security-img img{
+    width:70%;
+  }
+
+  .info-security-words{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0px auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 24px;
+  }
+
+  .info-security-words > span:first-child{
+    margin-bottom: 0px;
+    display: inline;
+    line-height: 1.5em;
+  }
+}
