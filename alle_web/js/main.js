@@ -4,7 +4,7 @@ var changePage = function(page) {
   console.log("page => ", page);
   $("#includedContent").load(page + ".html"); 
   if(page_list.indexOf(page) > -1) {
-      $(".ProductList").slideUp();
+      // $(".ProductList").slideUp();
     }
 };
 

@@ -132,10 +132,11 @@ input.selectopt:checked + label.select-option:before {
       padding: 8px;
       min-width: 5em;
     }
-    .select-w-big{
-      min-width: 7em;
-    }
   }
+}
+
+.select-student01{
+  display: flex;
 }
 
 .chouse-student{
@@ -144,8 +145,40 @@ input.selectopt:checked + label.select-option:before {
     color: #1FB7BD;
   }
   a{
+    display: inline-block;
     &:hover{
       opacity: 0.72;
+    }
+  }
+}
+
+.select-chouse-box{
+  width:8.5em;
+}
+
+.select-chouse-box02{
+  width:6.5em;
+}
+
+.select-chouse-box .selectopt:checked + label.select-option{
+  border:solid 1px #e0e0e0;
+  border-radius: 8px;
+  height: 40px;
+  color:#808080;
+}
+
+
+.select-chouse-box .select-option{
+  min-height: 40px;
+}
+
+@media(max-width:768px){
+  .chouse-student{
+    a{
+      margin-top: 8px;
+      &:first-child{
+        margin-top: 0px;
+      }
     }
   }
 }
