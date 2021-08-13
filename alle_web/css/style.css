@@ -2866,19 +2866,44 @@ div#preloader {
 }
 
 .info-security-words{
-  color: #364051;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 32px;
-    padding: 33px 32px;
-    border: solid 1px #dcdcdc;
-    width: calc(60% - 60px);
-    line-height: 2em;
+  color: #182842;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 32px;
+  padding: 33px 32px;
+  border: solid 1px #dcdcdc;
+  width: calc(60% - 60px);
+  line-height: 1.8em;
 }
 
-.info-security-words > span:first-child{
-  /* margin-bottom: 8px; */
+/* .info-security-words > span:first-child{
   display: inline-block;
+} */
+
+.info-security-words .info-self{
+  font-size: 18px;
+  color:#565656;
+}
+
+.info-security-words .info-blue{
+  color:#307fce;
+}
+
+.info-security-words .info-self:before{
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  position: relative;
+  top: -4px;
+  background-color: #565656;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.info-security-words .info-self img{
+  width:20px;
+  height: 20px;
 }
 
 @media(max-width:768px){
