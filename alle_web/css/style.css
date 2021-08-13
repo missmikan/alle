@@ -2929,6 +2929,12 @@ div#preloader {
     text-align: center;
     box-sizing: border-box;
     margin-top: 24px;
+    text-align: left;
+  }
+
+  .info-security-words .info-self{
+    font-size: 14px;
+    color:#565656;
   }
 
   .info-security-words > span:first-child{
