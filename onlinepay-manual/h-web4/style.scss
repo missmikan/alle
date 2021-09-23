@@ -583,6 +583,9 @@ img {
         .phone-block{
             display: flex !important;
         }
+        .red-text{
+            color:#E86350;
+        }
         .web-block{
             display: none;
         }
@@ -601,7 +604,7 @@ img {
               h2{
                 font-size: 18px;
                 position: relative;
-                top: -6px;
+                // top: -6px;
               }
             }
         }
@@ -636,6 +639,20 @@ img {
         }
 
         .content .use-a .step3-content ul li{
-            align-items: flex-start;
+            display: block;
+            text-align: center;
+            p{
+                display: inline-block;
+                text-align: left;
+                max-width: 15em;
+            }
+            >span{
+                vertical-align: top;
+            }
+        }
+
+        .content .use-a .step2-content ul li{
+            display:block;
+            text-align:center;
         }
     }

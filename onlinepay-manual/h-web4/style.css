@@ -466,6 +466,9 @@ img {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+  .red-text {
+    color: #E86350;
+  }
   .web-block {
     display: none;
   }
@@ -486,7 +489,6 @@ img {
   .content .use-a .qa-title > div h2 {
     font-size: 18px;
     position: relative;
-    top: -6px;
   }
   .content .use-a .step1-content, .content .use-a .step2-content, .content .use-a .step3-content, .content .use-a .step4-content {
     margin-left: 0px;
@@ -517,9 +519,20 @@ img {
     text-align: left;
   }
   .content .use-a .step3-content ul li {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    display: block;
+    text-align: center;
+  }
+  .content .use-a .step3-content ul li p {
+    display: inline-block;
+    text-align: left;
+    max-width: 15em;
+  }
+  .content .use-a .step3-content ul li > span {
+    vertical-align: top;
+  }
+  .content .use-a .step2-content ul li {
+    display: block;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
