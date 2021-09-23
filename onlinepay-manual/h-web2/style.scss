@@ -111,11 +111,11 @@ body {
   font-weight: bold;
 }
 span{
-    font-size: 18px;
+    font-size: 16px;
     color: #3d5da1;
 }
 p{
-  font-size: 18px;
+  font-size: 16px;
 }
 ol,
 ul {
@@ -300,7 +300,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 18px;
+        // font-size: 18px;
         margin-bottom: 60px;
         .sc2-phone{
           width: 45%;
@@ -1026,7 +1026,7 @@ img {
     font-weight: 400;
     line-height: 1.3em;
     .title{
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 500;
       color:#505050;
       // margin-bottom: 12px;
@@ -1123,6 +1123,7 @@ img {
     text-align: center;
     margin: 0px auto;
     margin-bottom: 30px;
+    // font-size: 16px;
     .img{
       width:60%;
       margin-right: 0px;
@@ -1137,6 +1138,7 @@ img {
   .step-box .step-box-02{
     width: calc( 100% - 48px );
     margin: 0px 24px;
+    // font-size: 16px;
     .step-sm-box{
       text-align: left;
     }

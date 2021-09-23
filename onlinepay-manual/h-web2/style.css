@@ -113,12 +113,12 @@ body {
 }
 
 span {
-  font-size: 18px;
+  font-size: 16px;
   color: #3d5da1;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ol,
@@ -405,7 +405,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 18px;
   margin-bottom: 60px;
 }
 
@@ -663,7 +662,7 @@ img {
 }
 
 .step-sm-box .words .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #505050;
   position: relative;
