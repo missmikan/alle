@@ -1,0 +1,525 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+span {
+  font-size: 18px;
+  color: #3d5da1;
+}
+
+p {
+  font-size: 18px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  background-color: #2777d3;
+  color: white;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.header h1 img {
+  width: 1em;
+  position: relative;
+  top: 6px;
+}
+
+.content {
+  color: #505050;
+  padding-top: 40px;
+}
+
+.content .use-a {
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 4px 4px rgba(39, 91, 185, 0.15);
+          box-shadow: 0px 4px 4px rgba(39, 91, 185, 0.15);
+  border-radius: 12px;
+  padding: 24px 0px 24px 0px;
+  max-width: 800px;
+  background-color: white;
+  margin-bottom: 72px;
+}
+
+.content .use-a .qa-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  margin-left: 8%;
+}
+
+.content .use-a .qa-title img {
+  margin-right: 8px;
+}
+
+.content .use-a .qa-title h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.content .use-a .step1-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 56px;
+}
+
+.content .use-a .step1-content .step-phone {
+  margin-right: 8%;
+  margin-left: 3%;
+}
+
+.content .use-a .step1-content .step1-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .use-a .step1-content .step1-w img {
+  margin-right: 8px;
+}
+
+.content .use-a .step1-content .step1-w p {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.content .use-a .step2-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 56px;
+}
+
+.content .use-a .step2-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.content .use-a .step2-content ul li img {
+  margin-right: 8px;
+}
+
+.content .use-a .step2-content .step-phone {
+  margin-right: 12%;
+}
+
+.content .use-a .step3-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 56px;
+}
+
+.content .use-a .step3-content .step-phone {
+  margin-right: 10%;
+  margin-left: 17%;
+}
+
+.content .use-a .step3-content ul {
+  width: 60%;
+}
+
+.content .use-a .step3-content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+
+.content .use-a .step3-content ul li img {
+  margin-right: 8px;
+}
+
+.content .use-a .step3-content ul li p {
+  line-height: 1.4;
+}
+
+.content .use-a .step4-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 56px;
+}
+
+.content .use-a .step4-content .step-phone {
+  margin-right: 12%;
+}
+
+.content .use-a .step1-content, .content .use-a .step2-content, .content .use-a .step3-content, .content .use-a .step4-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block;
+}
+
+.content .use-a .step1-content > img, .content .use-a .step1-content > ul, .content .use-a .step1-content > div, .content .use-a .step1-content .step1-w, .content .use-a .step2-content > img, .content .use-a .step2-content > ul, .content .use-a .step2-content > div, .content .use-a .step2-content .step1-w, .content .use-a .step3-content > img, .content .use-a .step3-content > ul, .content .use-a .step3-content > div, .content .use-a .step3-content .step1-w, .content .use-a .step4-content > img, .content .use-a .step4-content > ul, .content .use-a .step4-content > div, .content .use-a .step4-content .step1-w {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content .use-a .step1-content > img, .content .use-a .step1-content .step-phone, .content .use-a .step2-content > img, .content .use-a .step2-content .step-phone, .content .use-a .step3-content > img, .content .use-a .step3-content .step-phone, .content .use-a .step4-content > img, .content .use-a .step4-content .step-phone {
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 40px;
+}
+
+.content .use-a .step1-content > ul, .content .use-a .step1-content > div, .content .use-a .step2-content > ul, .content .use-a .step2-content > div, .content .use-a .step3-content > ul, .content .use-a .step3-content > div, .content .use-a .step4-content > ul, .content .use-a .step4-content > div {
+  width: calc( 60% - 80px);
+}
+
+.content .use-a .step1-content .step1-w p, .content .use-a .step1-content .step1-w img, .content .use-a .step2-content .step1-w p, .content .use-a .step2-content .step1-w img, .content .use-a .step3-content .step1-w p, .content .use-a .step3-content .step1-w img, .content .use-a .step4-content .step1-w p, .content .use-a .step4-content .step1-w img {
+  display: inline-block;
+}
+
+.content .use-a .qa-title {
+  margin: 0px 80px;
+  margin-bottom: 16px;
+  padding: 0;
+  display: block;
+}
+
+.content .use-a .qa-title > div {
+  background-color: #2777d3;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.content .use-a .qa-title > div h2 {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  top: -3px;
+}
+
+.content .use-a .qa-title > div img {
+  display: inline-block;
+  width: 1em;
+}
+
+.content .use-a .qa-title img {
+  margin-right: 8px;
+}
+
+.orange-tag {
+  border-radius: 50%;
+  color: #ffffff;
+  padding: 4px 8px;
+  background-color: #FFB610;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.content .use-a .step3-content ul li {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.web-step_12 {
+  margin: 0px 80px;
+  margin-bottom: 32px;
+}
+
+.web-step_12 > div:first-child {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.web-step_12 > div:first-child img {
+  width: 85%;
+}
+
+.web-step_12 > div:last-child .step1-w {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.web-step_12 > div:last-child .step1-w span, .web-step_12 > div:last-child .step1-w p, .web-step_12 > div:last-child .step1-w img, .web-step_12 > div:last-child .step1-w div {
+  display: inline-block;
+}
+
+.web-step_12 > div:last-child .step1-w .yellow-tag, .web-step_12 > div:last-child .step1-w .red-tag {
+  border-radius: 4px;
+  padding: 5px 8px;
+  color: #ffffff;
+}
+
+.web-step_12 > div:last-child .step1-w .yellow-tag img, .web-step_12 > div:last-child .step1-w .red-tag img {
+  width: 12px;
+  position: relative;
+  top: -1px;
+}
+
+.web-step_12 > div:last-child .step1-w .yellow-tag {
+  background-color: #E2A32D;
+}
+
+.web-step_12 > div:last-child .step1-w .red-tag {
+  background-color: #E86350;
+}
+
+.web-step_12 > div:last-child .step1-w .red-text {
+  display: block;
+  margin-top: 8px;
+  color: #E86350;
+}
+
+.web-step_12 > div:last-child .step1-w .red-text span {
+  font-size: 15px;
+}
+
+.web-step_12 > div:last-child .step1-w .red-text span img {
+  width: 9px;
+  position: relative;
+  top: -1px;
+}
+
+.phone-block {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .phone-block {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .web-block {
+    display: none;
+  }
+  .header {
+    font-size: 22px;
+  }
+  .content {
+    padding-top: 20px;
+  }
+  .content .use-a .qa-title {
+    margin: 0px 12px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .content .use-a .qa-title > div {
+    display: inline-block;
+  }
+  .content .use-a .qa-title > div h2 {
+    font-size: 18px;
+    position: relative;
+    top: -6px;
+  }
+  .content .use-a .step1-content, .content .use-a .step2-content, .content .use-a .step3-content, .content .use-a .step4-content {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content .use-a .step1-content > img, .content .use-a .step1-content > ul, .content .use-a .step1-content > div, .content .use-a .step1-content .step1-w, .content .use-a .step2-content > img, .content .use-a .step2-content > ul, .content .use-a .step2-content > div, .content .use-a .step2-content .step1-w, .content .use-a .step3-content > img, .content .use-a .step3-content > ul, .content .use-a .step3-content > div, .content .use-a .step3-content .step1-w, .content .use-a .step4-content > img, .content .use-a .step4-content > ul, .content .use-a .step4-content > div, .content .use-a .step4-content .step1-w {
+    display: block;
+  }
+  .content .use-a .step1-content > img, .content .use-a .step1-content .step-phone, .content .use-a .step2-content > img, .content .use-a .step2-content .step-phone, .content .use-a .step3-content > img, .content .use-a .step3-content .step-phone, .content .use-a .step4-content > img, .content .use-a .step4-content .step-phone {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .content .use-a .step1-content > ul, .content .use-a .step1-content > div, .content .use-a .step2-content > ul, .content .use-a .step2-content > div, .content .use-a .step3-content > ul, .content .use-a .step3-content > div, .content .use-a .step4-content > ul, .content .use-a .step4-content > div {
+    width: calc( 100% - 40px);
+  }
+  .content .use-a .step1-content > ul, .content .use-a .step2-content > ul, .content .use-a .step3-content > ul, .content .use-a .step4-content > ul {
+    text-align: center;
+  }
+  .content .use-a .step1-content > ul li, .content .use-a .step2-content > ul li, .content .use-a .step3-content > ul li, .content .use-a .step4-content > ul li {
+    text-align: left;
+  }
+  .content .use-a .step3-content ul li {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=style.css.map */
