@@ -438,7 +438,7 @@ img {
 
 .qa-title > div h2 {
   display: inline-block;
-  font-size: 24px;
+  font-size: 21px;
   color: #ffffff;
 }
 
@@ -714,11 +714,14 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .step01-box .step01-img .img {
   margin-right: 0;
-  width: 42%;
+  width: 37%;
 }
 
 .step01-box .step01-img span {

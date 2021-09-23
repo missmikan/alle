@@ -330,7 +330,7 @@ img {
       padding:10px 12px;
       h2{
         display: inline-block;
-        font-size: 24px;
+        font-size: 21px;
         color:#ffffff;
       }
       img{
@@ -1075,9 +1075,10 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: center;
     .img{
       margin-right: 0;
-      width:42%;
+      width:37%;
     }
     span{
       width:13%;
