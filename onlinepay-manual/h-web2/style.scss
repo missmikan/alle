@@ -347,134 +347,9 @@ img {
     width: 24px;
   }
 
-  // .step{
-  //   .img{
-  //     width: 32%;
-  //     border-radius: 8px;
-  //     // border:solid 1px #cccccc;
-  //     box-shadow: 0px 1px 3px #cccccc;
-  //   }
-  // }
 
-  //1024px
-  // @media(max-width:1024px){
-  //   .content{
-  //     color: #505050;
-  //     padding-top: 40px;
-  //     .use-a{
-  //         margin: 0 auto;
-  //     border-radius: 12px;
-  //     padding: 24px 0px 24px 0px;
-  //     width: 90%;
-  //     background-color: white;
-  //     margin-bottom: 72px;
-  //     .qa-title{
-  //         width: 340px;
-  //         display: flex;
-  //         align-items: center;
-  //         padding: 10px;
-  //         border-radius: 8px;
-  //         margin-bottom: 50px;
-  //         margin-left: 8%;
-  //         img{
-  //             margin-right: 8px;
-  //         }
-  //         h2{
-  //             font-size: 36px;
-  //             color: white;
-  //         }
-  //     }
-      
-      
-  //     }
-  //     .use-b{
-  //       margin: 0 auto;
-  //       border-radius: 12px;
-  //       padding: 24px 0px 24px 0px;
-  //       width: 90%;
-  //       background-color: white;
-  //       margin-bottom: 72px;
-  //       .qa-title{
-  //         width: 360px;
-  //         display: flex;
-  //         align-items: center;
-  //         padding: 10px;
-  //         border-radius: 8px;
-  //         margin-bottom: 50px;
-  //         margin-left: 8%;
-  //         h2{
-  //             font-size: 36px;
-  //             color: white;
-  //         }
-  //       }
-  //       .sb-1{
-  //         display: flex;
-  //         justify-content: center;
-  //         align-items: center;
-  //         margin-bottom: 64px;
-  //         .stepb1-phone{
-  //        margin-right: 5%;
-  //         }
-  //         ul{
-  //           li{
-  //             font-size: 18px;
-  //             line-height: 1.5;
-  //             display: flex;
-  //             align-items: center;
-  //             img{
-  //               margin-right: 8px;
-  //             }
-  //           }
-  //         }
-  //       }
-        
-  //     }
-  //     .use-c{
-  //       margin: 0 auto;
-  //       border-radius: 12px;
-  //       padding: 24px 0px 24px 0px;
-  //       width: 90%;
-  //       background-color: white;
-  //       margin-bottom: 72px;
-  //       .qa-title{
-  //         width: 510px;
-  //         display: flex;
-  //         align-items: center;
-  //         padding: 10px;
-  //         border-radius: 8px;
-  //         margin-bottom: 50px;
-  //         margin-left: 8%;
-  //         h2{
-  //             font-size: 36px;
-  //             color: white;
-  //         }
-  //       }
-  //       .sc-1{
-  //         display: flex;
-  //         align-items: center;
-  //         justify-content: center;
-  //         font-size: 18px;
-  //         margin-bottom: 64px;
-  //         .sc-phone{
-  //           margin-right: 5%;
-  //         }
-  //       }
-  //       .sc-2{
-  //         display: flex;
-  //         justify-content: center;
-  //         align-items: center;
-  //         font-size: 18px;
-  //         margin-bottom: 60px;
-  //         .sc2-phone{
-  //           margin-right: 5%;
-  //         }
-  //         .sc-w{
-  //           line-height: 1.5;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
+
+
   //768px
   @media(max-width:768px){
     .content{
@@ -1098,6 +973,35 @@ img {
   display: none;
 }
 
+.orange-tag {
+  border-radius: 50%;
+  color: #ffffff;
+  padding: 1.5px 8px;
+  background-color: #FFB610;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.orange-tag-step{
+  padding: 4px 7px;
+}
+
+.orange-tag-step01{
+  padding: 4px 8px;
+}
+
+.content .sc-2 .sc2-phon{
+  width: 40%;
+  margin-right: 12px;
+}
+
+.step-box-02{
+  .orange-tag{
+    position: relative;
+    top: -2px;
+  }
+}
+
 
 @media(max-width:768px){
   .web-block{
@@ -1162,18 +1066,11 @@ img {
   span,p , .sc-w , .step-sm-box .words .title{
     font-size: 16px;
   }
+
+  .content .sc-2 .sc2-phon{
+    width: 80%;
+    margin-right: 0px;
+  }
 }
 
 
-.orange-tag {
-  border-radius: 50%;
-  color: #ffffff;
-  padding: 1.5px 8px;
-  background-color: #FFB610;
-  font-size: 14px;
-  display: inline-block;
-}
-
-.orange-tag-step{
-  padding: 3px 7px;
-}

@@ -382,6 +382,10 @@ img {
   margin-right: 8px;
 }
 
+.text-blue {
+  color: #1f7ff9;
+}
+
 .orange-tag {
   border-radius: 50%;
   color: #ffffff;
@@ -534,5 +538,13 @@ img {
     display: block;
     text-align: center;
   }
+}
+
+.orange-tag-step {
+  padding: 4px 7px;
+}
+
+.orange-tag-step01 {
+  padding: 4px 8px;
 }
 /*# sourceMappingURL=style.css.map */

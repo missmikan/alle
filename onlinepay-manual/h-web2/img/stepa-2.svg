@@ -132,5 +132,9 @@
       <ellipse id="Ellipse_4-3" data-name="Ellipse 4" cx="13.5" cy="13" rx="13.5" ry="13" transform="translate(-0.101 0.213)" fill="#ffb610"/>
       <text id="_3" data-name="3" transform="translate(7.899 20.213)" fill="#fff" font-size="22" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">3</tspan></text>
     </g>
+    <g id="Group_1155" data-name="Group 1155" transform="translate(-6117.899 1334.787)">
+      <ellipse id="Ellipse_4-4" data-name="Ellipse 4" cx="13.5" cy="13" rx="13.5" ry="13" transform="translate(-0.101 0.213)" fill="#ffb610"/>
+      <text id="_4" data-name="4" transform="translate(7.899 20.213)" fill="#fff" font-size="22" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+    </g>
   </g>
 </svg>
