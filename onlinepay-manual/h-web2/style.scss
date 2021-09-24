@@ -963,9 +963,16 @@ img {
     display: block;
     text-align: center;
     > div{
-      display: inline-block;
+      display: inline;
       // max-width: 15em;
     }
+  }
+  .step-sm-box-w32{
+    max-width: 32em;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    margin-bottom: 10px;
   }
 }
 
