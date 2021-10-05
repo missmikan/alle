@@ -359,6 +359,28 @@ img {
   width: calc( 60% - 40px);
 }
 
+.two-box {
+  display: block !important;
+}
+
+.two-box > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.two-box > div:first-child {
+  width: 1.5em;
+}
+
+.two-box > div:last-child {
+  width: calc( 100% - 2em);
+}
+
+.text-tag {
+  color: #989898;
+  font-weight: 400;
+}
+
 @media (max-width: 1024px) {
   .content .use-a, .content .use-b {
     width: 70%;

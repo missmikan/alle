@@ -303,6 +303,27 @@ img {
     }
 }
 
+// 分兩邊
+.two-box{
+    display: block !important;
+    >div{
+        display: inline-block;
+        vertical-align: top;
+        &:first-child{
+            width: 1.5em;
+        }
+        &:last-child{
+            width:calc( 100% - 2em );
+        }
+    }
+}
+
+// 附註文字
+.text-tag{
+    color:#989898;
+    font-weight: 400;
+}
+
 
 //1024px
 @media(max-width:1024px){

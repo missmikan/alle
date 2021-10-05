@@ -40,11 +40,11 @@
       <rect id="Rectangle_1384" data-name="Rectangle 1384" width="17" height="18" transform="translate(0.483 -0.266)" fill="#ffba4b" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Group_1210" data-name="Group 1210" transform="translate(6960 -1904)">
+  <g id="Group_1265" data-name="Group 1265" transform="translate(6960 -1904)">
     <rect id="Rectangle_1354" data-name="Rectangle 1354" width="414" height="736" rx="4" transform="translate(-6940 1990)" fill="#fff"/>
     <rect id="Rectangle_1353" data-name="Rectangle 1353" width="456" height="933" transform="translate(-6960 1904)" fill="url(#pattern)"/>
     <text id="Medium_20pt" data-name="Medium 20pt" transform="translate(-6920.181 2111.023)" fill="#3c4386" font-size="19" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">三年</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">5</tspan><tspan y="0">班</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto"> 01</tspan><tspan y="0">號</tspan><tspan y="0" font-family="Roboto-Medium, Roboto"> </tspan><tspan y="0">花安安</tspan></text>
-    <text id="Medium_20pt-2" data-name="Medium 20pt" transform="translate(-6919.08 2135.65)" fill="#6a6a6a" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">台中市南區全誼實驗國民小學</tspan></text>
+    <text id="Medium_20pt-2" data-name="Medium 20pt" transform="translate(-6919.08 2135.65)" fill="#6a6a6a" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">實驗國民小學</tspan></text>
     <g id="ic_chevron_left" transform="translate(-6925 2034)" clip-path="url(#clip-path)">
       <rect id="rectangle" width="26" height="26" fill="none"/>
       <path id="path-2" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>

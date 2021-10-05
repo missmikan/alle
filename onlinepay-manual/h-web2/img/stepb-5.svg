@@ -30,111 +30,116 @@
       <rect id="Rectangle_1358" data-name="Rectangle 1358" width="17" height="16" transform="translate(-0.123 0.197)" fill="#ffba4b" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Group_1153" data-name="Group 1153" transform="translate(6960 -1904)">
-    <rect id="Rectangle_1354" data-name="Rectangle 1354" width="414" height="736" rx="4" transform="translate(-6940 1990)" fill="#fff"/>
-    <rect id="Rectangle_1353" data-name="Rectangle 1353" width="456" height="933" transform="translate(-6960 1904)" fill="url(#pattern)"/>
-    <text id="Medium_20pt" data-name="Medium 20pt" transform="translate(-6920.181 2111.023)" fill="#3c4386" font-size="19" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">三年</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">5</tspan><tspan y="0">班</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto"> 01</tspan><tspan y="0">號</tspan><tspan y="0" font-family="Roboto-Medium, Roboto"> </tspan><tspan y="0">花安安</tspan></text>
-    <text id="Medium_20pt-2" data-name="Medium 20pt" transform="translate(-6919.08 2135.65)" fill="#6a6a6a" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">台中市南區全誼實驗國民小學</tspan></text>
-    <g id="ic_chevron_left" transform="translate(-6925 2034)" clip-path="url(#clip-path)">
-      <rect id="rectangle" width="26" height="26" fill="none"/>
-      <path id="path-2" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
-    </g>
-    <g id="appbar-2" data-name="appbar" transform="translate(-6940 1990)">
-      <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#path)">
-        <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#fafafa" fill-rule="evenodd"/>
+  <g id="Group_1264" data-name="Group 1264" transform="translate(6416 -1904)">
+    <g id="Group_1263" data-name="Group 1263">
+      <rect id="Rectangle_1354" data-name="Rectangle 1354" width="414" height="736" rx="4" transform="translate(-6396 1990)" fill="#fff"/>
+      <rect id="Rectangle_1353" data-name="Rectangle 1353" width="456" height="933" transform="translate(-6416 1904)" fill="url(#pattern)"/>
+      <text id="Medium_20pt" data-name="Medium 20pt" transform="translate(-6376.181 2111.023)" fill="#3c4386" font-size="19" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">三年</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">5</tspan><tspan y="0">班</tspan><tspan y="0" xml:space="preserve" font-family="Roboto-Medium, Roboto"> 01</tspan><tspan y="0">號</tspan><tspan y="0" font-family="Roboto-Medium, Roboto"> </tspan><tspan y="0">花安安</tspan></text>
+      <text id="Medium_20pt-2" data-name="Medium 20pt" transform="translate(-6375.08 2135.65)" fill="#6a6a6a" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">實驗國民小學</tspan></text>
+      <g id="ic_chevron_left" transform="translate(-6381 2034)" clip-path="url(#clip-path)">
+        <rect id="rectangle" width="26" height="26" fill="none"/>
+        <path id="path-2" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
       </g>
-      <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#appbar)">
-        <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#3c4386" fill-rule="evenodd"/>
-      </g>
-      <text id="Application" transform="translate(145 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">學雜費繳費</tspan></text>
-      <g id="sysbar">
-        <rect id="background_rectangle" data-name="background rectangle" width="414" height="26"/>
-        <rect id="rectangle-2" data-name="rectangle" width="130" height="26" transform="translate(284)" fill="none"/>
-        <text id="sysbar_time" transform="translate(369 17)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">12:30</tspan></text>
-        <g id="sysbar_battery" transform="translate(350.138 5.505)">
-          <rect id="rectangle-3" data-name="rectangle" width="9" height="3" transform="translate(-0.138 11.495)" fill="rgba(255,255,255,0.9)"/>
-          <rect id="rectangle-4" data-name="rectangle" width="9" height="4" transform="translate(-0.138 7.495)" fill="rgba(255,255,255,0.9)"/>
-          <rect id="rectangle-5" data-name="rectangle" width="9" height="3" transform="translate(-0.138 4.495)" fill="rgba(255,255,255,0.3)"/>
-          <rect id="rectangle-6" data-name="rectangle" width="9" height="3" transform="translate(-0.138 1.495)" fill="rgba(255,255,255,0.3)"/>
-          <rect id="rectangle-7" data-name="rectangle" width="5" height="1" transform="translate(1.862 0.495)" fill="rgba(255,255,255,0.3)"/>
+      <g id="appbar-2" data-name="appbar" transform="translate(-6396 1990)">
+        <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#path)">
+          <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#fafafa" fill-rule="evenodd"/>
         </g>
-        <path id="sysbar_status" d="M19.8,15.415H35.215V0Z" transform="translate(302.178 4.404)" fill="#fff" opacity="0.9"/>
-        <path id="sysbar_wifi" d="M9.689,15.415l9.689-12A15.459,15.459,0,0,0,0,3.413l9.689,12Z" transform="translate(299.078 4.404)" fill="#fff" opacity="0.9"/>
+        <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#appbar)">
+          <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#3c4386" fill-rule="evenodd"/>
+        </g>
+        <text id="Application" transform="translate(145 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">學雜費繳費</tspan></text>
+        <g id="sysbar">
+          <rect id="background_rectangle" data-name="background rectangle" width="414" height="26"/>
+          <rect id="rectangle-2" data-name="rectangle" width="130" height="26" transform="translate(284)" fill="none"/>
+          <text id="sysbar_time" transform="translate(369 17)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">12:30</tspan></text>
+          <g id="sysbar_battery" transform="translate(350.138 5.505)">
+            <rect id="rectangle-3" data-name="rectangle" width="9" height="3" transform="translate(-0.138 11.495)" fill="rgba(255,255,255,0.9)"/>
+            <rect id="rectangle-4" data-name="rectangle" width="9" height="4" transform="translate(-0.138 7.495)" fill="rgba(255,255,255,0.9)"/>
+            <rect id="rectangle-5" data-name="rectangle" width="9" height="3" transform="translate(-0.138 4.495)" fill="rgba(255,255,255,0.3)"/>
+            <rect id="rectangle-6" data-name="rectangle" width="9" height="3" transform="translate(-0.138 1.495)" fill="rgba(255,255,255,0.3)"/>
+            <rect id="rectangle-7" data-name="rectangle" width="5" height="1" transform="translate(1.862 0.495)" fill="rgba(255,255,255,0.3)"/>
+          </g>
+          <path id="sysbar_status" d="M19.8,15.415H35.215V0Z" transform="translate(302.178 4.404)" fill="#fff" opacity="0.9"/>
+          <path id="sysbar_wifi" d="M9.689,15.415l9.689-12A15.459,15.459,0,0,0,0,3.413l9.689,12Z" transform="translate(299.078 4.404)" fill="#fff" opacity="0.9"/>
+        </g>
       </g>
-    </g>
-    <g id="ic_chevron_left-2" data-name="ic_chevron_left" transform="translate(-6923 2034)" clip-path="url(#clip-path-2)">
-      <rect id="rectangle-8" data-name="rectangle" width="26" height="26" fill="none"/>
-      <path id="path-4" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
-    </g>
-    <g id="Group_1147" data-name="Group 1147" transform="translate(-6938.899 2317.371)">
-      <rect id="Rectangle_47" data-name="Rectangle 47" width="66.064" height="19.819" rx="4" transform="translate(19.819 24.223)" fill="#538b53"/>
-      <text id="Subheader" transform="translate(24.223 38.223)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費完成</tspan></text>
-      <rect id="rectangle-9" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 2.202)" fill="none"/>
-      <g id="ic_chevron_right" transform="translate(374.362 15.415)" clip-path="url(#clip-path-3)">
-        <rect id="rectangle-10" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
-        <path id="path-5" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+      <g id="ic_chevron_left-2" data-name="ic_chevron_left" transform="translate(-6379 2034)" clip-path="url(#clip-path-2)">
+        <rect id="rectangle-8" data-name="rectangle" width="26" height="26" fill="none"/>
+        <path id="path-4" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
       </g>
-      <line id="Line_3" data-name="Line 3" x2="377.665" transform="translate(19.269 54.503)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
-      <text id="Subheader-2" data-name="Subheader" transform="translate(95.793 41.324)" fill="#8f8f8f" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">已於</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">109/08/20 16:19:23</tspan><tspan y="0">繳費成功</tspan></text>
-      <text id="Two-line_item" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年第一學期學雜費</tspan></text>
-      <text id="Subheader-3" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
-    </g>
-    <g id="Group_1148" data-name="Group 1148" transform="translate(-6938.899 2380.131)">
-      <rect id="Rectangle_46" data-name="Rectangle 46" width="66.064" height="19.819" rx="4" transform="translate(19.819 25.324)" fill="#538b53"/>
-      <text id="Subheader-4" data-name="Subheader" transform="translate(24.223 39.324)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費完成</tspan></text>
-      <rect id="rectangle-11" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 1.101)" fill="none"/>
-      <text id="Two-line_item-2" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">108</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年第二學期學雜費</tspan></text>
-      <g id="ic_chevron_right-2" data-name="ic_chevron_right" transform="translate(374.362 13.213)" clip-path="url(#clip-path-3)">
-        <rect id="rectangle-12" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
-        <path id="path-6" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+      <g id="Group_1147" data-name="Group 1147" transform="translate(-6394.899 2317.371)">
+        <rect id="Rectangle_47" data-name="Rectangle 47" width="66.064" height="19.819" rx="4" transform="translate(19.819 24.223)" fill="#538b53"/>
+        <text id="Subheader" transform="translate(24.223 38.223)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費完成</tspan></text>
+        <rect id="rectangle-9" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 2.202)" fill="none"/>
+        <g id="ic_chevron_right" transform="translate(374.362 15.415)" clip-path="url(#clip-path-3)">
+          <rect id="rectangle-10" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
+          <path id="path-5" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+        </g>
+        <line id="Line_3" data-name="Line 3" x2="377.665" transform="translate(19.269 54.503)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
+        <text id="Subheader-2" data-name="Subheader" transform="translate(95.793 41.324)" fill="#8f8f8f" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">已於</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">109/08/20 16:19:23</tspan><tspan y="0">繳費成功</tspan></text>
+        <text id="Two-line_item" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年第一學期學雜費</tspan></text>
+        <text id="Subheader-3" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
       </g>
-      <line id="Line_3-2" data-name="Line 3" x2="377.665" transform="translate(19.269 56.705)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
-      <text id="Subheader-5" data-name="Subheader" transform="translate(89.186 43.527)" fill="#8f8f8f" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">已於</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">109/02/20 15:21:33</tspan><tspan y="0">繳費成功</tspan></text>
-      <text id="Subheader-6" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
-    </g>
-    <g id="Group_1149" data-name="Group 1149" transform="translate(-6938.899 2256.812)">
-      <rect id="Rectangle_48" data-name="Rectangle 48" width="66.064" height="19.819" rx="4" transform="translate(19.819 24.223)" fill="#ff9090"/>
-      <text id="Subheader-7" data-name="Subheader" transform="translate(24.223 38.223)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">逾期未繳</tspan></text>
-      <rect id="rectangle-13" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 1.101)" fill="none"/>
-      <text id="Two-line_item-3" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">5</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月至</tspan><tspan y="0">6</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月營養午餐費</tspan></text>
-      <g id="ic_chevron_right-3" data-name="ic_chevron_right" transform="translate(374.362 14.314)" clip-path="url(#clip-path-3)">
-        <rect id="rectangle-14" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
-        <path id="path-7" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+      <g id="Group_1148" data-name="Group 1148" transform="translate(-6394.899 2380.131)">
+        <rect id="Rectangle_46" data-name="Rectangle 46" width="66.064" height="19.819" rx="4" transform="translate(19.819 25.324)" fill="#538b53"/>
+        <text id="Subheader-4" data-name="Subheader" transform="translate(24.223 39.324)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費完成</tspan></text>
+        <rect id="rectangle-11" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 1.101)" fill="none"/>
+        <text id="Two-line_item-2" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">108</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年第二學期學雜費</tspan></text>
+        <g id="ic_chevron_right-2" data-name="ic_chevron_right" transform="translate(374.362 13.213)" clip-path="url(#clip-path-3)">
+          <rect id="rectangle-12" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
+          <path id="path-6" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+        </g>
+        <line id="Line_3-2" data-name="Line 3" x2="377.665" transform="translate(19.269 56.705)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
+        <text id="Subheader-5" data-name="Subheader" transform="translate(89.186 43.527)" fill="#8f8f8f" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">已於</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">109/02/20 15:21:33</tspan><tspan y="0">繳費成功</tspan></text>
+        <text id="Subheader-6" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
       </g>
-      <line id="Line_3-3" data-name="Line 3" x2="377.665" transform="translate(19.269 54.503)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
-      <text id="Subheader-8" data-name="Subheader" transform="translate(94.691 40.223)" fill="#8f8f8f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">109-08-01~109-09-05</tspan></text>
-      <text id="Subheader-9" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
-    </g>
-    <g id="Group_1150" data-name="Group 1150" transform="translate(-6938.899 2195.153)">
-      <rect id="rectangle-15" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 2.202)" fill="none"/>
-      <text id="Two-line_item-4" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">9</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月</tspan><tspan y="0">110</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">1</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月學生午餐及課後</tspan><tspan y="0">...</tspan></text>
-      <g id="ic_chevron_right-4" data-name="ic_chevron_right" transform="translate(375.463 15.415)" clip-path="url(#clip-path-3)">
-        <rect id="rectangle-16" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
-        <path id="path-8" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+      <g id="Group_1149" data-name="Group 1149" transform="translate(-6394.899 2256.812)">
+        <rect id="Rectangle_48" data-name="Rectangle 48" width="66.064" height="19.819" rx="4" transform="translate(19.819 24.223)" fill="#ff9090"/>
+        <text id="Subheader-7" data-name="Subheader" transform="translate(24.223 38.223)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">逾期未繳</tspan></text>
+        <rect id="rectangle-13" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 1.101)" fill="none"/>
+        <text id="Two-line_item-3" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">5</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月至</tspan><tspan y="0">6</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月營養午餐費</tspan></text>
+        <g id="ic_chevron_right-3" data-name="ic_chevron_right" transform="translate(374.362 14.314)" clip-path="url(#clip-path-3)">
+          <rect id="rectangle-14" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
+          <path id="path-7" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+        </g>
+        <line id="Line_3-3" data-name="Line 3" x2="377.665" transform="translate(19.269 54.503)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
+        <text id="Subheader-8" data-name="Subheader" transform="translate(94.691 40.223)" fill="#8f8f8f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">109-08-01~109-09-05</tspan></text>
+        <text id="Subheader-9" data-name="Subheader" transform="translate(332.521 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
       </g>
-      <line id="Line_3-4" data-name="Line 3" x2="377.665" transform="translate(19.269 55.604)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
-      <text id="Subheader-10" data-name="Subheader" transform="translate(248.84 42.426)" fill="rgba(255,8,8,0.87)" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">剩餘</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">3</tspan><tspan y="0">天</tspan></text>
-      <text id="Subheader-11" data-name="Subheader" transform="translate(94.691 42.426)" fill="#8f8f8f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">109-08-01~109-09-05</tspan></text>
-      <rect id="Rectangle_27" data-name="Rectangle 27" width="66.064" height="19.819" rx="4" transform="translate(19.819 27.527)" fill="#3c4386"/>
-      <text id="Subheader-12" data-name="Subheader" transform="translate(24.223 41.527)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">尚未繳費</tspan></text>
-      <text id="Subheader-13" data-name="Subheader" transform="translate(309.399 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">12,836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
-    </g>
-    <path id="Icon_awesome-leaf" data-name="Icon awesome-leaf" d="M16.581.293a.472.472,0,0,0-.859-.036,5.205,5.205,0,0,1-4.55,2.656H8.744A5.829,5.829,0,0,0,2.916,8.741a6,6,0,0,0,.046.622,14.522,14.522,0,0,1,8.7-2.565.486.486,0,0,1,0,.971C4.027,7.77.791,12.447.075,14.2a.973.973,0,0,0,1.8.738,7.986,7.986,0,0,1,2.182-2.75,5.815,5.815,0,0,0,5.309,2.343c4.765-.346,8.12-4.62,8.12-9.853a11.038,11.038,0,0,0-.9-4.389Z" transform="translate(-6734.224 2096.885)" fill="#39b757"/>
-    <rect id="Rectangle_1355" data-name="Rectangle 1355" width="208.101" height="33.032" transform="translate(-6734.101 2151.896)" fill="#e4e4e4"/>
-    <rect id="Rectangle_1356" data-name="Rectangle 1356" width="204.798" height="33.032" transform="translate(-6938.899 2151.896)" fill="#f6f6f6"/>
-    <text id="Medium_20pt-3" data-name="Medium 20pt" transform="translate(-6662.532 2174.503)" fill="#707070" font-size="15" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">退費查詢</tspan></text>
-    <text id="Medium_20pt-4" data-name="Medium 20pt" transform="translate(-6869.532 2173.402)" fill="#3c4582" font-size="15" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費通知</tspan></text>
-    <rect id="Rectangle_1357" data-name="Rectangle 1357" width="204.798" height="3.303" transform="translate(-6938.899 2181.625)" fill="#3c4582"/>
-    <g id="Mask_Group_41" data-name="Mask Group 41" transform="translate(-6709.877 2096.803)" clip-path="url(#clip-path-7)">
-      <g id="coin" transform="translate(0 0)">
-        <g id="Group_1152" data-name="Group 1152">
-          <g id="Group_1151" data-name="Group 1151">
-            <path id="Path_1910" data-name="Path 1910" d="M8.258,0a8.258,8.258,0,1,0,8.258,8.258A8.258,8.258,0,0,0,8.258,0ZM10.63,11.514a2.656,2.656,0,0,1-1.376.884.383.383,0,0,0-.333.438c.01.245,0,.486,0,.731a.3.3,0,0,1-.326.34c-.139,0-.279.007-.418.007-.122,0-.245,0-.367,0a.316.316,0,0,1-.34-.36c0-.177,0-.357,0-.534,0-.394-.017-.408-.394-.469a5.009,5.009,0,0,1-1.4-.4c-.347-.17-.384-.255-.285-.622.075-.272.15-.544.234-.812.061-.2.119-.285.224-.285a.6.6,0,0,1,.245.085,4.534,4.534,0,0,0,1.556.466,2.494,2.494,0,0,0,.275.017,1.836,1.836,0,0,0,.744-.153.792.792,0,0,0,.19-1.39,2.481,2.481,0,0,0-.581-.34A13.6,13.6,0,0,1,6.681,8.4,2.248,2.248,0,0,1,5.41,6.246a2.369,2.369,0,0,1,1.733-2.2c.425-.153.428-.15.428-.591,0-.15,0-.3,0-.452.01-.333.065-.391.4-.4H8.36c.632,0,.632.027.635.71,0,.5,0,.5.5.581a4.425,4.425,0,0,1,1.1.33.32.32,0,0,1,.207.428c-.088.306-.173.615-.268.918-.061.184-.119.268-.228.268a.546.546,0,0,1-.231-.071A3.475,3.475,0,0,0,8.54,5.417c-.068,0-.139,0-.207.007a1.371,1.371,0,0,0-.466.1A.66.66,0,0,0,7.7,6.695a3.076,3.076,0,0,0,.758.425,13.665,13.665,0,0,1,1.383.625A2.486,2.486,0,0,1,10.63,11.514Z" fill="#ffba4b"/>
+      <g id="Group_1150" data-name="Group 1150" transform="translate(-6394.899 2195.153)">
+        <rect id="rectangle-15" data-name="rectangle" width="396.383" height="55.053" transform="translate(0 2.202)" fill="none"/>
+        <text id="Two-line_item-4" data-name="Two-line item" transform="translate(17.617 18)" fill="rgba(0,0,0,0.87)" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">109</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">9</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月</tspan><tspan y="0">110</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">年</tspan><tspan y="0">1</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月學生午餐及課後</tspan><tspan y="0">...</tspan></text>
+        <g id="ic_chevron_right-4" data-name="ic_chevron_right" transform="translate(375.463 15.415)" clip-path="url(#clip-path-3)">
+          <rect id="rectangle-16" data-name="rectangle" width="26.426" height="26.426" fill="none"/>
+          <path id="path-8" data-name="path" d="M8.6,7.541,10.141,6l6.606,6.606-6.606,6.606L8.6,17.671l5.065-5.065Z" transform="translate(0.869 0.606)" fill-rule="evenodd" opacity="0.54"/>
+        </g>
+        <line id="Line_3-4" data-name="Line 3" x2="377.665" transform="translate(19.269 55.604)" fill="none" stroke="#e2e2e2" stroke-width="1"/>
+        <text id="Subheader-10" data-name="Subheader" transform="translate(248.84 42.426)" fill="rgba(255,8,8,0.87)" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">剩餘</tspan><tspan y="0" font-family="Roboto-Regular, Roboto">3</tspan><tspan y="0">天</tspan></text>
+        <text id="Subheader-11" data-name="Subheader" transform="translate(94.691 42.426)" fill="#8f8f8f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">109-08-01~109-09-05</tspan></text>
+        <rect id="Rectangle_27" data-name="Rectangle 27" width="66.064" height="19.819" rx="4" transform="translate(19.819 27.527)" fill="#3c4386"/>
+        <text id="Subheader-12" data-name="Subheader" transform="translate(24.223 41.527)" fill="#fff" font-size="13" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">尚未繳費</tspan></text>
+        <text id="Subheader-13" data-name="Subheader" transform="translate(309.399 17.101)" fill="#3c4386" font-size="15" font-family="Sathu"><tspan x="0" y="0">12,836</tspan><tspan y="0" font-family="PingFangTC-Regular, PingFang TC">元</tspan></text>
+      </g>
+      <path id="Icon_awesome-leaf" data-name="Icon awesome-leaf" d="M16.581.293a.472.472,0,0,0-.859-.036,5.205,5.205,0,0,1-4.55,2.656H8.744A5.829,5.829,0,0,0,2.916,8.741a6,6,0,0,0,.046.622,14.522,14.522,0,0,1,8.7-2.565.486.486,0,0,1,0,.971C4.027,7.77.791,12.447.075,14.2a.973.973,0,0,0,1.8.738,7.986,7.986,0,0,1,2.182-2.75,5.815,5.815,0,0,0,5.309,2.343c4.765-.346,8.12-4.62,8.12-9.853a11.038,11.038,0,0,0-.9-4.389Z" transform="translate(-6190.224 2096.885)" fill="#39b757"/>
+      <rect id="Rectangle_1355" data-name="Rectangle 1355" width="206.101" height="33.032" transform="translate(-6190.101 2151.896)" fill="#e4e4e4"/>
+      <rect id="Rectangle_1356" data-name="Rectangle 1356" width="204.798" height="33.032" transform="translate(-6394.899 2151.896)" fill="#f6f6f6"/>
+      <text id="Medium_20pt-3" data-name="Medium 20pt" transform="translate(-6118.532 2174.503)" fill="#707070" font-size="15" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">退費查詢</tspan></text>
+      <text id="Medium_20pt-4" data-name="Medium 20pt" transform="translate(-6325.532 2173.402)" fill="#3c4582" font-size="15" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費通知</tspan></text>
+      <rect id="Rectangle_1357" data-name="Rectangle 1357" width="204.798" height="3.303" transform="translate(-6394.899 2181.625)" fill="#3c4582"/>
+      <g id="Mask_Group_41" data-name="Mask Group 41" transform="translate(-6165.877 2096.803)" clip-path="url(#clip-path-7)">
+        <g id="coin" transform="translate(0 0)">
+          <g id="Group_1152" data-name="Group 1152">
+            <g id="Group_1151" data-name="Group 1151">
+              <path id="Path_1910" data-name="Path 1910" d="M8.258,0a8.258,8.258,0,1,0,8.258,8.258A8.258,8.258,0,0,0,8.258,0ZM10.63,11.514a2.656,2.656,0,0,1-1.376.884.383.383,0,0,0-.333.438c.01.245,0,.486,0,.731a.3.3,0,0,1-.326.34c-.139,0-.279.007-.418.007-.122,0-.245,0-.367,0a.316.316,0,0,1-.34-.36c0-.177,0-.357,0-.534,0-.394-.017-.408-.394-.469a5.009,5.009,0,0,1-1.4-.4c-.347-.17-.384-.255-.285-.622.075-.272.15-.544.234-.812.061-.2.119-.285.224-.285a.6.6,0,0,1,.245.085,4.534,4.534,0,0,0,1.556.466,2.494,2.494,0,0,0,.275.017,1.836,1.836,0,0,0,.744-.153.792.792,0,0,0,.19-1.39,2.481,2.481,0,0,0-.581-.34A13.6,13.6,0,0,1,6.681,8.4,2.248,2.248,0,0,1,5.41,6.246a2.369,2.369,0,0,1,1.733-2.2c.425-.153.428-.15.428-.591,0-.15,0-.3,0-.452.01-.333.065-.391.4-.4H8.36c.632,0,.632.027.635.71,0,.5,0,.5.5.581a4.425,4.425,0,0,1,1.1.33.32.32,0,0,1,.207.428c-.088.306-.173.615-.268.918-.061.184-.119.268-.228.268a.546.546,0,0,1-.231-.071A3.475,3.475,0,0,0,8.54,5.417c-.068,0-.139,0-.207.007a1.371,1.371,0,0,0-.466.1A.66.66,0,0,0,7.7,6.695a3.076,3.076,0,0,0,.758.425,13.665,13.665,0,0,1,1.383.625A2.486,2.486,0,0,1,10.63,11.514Z" fill="#ffba4b"/>
+            </g>
           </g>
         </g>
       </g>
+      <text id="Subheader-14" data-name="Subheader" transform="translate(-6025.492 2052.245)" fill="#fff" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">管理</tspan></text>
     </g>
-    <text id="Subheader-14" data-name="Subheader" transform="translate(-6569.492 2052.245)" fill="#fff" font-size="15" font-family="PingFangTC-Regular, PingFang TC"><tspan x="0" y="0">管理</tspan></text>
-    <path id="Path_1911" data-name="Path 1911" d="M0,0H254.35V32.978H0Z" transform="translate(-6933.284 2086.673)" fill="none" stroke="#ffd26c" stroke-width="7"/>
+    <g id="Path_2006" data-name="Path 2006" transform="translate(-6391 2080.353)" fill="none">
+      <path d="M0,0H255.2V42.043H0Z" stroke="none"/>
+      <path d="M 6.000015258789062 6.000015258789062 L 6.000015258789062 36.04270935058594 L 249.2040863037109 36.04270935058594 L 249.2040863037109 6.000015258789062 L 6.000015258789062 6.000015258789062 M 1.52587890625e-05 1.52587890625e-05 L 255.2040863037109 1.52587890625e-05 L 255.2040863037109 42.04270935058594 C 255.2040863037109 42.04270935058594 244.570556640625 42.04270935058594 180.7695922851562 42.04270935058594 C 116.9685516357422 42.04270935058594 1.52587890625e-05 42.04270935058594 1.52587890625e-05 42.04270935058594 L 1.52587890625e-05 1.52587890625e-05 Z" stroke="none" fill="#ffd26c"/>
+    </g>
   </g>
 </svg>

@@ -581,6 +581,19 @@ img {
         display: none !important;
     }
 
+    .red-tag{
+        border-radius: 8px;
+        padding:8px 12px;
+        background-color: #FE6C58;
+        color:#ffffff;
+        display: inline-block;
+        font-weight: 400;
+        margin-left: 4px;
+        img{
+            margin-right: 4px;
+        }
+    }
+
 
     @media(max-width:768px){
         .phone-block{
