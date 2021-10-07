@@ -62,22 +62,22 @@
       </g>
       <text id="實驗國民小學" transform="translate(-9151 669)" fill="#fff" font-size="19" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">實驗國民小學</tspan></text>
       <text id="_01月05日_星期二" data-name="01月05日 星期二" transform="translate(-8814 703)" fill="#fff" font-size="17" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-127.882" y="0">01</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">月</tspan><tspan y="0">05</tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">日</tspan><tspan y="0"> </tspan><tspan y="0" font-family="PingFangTC-Medium, PingFang TC">星期二</tspan></text>
-      <text id="晨間點名" transform="translate(-9162 864)" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-34" y="0">晨間點名</tspan></text>
-      <text id="我的證件" transform="translate(-9057 864)" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-34" y="0">我的證件</tspan></text>
-      <text id="成績單" transform="translate(-8952 864)" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-25.5" y="0">成績單</tspan></text>
+      <text id="晨間點名" transform="translate(-9162 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-36" y="0">晨間點名</tspan></text>
+      <text id="我的證件" transform="translate(-9057 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-36" y="0">我的證件</tspan></text>
+      <text id="成績單" transform="translate(-8952 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-27" y="0">成績單</tspan></text>
       <rect id="線上繳費" width="56" height="56" transform="translate(-9191 882.054)" fill="url(#pattern-3)"/>
       <rect id="Rectangle_1416" data-name="Rectangle 1416" width="105" height="100" transform="translate(-9199 879)" fill="#fff"/>
-      <text id="學雜費繳費" transform="translate(-9162.5 975.585)" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-42.5" y="0">學雜費繳費</tspan></text>
-      <text id="數位積點" transform="translate(-8848 864)" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-34" y="0">數位積點</tspan></text>
-      <g id="Path_1901" data-name="Path 1901" transform="translate(-9216.002 878.409)" fill="none">
+      <text id="學雜費繳費" transform="translate(-9162.5 990.058)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-45" y="0">學雜費繳費</tspan></text>
+      <text id="數位積點" transform="translate(-8848 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-36" y="0">數位積點</tspan></text>
+      <g id="Path_1901" data-name="Path 1901" transform="translate(-9216.002 888.882)" fill="none">
         <path d="M0,0H112V112.535H0Z" stroke="none"/>
         <path d="M 6.000007629394531 5.999992370605469 L 6.000007629394531 106.5354537963867 L 106.0048828125 106.5354537963867 L 106.0048828125 5.999992370605469 L 6.000007629394531 5.999992370605469 M 7.62939453125e-06 -7.62939453125e-06 L 112.0048828125 -7.62939453125e-06 L 112.0048828125 112.5354537963867 C 112.0048828125 112.5354537963867 107.338005065918 112.5354537963867 79.33678436279297 112.5354537963867 C 51.33556365966797 112.5354537963867 7.62939453125e-06 112.5354537963867 7.62939453125e-06 112.5354537963867 L 7.62939453125e-06 -7.62939453125e-06 Z" stroke="none" fill="#ffd26c"/>
       </g>
-      <g id="Group_1129" data-name="Group 1129" transform="translate(-9978.027 507.093)">
+      <g id="Group_1129" data-name="Group 1129" transform="translate(-9978.027 517.566)">
         <circle id="Ellipse_4" data-name="Ellipse 4" cx="17.527" cy="17.527" r="17.527" transform="translate(756 357.434)" fill="#ffb610"/>
         <text id="_1" data-name="1" transform="translate(767.527 380.961)" fill="#fff" font-size="22" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">1</tspan></text>
       </g>
-      <g id="Group_1178" data-name="Group 1178" transform="translate(-9196.617 887.913)">
+      <g id="Group_1178" data-name="Group 1178" transform="translate(-9196.617 898.386)">
         <circle id="Ellipse_325" data-name="Ellipse 325" cx="33.292" cy="33.292" r="33.292" transform="translate(0.617 0.087)" fill="#0ca599"/>
         <g id="Group_1177" data-name="Group 1177" transform="translate(16.761 11.765)">
           <path id="Path_1919" data-name="Path 1919" d="M153.667,95.961c-.317,0-.631.017-.942.043V93.222a3.441,3.441,0,0,0-3.437-3.437H128.05a3.441,3.441,0,0,0-3.437,3.437V130.5a3.441,3.441,0,0,0,3.437,3.437h21.239a3.441,3.441,0,0,0,3.437-3.437V118.143c.313.027.627.042.942.042a11.112,11.112,0,1,0,0-22.223ZM135.81,93.072h4.971a1.107,1.107,0,0,1,0,2.213H135.81a1.107,1.107,0,0,1,0-2.213Zm3.967,36.382a1.107,1.107,0,0,1-2.213,0v-1.107h2.213Zm10.736-3.32H126.826V98.408a1.225,1.225,0,0,1,1.223-1.223h20.562a11.107,11.107,0,0,0-5.377,13.715l-1.821,7.179A1.3,1.3,0,0,0,143,119.661l7.516-1.906v8.379Zm3.155-10.553a8.5,8.5,0,0,1-2.662-.427,1.3,1.3,0,0,0-.727-.025l-5.8,1.471,1.386-5.464a1.3,1.3,0,0,0-.059-.817,8.508,8.508,0,1,1,7.865,5.262Z" transform="translate(-124.613 -89.785)" fill="#fff"/>
