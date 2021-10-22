@@ -6,14 +6,14 @@
     <clipPath id="clip-path">
       <rect width="27" height="26" fill="none"/>
     </clipPath>
-    <filter id="path" x="13" y="80" width="426" height="100.085" filterUnits="userSpaceOnUse">
+    <filter id="path" x="13" y="77" width="426" height="100.085" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feFlood flood-opacity="0.122"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="appbar" x="16" y="84" width="420" height="94.085" filterUnits="userSpaceOnUse">
+    <filter id="appbar" x="16" y="81" width="420" height="94.085" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.302"/>
@@ -29,7 +29,7 @@
     <clipPath id="clip-path-4">
       <rect width="26.392" height="26.392" fill="none"/>
     </clipPath>
-    <filter id="Rectangle_1428" x="231" y="153.098" width="200" height="111" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_1428" x="231" y="150.098" width="200" height="111" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
@@ -40,22 +40,22 @@
       <rect id="Rectangle_1429" data-name="Rectangle 1429" width="17" height="18" transform="translate(0.483 -0.266)" fill="#ffba4b" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Group_1283" data-name="Group 1283" transform="translate(6937 -1904)">
+  <g id="Group_1283" data-name="Group 1283" transform="translate(6937 -1907)">
     <g id="Group_1280" data-name="Group 1280" transform="translate(-522)">
       <rect id="Rectangle_1354" data-name="Rectangle 1354" width="414" height="736" rx="4" transform="translate(-6396 1990)" fill="#fff"/>
-      <rect id="Rectangle_1353" data-name="Rectangle 1353" width="456" height="933" transform="translate(-6415 1904)" fill="url(#pattern)"/>
+      <rect id="Rectangle_1353" data-name="Rectangle 1353" width="456" height="933" transform="translate(-6415 1907)" fill="url(#pattern)"/>
       <g id="ic_chevron_left" transform="translate(-6381 2034)" clip-path="url(#clip-path)">
         <rect id="rectangle" width="26" height="26" fill="none"/>
         <path id="path-2" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
       </g>
       <g id="appbar-2" data-name="appbar" transform="translate(-6396 1990)">
-        <g transform="matrix(1, 0, 0, 1, -19, -86)" filter="url(#path)">
-          <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(19 86)" fill="#fafafa" fill-rule="evenodd"/>
+        <g transform="matrix(1, 0, 0, 1, -19, -83)" filter="url(#path)">
+          <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(19 83)" fill="#fafafa" fill-rule="evenodd"/>
         </g>
-        <g transform="matrix(1, 0, 0, 1, -19, -86)" filter="url(#appbar)">
-          <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(19 86)" fill="#3c4386" fill-rule="evenodd"/>
+        <g transform="matrix(1, 0, 0, 1, -19, -83)" filter="url(#appbar)">
+          <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(19 83)" fill="#3c4386" fill-rule="evenodd"/>
         </g>
-        <text id="Application" transform="translate(145 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">學雜費繳費</tspan></text>
+        <text id="Application" transform="translate(200 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-39.499" y="0">學費</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">pay</tspan></text>
         <g id="sysbar">
           <rect id="background_rectangle" data-name="background rectangle" width="414" height="26"/>
           <rect id="rectangle-2" data-name="rectangle" width="130" height="26" transform="translate(284)" fill="none"/>
@@ -139,8 +139,8 @@
       <text id="Medium_20pt-4" data-name="Medium 20pt" transform="translate(-6326.834 2179.01)" fill="#3c4582" font-size="17" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">繳費通知</tspan></text>
       <rect id="Rectangle_1427" data-name="Rectangle 1427" width="204.535" height="3.299" transform="translate(-6394.735 2187.203)" fill="#3c4582"/>
     </g>
-    <g transform="matrix(1, 0, 0, 1, -6937, 1904)" filter="url(#Rectangle_1428)">
-      <rect id="Rectangle_1428-2" data-name="Rectangle 1428" width="182" height="93" rx="5" transform="translate(240 159.1)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, -6937, 1907)" filter="url(#Rectangle_1428)">
+      <rect id="Rectangle_1428-2" data-name="Rectangle 1428" width="182" height="93" rx="5" transform="translate(240 156.1)" fill="#fff"/>
     </g>
     <text id="Medium_20pt-5" data-name="Medium 20pt" transform="translate(-6653 2093.598)" fill="#2b2b2c" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">電子繳費單設定</tspan></text>
     <text id="Medium_20pt-6" data-name="Medium 20pt" transform="translate(-6653 2138.598)" fill="#2b2b2c" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">退費帳戶設定</tspan></text>

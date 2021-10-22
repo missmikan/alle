@@ -33,7 +33,7 @@
       <rect width="26.392" height="26.392" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Group_1277" data-name="Group 1277" transform="translate(8126 -2662)">
+  <g id="Group_1287" data-name="Group 1287" transform="translate(8126 -2662)">
     <rect id="Rectangle_1373" data-name="Rectangle 1373" width="414" height="736" rx="4" transform="translate(-8108 2748)" fill="#fff"/>
     <text id="Medium_20pt" data-name="Medium 20pt" transform="translate(-8088.181 2980.028)" fill="#3c4386" font-size="19" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">三年</tspan><tspan y="0" font-family="HelveticaNeue-Medium, Helvetica Neue">5</tspan><tspan y="0">班</tspan><tspan y="0" xml:space="preserve" font-family="HelveticaNeue-Medium, Helvetica Neue"> 01</tspan><tspan y="0">號</tspan><tspan y="0" font-family="HelveticaNeue-Medium, Helvetica Neue"> </tspan><tspan y="0">花安安</tspan></text>
     <text id="Medium_20pt-2" data-name="Medium 20pt" transform="translate(-8087.08 3004.656)" fill="#6a6a6a" font-size="15" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">實驗國民小學</tspan></text>
@@ -48,7 +48,7 @@
       <g transform="matrix(1, 0, 0, 1, -18, -86)" filter="url(#appbar)">
         <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(18 86)" fill="#3c4386" fill-rule="evenodd"/>
       </g>
-      <text id="Application" transform="translate(145 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">學雜費繳費</tspan></text>
+      <text id="Application" transform="translate(200 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-39.499" y="0">學費</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">pay</tspan></text>
       <g id="sysbar">
         <rect id="background_rectangle" data-name="background rectangle" width="414" height="26"/>
         <rect id="rectangle-2" data-name="rectangle" width="130" height="26" transform="translate(284)" fill="none"/>

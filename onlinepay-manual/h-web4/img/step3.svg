@@ -6,14 +6,14 @@
     <clipPath id="clip-path">
       <rect width="27" height="26" fill="none"/>
     </clipPath>
-    <filter id="path" x="14" y="80" width="426" height="100.085" filterUnits="userSpaceOnUse">
+    <filter id="path" x="14" y="81" width="426" height="100.085" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feFlood flood-opacity="0.122"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="appbar" x="17" y="84" width="420" height="94.085" filterUnits="userSpaceOnUse">
+    <filter id="appbar" x="17" y="85" width="420" height="94.085" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.302"/>
@@ -30,21 +30,21 @@
       <rect id="Rectangle_1406" data-name="Rectangle 1406" width="12" height="12" transform="translate(-0.319 0.388)" fill="#fff" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Group_1236" data-name="Group 1236" transform="translate(6855 -4009)">
+  <g id="Group_1236" data-name="Group 1236" transform="translate(6855 -4008)">
     <rect id="Rectangle_1402" data-name="Rectangle 1402" width="414" height="736" rx="4" transform="translate(-6835 4095)" fill="#fff"/>
-    <rect id="Rectangle_1401" data-name="Rectangle 1401" width="456" height="933" transform="translate(-6855 4009)" fill="url(#pattern)"/>
+    <rect id="Rectangle_1401" data-name="Rectangle 1401" width="456" height="933" transform="translate(-6855 4008)" fill="url(#pattern)"/>
     <g id="ic_chevron_left" transform="translate(-6820 4139)" clip-path="url(#clip-path)">
       <rect id="rectangle" width="26" height="26" fill="none"/>
       <path id="path-2" data-name="path" d="M16.148,7.541,14.606,6,8,12.606l6.606,6.606,1.541-1.541-5.065-5.065Z" transform="translate(0.809 0.606)" fill="#fff" fill-rule="evenodd" opacity="0.54"/>
     </g>
     <g id="appbar-2" data-name="appbar" transform="translate(-6835 4095)">
-      <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#path)">
-        <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#fafafa" fill-rule="evenodd"/>
+      <g transform="matrix(1, 0, 0, 1, -20, -87)" filter="url(#path)">
+        <path id="path-3" data-name="path" d="M414,0H0V88.085H414Z" transform="translate(20 87)" fill="#fafafa" fill-rule="evenodd"/>
       </g>
-      <g transform="matrix(1, 0, 0, 1, -20, -86)" filter="url(#appbar)">
-        <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(20 86)" fill="#3c4386" fill-rule="evenodd"/>
+      <g transform="matrix(1, 0, 0, 1, -20, -87)" filter="url(#appbar)">
+        <path id="appbar-3" data-name="appbar" d="M414,0H0V88.085H414Z" transform="translate(20 87)" fill="#3c4386" fill-rule="evenodd"/>
       </g>
-      <text id="Application" transform="translate(145 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="0" y="0">學雜費繳費</tspan></text>
+      <text id="Application" transform="translate(200 65)" fill="#fff" font-size="22" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-39.499" y="0">學費</tspan><tspan y="0" font-family="Roboto-Medium, Roboto">pay</tspan></text>
       <g id="sysbar">
         <rect id="background_rectangle" data-name="background rectangle" width="414" height="26"/>
         <rect id="rectangle-2" data-name="rectangle" width="130" height="26" transform="translate(284)" fill="none"/>

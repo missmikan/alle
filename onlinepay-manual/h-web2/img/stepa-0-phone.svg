@@ -66,9 +66,9 @@
     <text id="成績單" transform="translate(-8850 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-27" y="0">成績單</tspan></text>
     <rect id="線上繳費" width="56" height="56" transform="translate(-9089 882.054)" fill="url(#pattern-3)"/>
     <rect id="Rectangle_1416" data-name="Rectangle 1416" width="105" height="100" transform="translate(-9097 879)" fill="#fff"/>
-    <text id="學雜費繳費" transform="translate(-9060.5 990.058)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-45" y="0">學雜費繳費</tspan></text>
+    <text id="學費pay" transform="translate(-9060.5 990.058)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-33.174" y="0">學費</tspan><tspan y="0" font-family="HelveticaNeue-Medium, Helvetica Neue">pay</tspan></text>
     <text id="數位積點" transform="translate(-8746 868)" font-size="18" font-family="PingFangTC-Medium, PingFang TC" font-weight="500"><tspan x="-36" y="0">數位積點</tspan></text>
-    <g id="Path_1901" data-name="Path 1901" transform="translate(-9114.002 888.882)" fill="none">
+    <g id="Path_1901" data-name="Path 1901" transform="translate(-9114.002 889.882)" fill="none">
       <path d="M0,0H112V112.535H0Z" stroke="none"/>
       <path d="M 6.000007629394531 5.999992370605469 L 6.000007629394531 106.5354537963867 L 106.0048828125 106.5354537963867 L 106.0048828125 5.999992370605469 L 6.000007629394531 5.999992370605469 M 7.62939453125e-06 -7.62939453125e-06 L 112.0048828125 -7.62939453125e-06 L 112.0048828125 112.5354537963867 C 112.0048828125 112.5354537963867 107.338005065918 112.5354537963867 79.33678436279297 112.5354537963867 C 51.33556365966797 112.5354537963867 7.62939453125e-06 112.5354537963867 7.62939453125e-06 112.5354537963867 L 7.62939453125e-06 -7.62939453125e-06 Z" stroke="none" fill="#ffd26c"/>
     </g>
